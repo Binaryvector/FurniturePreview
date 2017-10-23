@@ -1,0 +1,16 @@
+## Title: FurniturePreview
+## Author: Shinni
+## Version: 1.7
+## APIVersion: 100020 100021
+## OptionalDependsOn: AwesomeGuildStore
+## SavedVariables: FurniturePreview_SavedVars
+
+Libs/LibStub/LibStub.lua
+Libs/LibCustomMenu/LibCustomMenu.lua
+Libs/LibPreview/LibPreview.lua
+Libs/LibPreview/PreviewData.lua
+
+FurniturePreview.lua
+
+
+
