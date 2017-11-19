@@ -2,6 +2,7 @@
 FurPreview = {}
 local PREVIEW = LibStub("LibPreview")
 
+-- copied from esoui code:
 local function GetInventorySlotComponents(inventorySlot)
 	-- Figure out what got passed in...inventorySlot could be a list or button type...
 	local buttonPart = inventorySlot
@@ -86,6 +87,7 @@ function FurPreview:OnAddonLoaded(_, addon)
 			end
 		end, 50)
 	end)
+	
 end
 
 function FurPreview:SetPreviewOnClick(disablePreviewOnClick)
@@ -115,7 +117,7 @@ local slotTypeToItemLink = {
 	--[SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT] = function(inventorySlot) return GetTradingHouseSearchResultItemLink(ZO_Inventory_GetSlotIndex(inventorySlot)) end,
 	[SLOT_TYPE_TRADING_HOUSE_ITEM_LISTING] = function(inventorySlot) return GetTradingHouseListingItemLink(ZO_Inventory_GetSlotIndex(inventorySlot)) end,
 	
-	[SLOT_TYPE_STORE_BUY] = function(inventorySlot) return GetStoreItemLink(inventorySlot.index) end,
+	--[SLOT_TYPE_STORE_BUY] = function(inventorySlot) return GetStoreItemLink(inventorySlot.index) end,
 	[SLOT_TYPE_STORE_BUYBACK] = function(inventorySlot) return GetBuybackItemLink(inventorySlot.index) end,
 	
 	[SLOT_TYPE_THEIR_TRADE] = function(inventorySlot) return GetTradeItemLink(TRADE_THEM, inventorySlot.index) end,
@@ -166,19 +168,21 @@ function FurPreview:Preview(inventorySlot, itemLink)
 	self.inventorySlot = inventorySlot
 	self.itemLink = itemLink
 	
-	if PREVIEW:CanPreviewItemLink(itemLink) then
-		PREVIEW:PreviewItemLink(itemLink)
-	elseif inventorySlot ~= nil then
+	if inventorySlot ~= nil then
 		if slotType == SLOT_TYPE_ITEM or slotType == SLOT_TYPE_BANK_ITEM or slotType == SLOT_TYPE_GUILD_BANK_ITEM then
 			PREVIEW:EnablePreviewMode()
-			SYSTEMS:GetObject("itemPreview"):PreviewInventoryItemAsFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot))
+			SYSTEMS:GetObject("itemPreview"):PreviewInventoryItemAsFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot))--PreviewInventoryItemAsFurniture
+			return
 		--elseif slotType == SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT then
 		--	PREVIEW:EnablePreviewMode()
 		--	SYSTEMS:GetObject("itemPreview"):PreviewTradingHouseSearchResultItemAsFurniture(ZO_Inventory_GetSlotIndex(inventorySlot))
-		elseif slotType == SLOT_TYPE_STORE_BUY then
-			PREVIEW:EnablePreviewMode()
-			SYSTEMS:GetObject("itemPreview"):PreviewStoreEntryAsFurniture(inventorySlot.index)
+		--elseif slotType == SLOT_TYPE_STORE_BUY then
+		--	PREVIEW:EnablePreviewMode()
+		--	SYSTEMS:GetObject("itemPreview"):PreviewStoreEntryAsFurniture(inventorySlot.index)
 		end
+	end
+	if PREVIEW:CanPreviewItemLink(itemLink) then
+		PREVIEW:PreviewItemLink(itemLink)
 	end
 end
 
@@ -196,10 +200,10 @@ function FurPreview:CanPreviewItem(inventorySlot, itemLink)
 	
 	if PREVIEW:CanPreviewItemLink(itemLink) then return true end
 	
-	if slotType == SLOT_TYPE_ITEM  or slotType == SLOT_TYPE_BANK_ITEM or slotType == SLOT_TYPE_GUILD_BANK_ITEM then
+	if slotType == SLOT_TYPE_ITEM or slotType == SLOT_TYPE_BANK_ITEM or slotType == SLOT_TYPE_GUILD_BANK_ITEM then
 		return IsItemPlaceableFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot)) or IsItemLinkPlaceableFurniture(GetItemLinkRecipeResultItemLink(itemLink))
-	elseif slotType == SLOT_TYPE_STORE_BUY then -- slotType == SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT or
-		return IsItemLinkPlaceableFurniture(itemLink) or IsItemLinkPlaceableFurniture(GetItemLinkRecipeResultItemLink(itemLink))
+	--elseif slotType == SLOT_TYPE_STORE_BUY then -- slotType == SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT or
+	--	return IsItemLinkPlaceableFurniture(itemLink) or IsItemLinkPlaceableFurniture(GetItemLinkRecipeResultItemLink(itemLink))
 	end
 	
 end

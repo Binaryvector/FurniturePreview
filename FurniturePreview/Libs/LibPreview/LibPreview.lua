@@ -4,7 +4,7 @@
 -- This library is still in developement. You can use it, but beware of bugs
 
 local LIB_NAME = "LibPreview"
-local VERSION = 7
+local VERSION = 8
 local lib = LibStub:NewLibrary(LIB_NAME, VERSION)
 if not lib then return end
 
@@ -57,8 +57,35 @@ function lib:Initialize()
 		self:SharedPreviewSetup(STORE_PREVIEW, index)
 	end
 	
+	------------------------------------------------------------
+	
+	local INVENTORY_ITEM = #ITEM_PREVIEW_KEYBOARD.previewTypeObjects + 1
+	local ZO_ItemPreviewType_InventoryItem = ZO_ItemPreviewType:Subclass()
+	function ZO_ItemPreviewType_InventoryItem:SetStaticParameters(bag, slot)
+		self.bag = bag
+		self.slot = slot
+	end
+
+	function ZO_ItemPreviewType_InventoryItem:ResetStaticParameters()
+		self.bag = 0
+		self.slot = 0
+	end
+
+	function ZO_ItemPreviewType_InventoryItem:HasStaticParameters(bag, slot)
+		return self.bag == bag and self.slot == slot
+	end
+
+	function ZO_ItemPreviewType_InventoryItem:Apply(variationIndex)
+		PreviewInventoryItem(self.bag, self.slot)
+	end
+	ITEM_PREVIEW_KEYBOARD.previewTypeObjects[INVENTORY_ITEM] = ZO_ItemPreviewType_InventoryItem:New()
+	ITEM_PREVIEW_GAMEPAD.previewTypeObjects[INVENTORY_ITEM] = ZO_ItemPreviewType_InventoryItem:New()
+	
+	function ZO_ItemPreview_Shared:PreviewInventoryItem(bag, slot)
+		self:SharedPreviewSetup(INVENTORY_ITEM, bag, slot)
+	end
+	
 	-- add trading house preview API to the item preview manager
-	--[[
 	local TRADING_HOUSE_PREVIEW = #ITEM_PREVIEW_KEYBOARD.previewTypeObjects + 1
 	local ZO_ItemPreviewType_TradingHouse = ZO_ItemPreviewType:Subclass()
 	function ZO_ItemPreviewType_TradingHouse:SetStaticParameters(index)
@@ -68,7 +95,7 @@ function lib:Initialize()
 		return self.index
 	end
 	function ZO_ItemPreviewType_TradingHouse:Apply()
-		PreviewTradingHouseSearchResultItemAsFurniture(self.index)
+		PreviewTradingHouseSearchResultItem(self.index)
 	end
 	ITEM_PREVIEW_KEYBOARD.previewTypeObjects[TRADING_HOUSE_PREVIEW] = ZO_ItemPreviewType_TradingHouse:New()
 	ITEM_PREVIEW_GAMEPAD.previewTypeObjects[TRADING_HOUSE_PREVIEW] = ZO_ItemPreviewType_TradingHouse:New()
@@ -76,15 +103,49 @@ function lib:Initialize()
 	function ZO_ItemPreview_Shared:PreviewTradingHouseSearchResultItemAsFurniture(index)
 		self:SharedPreviewSetup(TRADING_HOUSE_PREVIEW, index)
 	end
-	]]--
 	
 	-- this way we can use it outside of interactions, i.e. in the mail scene
 	ZO_ItemPreview_Shared.IsInteractionCameraPreviewEnabled = IsInPreviewMode
 	
 	-- create a preview scene, which is used when we try to preview an item during the HUD or HUDUI scene
-	lib.scene = ZO_Scene:New(LIB_NAME, SCENE_MANAGER)
-	lib.scene:AddFragmentGroup(FRAGMENT_GROUP.MOUSE_DRIVEN_UI_WINDOW)
-	lib.scene:AddFragmentGroup(FRAGMENT_GROUP.FRAME_TARGET_CENTERED_NO_BLUR)
+	self.scene = ZO_Scene:New(LIB_NAME, SCENE_MANAGER)
+	self.scene:AddFragmentGroup(FRAGMENT_GROUP.MOUSE_DRIVEN_UI_WINDOW)
+	self.scene:AddFragmentGroup(FRAGMENT_GROUP.FRAME_TARGET_CENTERED_NO_BLUR)
+	
+	-- quaternary end preview keybind
+	local function GetDescriptorFromButton(buttonOrEtherealDescriptor)
+		if type(buttonOrEtherealDescriptor) == "userdata" then
+			return buttonOrEtherealDescriptor.keybindButtonDescriptor
+		end
+		return buttonOrEtherealDescriptor
+	end
+	
+	self.keybindButtonGroup = {
+		alignment = KEYBIND_STRIP_ALIGN_CENTER,
+		{
+			name =      GetString(SI_CRAFTING_EXIT_PREVIEW_MODE),
+			keybind =   "UI_SHORTCUT_QUATERNARY",--"UI_SHORTCUT_NEGATIVE",
+			visible =   function()
+								return true--self.PreviewStartedByLibrary
+						end,
+			callback =  function()
+							self:DisablePreviewMode()
+						end,
+		}
+	}
+	
+	self.keybindFragment = ZO_SceneFragment:New()
+	self.keybindFragment:RegisterCallback("StateChange", function(oldState, newState)
+		if newState == SCENE_SHOWN then
+			local descriptor = GetDescriptorFromButton(KEYBIND_STRIP.keybinds["UI_SHORTCUT_QUATERNARY"])
+			if descriptor then
+				KEYBIND_STRIP:RemoveKeybindButton(descriptor)
+			end
+			KEYBIND_STRIP:AddKeybindButtonGroup(self.keybindButtonGroup)
+		elseif newState == SCENE_HIDING then
+			KEYBIND_STRIP:RemoveKeybindButtonGroup(self.keybindButtonGroup)
+		end
+	end )
 end
 
 function lib:IsInitialized()
@@ -161,6 +222,8 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 	local previewSystem = SYSTEMS:GetObject("itemPreview")
 	previewSystem:SetPreviewInEmptyWorld(true) -- TODO only furniture should be previewed like this
 	
+	SCENE_MANAGER:AddFragment(self.keybindFragment)
+	
 	if previewSystem:IsInteractionCameraPreviewEnabled() then return false end
 	self.PreviewStartedByLibrary = true
 	
@@ -171,17 +234,19 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 		self.frameFragment,
 		FRAME_PLAYER_FRAGMENT,
 		self.previewOptionsFragment)
+	
 end
 
 function lib:DisablePreviewMode()
 	if self.scene:IsShowing() then
 		SCENE_MANAGER:Show("hudui")
 	end
+	SCENE_MANAGER:RemoveFragment(self.keybindFragment)
 	if not self.PreviewStartedByLibrary then
+		self.PreviewStartedByLibrary = false
 		SYSTEMS:GetObject("itemPreview"):EndCurrentPreview()
 		return
 	end
-	
 	self.PreviewStartedByLibrary = false
 	
 	SYSTEMS:GetObject("itemPreview"):SetInteractionCameraPreviewEnabled(
@@ -189,6 +254,8 @@ function lib:DisablePreviewMode()
 		self.frameFragment,
 		FRAME_PLAYER_FRAGMENT,
 		self.previewOptionsFragment)
+	
+	EndCurrentItemPreview()
 end
 
 function lib:PreviewItemLink(itemLink)
