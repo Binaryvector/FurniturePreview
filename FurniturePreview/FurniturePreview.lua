@@ -2,6 +2,15 @@
 FurPreview = {}
 local PREVIEW = LibStub("LibPreview")
 
+local REAL_WORLD_PREVIEW_OPTIONS_FRAGMENT = ZO_ItemPreviewOptionsFragment:New({
+    paddingLeft = 245,
+    paddingRight = 605,
+    dynamicFramingConsumedWidth = 1050,
+    dynamicFramingConsumedHeight = 300,
+	--forcePreparePreview = true,
+    --previewInEmptyWorld = true,
+})
+
 -- copied from esoui code:
 local function GetInventorySlotComponents(inventorySlot)
 	-- Figure out what got passed in...inventorySlot could be a list or button type...
@@ -88,6 +97,95 @@ function FurPreview:OnAddonLoaded(_, addon)
 		end, 50)
 	end)
 	
+	
+	-- add trading house armor preview
+	ZO_PreHook("ZO_TradingHouse_OnSearchResultClicked", function(searchResultSlot, button)
+		if button == MOUSE_BUTTON_INDEX_LEFT then
+			local inventorySlot, listPart, multiIconPart = ZO_InventorySlot_GetInventorySlotComponents(searchResultSlot)
+			local tradingHouseIndex = ZO_Inventory_GetSlotIndex(inventorySlot)
+			if tradingHouseIndex ~= nil then
+				local itemLink = GetTradingHouseSearchResultItemLink(tradingHouseIndex)
+				if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+					TRADING_HOUSE:PreviewSearchResult(tradingHouseIndex)
+					return true
+				end
+			end
+		end
+	end)
+	
+	local function GetTradingHouseIndexForPreviewFromSlot(storeEntrySlot)
+		local inventorySlot, listPart, multiIconPart = ZO_InventorySlot_GetInventorySlotComponents(storeEntrySlot)
+
+		local slotType = ZO_InventorySlot_GetType(inventorySlot)
+		if slotType == SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT then
+			local tradingHouseIndex = ZO_Inventory_GetSlotIndex(inventorySlot)
+			local itemLink = GetTradingHouseSearchResultItemLink(tradingHouseIndex)
+			if ZO_ItemPreview_Shared.CanItemLinkBePreviewedAsFurniture(itemLink) then
+				return tradingHouseIndex
+			end
+			if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+				return tradingHouseIndex
+			end
+		end
+
+		return nil
+	end
+	
+	function ZO_TradingHouse_OnSearchResultMouseEnter(searchResultSlot)
+		ZO_InventorySlot_OnMouseEnter(searchResultSlot)
+
+		local tradingHouseIndex = GetTradingHouseIndexForPreviewFromSlot(searchResultSlot)
+
+		local cursor = MOUSE_CURSOR_DO_NOT_CARE
+		if tradingHouseIndex ~= nil then
+			cursor = MOUSE_CURSOR_PREVIEW
+		end
+
+		WINDOW_MANAGER:SetMouseCursor(cursor)
+	end
+	
+	function TRADING_HOUSE:TogglePreviewMode(shouldBeRealWorld)
+		if shouldBeRealWorld then
+			ITEM_PREVIEW_KEYBOARD:ToggleInteractionCameraPreview(FRAME_TARGET_STANDARD_RIGHT_PANEL_FRAGMENT, FRAME_PLAYER_ON_SCENE_HIDDEN_FRAGMENT, RIGHT_BG_ITEM_PREVIEW_OPTIONS_FRAGMENT)
+		else
+			ITEM_PREVIEW_KEYBOARD:ToggleInteractionCameraPreview(FRAME_TARGET_STANDARD_RIGHT_PANEL_FRAGMENT, FRAME_PLAYER_ON_SCENE_HIDDEN_FRAGMENT, RIGHT_BG_EMPTY_WORLD_ITEM_PREVIEW_OPTIONS_FRAGMENT)
+		end
+		KEYBIND_STRIP:UpdateKeybindButtonGroup(self.keybindStripDescriptor)
+	end
+	
+	function TRADING_HOUSE:PreviewSearchResult(tradingHouseIndex)
+		
+		local itemLink = GetTradingHouseSearchResultItemLink(tradingHouseIndex)
+		local itemType, specializedItemType = GetItemLinkItemType(itemLink)
+		local shouldBeEmptyWorld = not (itemType == ITEMTYPE_ARMOR)
+		
+		if not ITEM_PREVIEW_KEYBOARD:IsInteractionCameraPreviewEnabled() then
+			self:TogglePreviewMode(not shouldBeEmptyWorld)
+		else
+			if shouldBeEmptyWorld ~= ITEM_PREVIEW_KEYBOARD.previewInEmptyWorld then
+				self:TogglePreviewMode(shouldBeEmptyWorld)
+				self:TogglePreviewMode(not shouldBeEmptyWorld)
+			end
+		end
+		
+		if shouldBeEmptyWorld then
+			ITEM_PREVIEW_KEYBOARD:PreviewTradingHouseSearchResultAsFurniture(tradingHouseIndex)
+		else
+			ITEM_PREVIEW_KEYBOARD:PreviewTradingHouseSearchResult(tradingHouseIndex)
+		end
+		KEYBIND_STRIP:UpdateKeybindButtonGroup(self.keybindStripDescriptor)
+	end
+	
+	-- store armor
+	--function ZO_ItemPreview_Shared:PreviewStoreEntry(storeEntryIndex)
+	--	self:SharedPreviewSetup(ZO_ITEM_PREVIEW_STORE_ENTRY_AS_FURNITURE, storeEntryIndex)
+	--end
+end
+
+function FurPreview:IsItemLinkPreviewableArmor(itemLink)
+	local itemType, specializedItemType = GetItemLinkItemType(itemLink)
+	local equipType = GetItemLinkEquipType(itemLink)
+	return itemType == ITEMTYPE_ARMOR and equipType ~= EQUIP_TYPE_RING and equipType ~= EQUIP_TYPE_NECK
 end
 
 function FurPreview:SetPreviewOnClick(disablePreviewOnClick)
@@ -170,8 +268,13 @@ function FurPreview:Preview(inventorySlot, itemLink)
 	
 	if inventorySlot ~= nil then
 		if slotType == SLOT_TYPE_ITEM or slotType == SLOT_TYPE_BANK_ITEM or slotType == SLOT_TYPE_GUILD_BANK_ITEM then
-			PREVIEW:EnablePreviewMode()
-			SYSTEMS:GetObject("itemPreview"):PreviewInventoryItemAsFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot))--PreviewInventoryItemAsFurniture
+			if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+				PREVIEW:EnablePreviewMode(nil, REAL_WORLD_PREVIEW_OPTIONS_FRAGMENT)
+				SYSTEMS:GetObject("itemPreview"):PreviewInventoryItem(ZO_Inventory_GetBagAndIndex(inventorySlot))
+			else
+				PREVIEW:EnablePreviewMode()
+				SYSTEMS:GetObject("itemPreview"):PreviewInventoryItemAsFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot))
+			end
 			return
 		--elseif slotType == SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT then
 		--	PREVIEW:EnablePreviewMode()
@@ -201,9 +304,13 @@ function FurPreview:CanPreviewItem(inventorySlot, itemLink)
 	if PREVIEW:CanPreviewItemLink(itemLink) then return true end
 	
 	if slotType == SLOT_TYPE_ITEM or slotType == SLOT_TYPE_BANK_ITEM or slotType == SLOT_TYPE_GUILD_BANK_ITEM then
+		if FurPreview:IsItemLinkPreviewableArmor(itemLink) then return true end
 		return IsItemPlaceableFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot)) or IsItemLinkPlaceableFurniture(GetItemLinkRecipeResultItemLink(itemLink))
 	--elseif slotType == SLOT_TYPE_STORE_BUY then -- slotType == SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT or
 	--	return IsItemLinkPlaceableFurniture(itemLink) or IsItemLinkPlaceableFurniture(GetItemLinkRecipeResultItemLink(itemLink))
 	end
 	
 end
+
+
+

@@ -76,7 +76,16 @@ function lib:Initialize()
 	end
 
 	function ZO_ItemPreviewType_InventoryItem:Apply(variationIndex)
-		PreviewInventoryItem(self.bag, self.slot)
+		if variationIndex > 1 then variationIndex = variationIndex + 3 end
+		PreviewInventoryItem(self.bag, self.slot, variationIndex)
+	end
+	function ZO_ItemPreviewType_InventoryItem:GetNumVariations()
+		return 1001
+	end
+
+	function ZO_ItemPreviewType_InventoryItem:GetVariationName(variationIndex)
+		if variationIndex == 1 then return "Default" end
+		return GetItemLinkName("|H1:item:" .. tostring(83517 + variationIndex) .. ":0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h")
 	end
 	ITEM_PREVIEW_KEYBOARD.previewTypeObjects[INVENTORY_ITEM] = ZO_ItemPreviewType_InventoryItem:New()
 	ITEM_PREVIEW_GAMEPAD.previewTypeObjects[INVENTORY_ITEM] = ZO_ItemPreviewType_InventoryItem:New()
@@ -88,20 +97,37 @@ function lib:Initialize()
 	-- add trading house preview API to the item preview manager
 	local TRADING_HOUSE_PREVIEW = #ITEM_PREVIEW_KEYBOARD.previewTypeObjects + 1
 	local ZO_ItemPreviewType_TradingHouse = ZO_ItemPreviewType:Subclass()
-	function ZO_ItemPreviewType_TradingHouse:SetStaticParameters(index)
+	function ZO_ItemPreviewType_TradingHouse:SetStaticParameters(index, dyeStamp)
 		self.index = index
+		self.dyeStamp = dyeStamp
 	end
 	function ZO_ItemPreviewType_TradingHouse:GetStaticParameters()
-		return self.index
+		return self.index, self.dyeStamp
 	end
-	function ZO_ItemPreviewType_TradingHouse:Apply()
-		PreviewTradingHouseSearchResultItem(self.index)
+	function ZO_ItemPreviewType_TradingHouse:HasStaticParameters(index)
+		return self.index == index
+	end
+	function ZO_ItemPreviewType_TradingHouse:ResetStaticParameters()
+		self.index = 0
+		self.dyeStamp = nil
+	end
+	function ZO_ItemPreviewType_TradingHouse:Apply(variationIndex)
+		if variationIndex > 1 then variationIndex = variationIndex + 3 end
+		PreviewTradingHouseSearchResultItem(self.index, variationIndex)
+	end
+	function ZO_ItemPreviewType_TradingHouse:GetNumVariations()
+		return 1001
+	end
+
+	function ZO_ItemPreviewType_TradingHouse:GetVariationName(variationIndex)
+		if variationIndex == 1 then return "Default" end
+		return GetItemLinkName("|H1:item:" .. tostring(83517 + variationIndex) .. ":0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h")
 	end
 	ITEM_PREVIEW_KEYBOARD.previewTypeObjects[TRADING_HOUSE_PREVIEW] = ZO_ItemPreviewType_TradingHouse:New()
 	ITEM_PREVIEW_GAMEPAD.previewTypeObjects[TRADING_HOUSE_PREVIEW] = ZO_ItemPreviewType_TradingHouse:New()
 	
-	function ZO_ItemPreview_Shared:PreviewTradingHouseSearchResultItemAsFurniture(index)
-		self:SharedPreviewSetup(TRADING_HOUSE_PREVIEW, index)
+	function ZO_ItemPreview_Shared:PreviewTradingHouseSearchResult(index, dyeStamp)
+		self:SharedPreviewSetup(TRADING_HOUSE_PREVIEW, index, dyeStamp)
 	end
 	
 	-- this way we can use it outside of interactions, i.e. in the mail scene
@@ -126,7 +152,8 @@ function lib:Initialize()
 			name =      GetString(SI_CRAFTING_EXIT_PREVIEW_MODE),
 			keybind =   "UI_SHORTCUT_QUATERNARY",--"UI_SHORTCUT_NEGATIVE",
 			visible =   function()
-								return true--self.PreviewStartedByLibrary
+								--d(IsCurrentlyPreviewing())
+								return not self.keybindFragment:IsHidden()--IsCurrentlyPreviewing()--self.PreviewStartedByLibrary
 						end,
 			callback =  function()
 							self:DisablePreviewMode()
@@ -142,7 +169,30 @@ function lib:Initialize()
 				KEYBIND_STRIP:RemoveKeybindButton(descriptor)
 			end
 			KEYBIND_STRIP:AddKeybindButtonGroup(self.keybindButtonGroup)
+			
+			if descriptor then
+				if descriptor.keybindButtonGroupDescriptor then
+					--local myDescriptor = GetDescriptorFromButton(KEYBIND_STRIP.keybinds["UI_SHORTCUT_QUATERNARY"])
+					--d(descriptor.keybindButtonGroupDescriptor)
+					for key, keybind in pairs(descriptor.keybindButtonGroupDescriptor) do
+						if type(keybind) == "table" and keybind.keybind == "UI_SHORTCUT_QUATERNARY" then
+							self.keybindFragment.originalKeybind = keybind
+							self.keybindFragment.originalKey = key
+							self.keybindFragment.originalGroup = descriptor.keybindButtonGroupDescriptor
+							descriptor.keybindButtonGroupDescriptor[key] = nil--myDescriptor.keybindButtonGroupDescriptor[1]
+							break
+						end
+					end
+				end
+			end
+			--]]
 		elseif newState == SCENE_HIDING then
+			if self.keybindFragment.originalGroup then
+				self.keybindFragment.originalGroup[self.keybindFragment.originalKey] = self.keybindFragment.originalKeybind
+				self.keybindFragment.originalGroup = nil
+				self.keybindFragment.originalKey = nil
+				self.keybindFragment.originalKeybind = nil
+			end
 			KEYBIND_STRIP:RemoveKeybindButtonGroup(self.keybindButtonGroup)
 		end
 	end )
@@ -195,9 +245,22 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 		return
 	end
 	
-	if IsCurrentlyPreviewing() then
-		return
+	if self.previewStartedByLibrary then
+		if self.keybindFragment:IsHidden() then
+			SCENE_MANAGER:AddFragment(self.keybindFragment)
+		end
 	end
+	
+	previewOptionsFragment = previewOptionsFragment or CRAFTING_PREVIEW_OPTIONS_FRAGMENT
+	local previewSystem = SYSTEMS:GetObject("itemPreview")
+	
+	if (not previewOptionsFragment.options.previewInEmptyWorld) ~= (not previewSystem.previewInEmptyWorld) then
+		previewSystem:SetPreviewInEmptyWorld(not not previewOptionsFragment.options.previewInEmptyWorld)
+	end
+	
+	--if IsCurrentlyPreviewing() then
+	--	return
+	--end
 	
 	if not frameFragment then
 		if SYSTEMS:IsShowing(ZO_TRADING_HOUSE_SYSTEM_NAME) or SYSTEMS:IsShowing("trade") then
@@ -208,7 +271,7 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 			frameFragment = NO_TARGET_CHANGE_FRAME
 		elseif HUD_SCENE:IsShowing() or HUD_UI_SCENE:IsShowing() then
 			-- in the hud scene, the center is empty
-			frameFragment =  FRAME_TARGET_CENTERED_FRAGMENT
+			frameFragment = FRAME_TARGET_CENTERED_FRAGMENT
 		else
 			-- otherwise use the lisghtly shifted to the left preview (most UI is on the right, so the preview should not be occluded)
 			frameFragment = FRAME_TARGET_CRAFTING_FRAGMENT
@@ -219,16 +282,15 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 		SCENE_MANAGER:Toggle(LIB_NAME)
 	end
 	
-	local previewSystem = SYSTEMS:GetObject("itemPreview")
-	previewSystem:SetPreviewInEmptyWorld(true) -- TODO only furniture should be previewed like this
-	
-	SCENE_MANAGER:AddFragment(self.keybindFragment)
+	if self.keybindFragment:IsHidden() then
+		SCENE_MANAGER:AddFragment(self.keybindFragment)
+	end
 	
 	if previewSystem:IsInteractionCameraPreviewEnabled() then return false end
 	self.PreviewStartedByLibrary = true
 	
 	self.frameFragment = frameFragment
-	self.previewOptionsFragment = previewOptionsFragment or CRAFTING_PREVIEW_OPTIONS_FRAGMENT
+	self.previewOptionsFragment = previewOptionsFragment
 	previewSystem:SetInteractionCameraPreviewEnabled(
 		true,
 		self.frameFragment,
