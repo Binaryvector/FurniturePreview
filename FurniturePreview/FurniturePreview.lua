@@ -42,8 +42,21 @@ function FurPreview:OnAddonLoaded(_, addon)
 	self:SetPreviewOnClick(self.settings.disablePreviewOnClick)
 	
 	SLASH_COMMANDS["/previewonclick"] = function()
-		d("toggle  preview on click")
+		if self.settings.disablePreviewOnClick then
+			d("activated preview on click")
+		else
+			d("disabled preview on click")
+		end
 		self:SetPreviewOnClick(not self.settings.disablePreviewOnClick)
+	end
+	
+	SLASH_COMMANDS["/previewarmor"] = function()
+		if self.settings.disablePreviewArmor then
+			d("activated armor preview")
+		else
+			d("disabled armor preview")
+		end
+		self:SetPreviewArmor(not self.settings.disablePreviewArmor)
 	end
 	
 	-- Update the mouse over cursor icon. display a preview cursor when previewing is possible
@@ -183,6 +196,7 @@ function FurPreview:OnAddonLoaded(_, addon)
 end
 
 function FurPreview:IsItemLinkPreviewableArmor(itemLink)
+	if self.settings.disablePreviewArmor then return false end
 	local itemType, specializedItemType = GetItemLinkItemType(itemLink)
 	local equipType = GetItemLinkEquipType(itemLink)
 	return itemType == ITEMTYPE_ARMOR and equipType ~= EQUIP_TYPE_RING and equipType ~= EQUIP_TYPE_NECK
@@ -208,6 +222,10 @@ function FurPreview:SetPreviewOnClick(disablePreviewOnClick)
 			
 		end)
 	end
+end
+
+function FurPreview:SetPreviewArmor(disablePreviewArmor)
+	self.settings.disablePreviewArmor = disablePreviewArmor
 end
 
 -- how to get the item link for the specific item slot types

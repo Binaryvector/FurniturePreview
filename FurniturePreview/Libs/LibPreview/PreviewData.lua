@@ -177,7 +177,7 @@ lib.MarkedIdToItemInfo = {
 	{
 		[1] = 121303,
 		[2] = "/esoui/art/icons/quest_scroll_001.dds",
-		[3] = "\"A Friend in Need\" Housing Brochure",
+		[3] = "\"Room to Spare\" Housing Brochure",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -794,22 +794,22 @@ lib.MarkedIdToItemInfo = {
 		[5] = 1,
 		[6] = 1,
 	},
-	[4309] = 
+	[213] = 
 	{
-		[1] = 117693,
-		[2] = "/esoui/art/icons/housing_red_inc_tapestrysmall001.dds",
-		[3] = "Redguard Curtain, Smoky",
-		[4] = 2,
-		[5] = 0,
-		[6] = 2,
+		[1] = 64554,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 18: Akaviri Style",
+		[4] = 5,
+		[5] = 1,
+		[6] = 1,
 	},
-	[4310] = 
+	[214] = 
 	{
-		[1] = 117900,
-		[2] = "/esoui/art/icons/housing_red_inc_vargolddwemervase003.dds",
-		[3] = "Redguard Cannister, Gilded",
-		[4] = 4,
-		[5] = 0,
+		[1] = 64730,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 19: Mercenary Style",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
 	[4311] = 
@@ -857,14 +857,14 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4316] = 
+	[220] = 
 	{
-		[1] = 120515,
-		[2] = "/esoui/art/icons/housing_veg_bsh_rmsaplingbush001.dds",
-		[3] = "Shrub, Lanky Highland",
-		[4] = 1,
-		[5] = 0,
-		[6] = 2,
+		[1] = 71668,
+		[2] = "/esoui/art/icons/crafing_universal_item.dds",
+		[3] = "Crown Mimic Stone",
+		[4] = 5,
+		[5] = 1,
+		[6] = 12,
 	},
 	[4317] = 
 	{
@@ -1379,20 +1379,20 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4374] = 
+	[278] = 
 	{
-		[1] = 83893,
-		[2] = "/esoui/art/icons/dyestamp_scorchingsand.dds",
-		[3] = "Torrid: Scorching Sand",
+		[1] = 74667,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 35: Dro-m'Athra Style",
 		[4] = 5,
-		[5] = 0,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4375] = 
+	[279] = 
 	{
-		[1] = 84068,
-		[2] = "/esoui/art/icons/dyestamp_hotterthanhelgathe.dds",
-		[3] = "Torrid: Hotter than Hegathe",
+		[1] = 82102,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 40: Order Hour Style",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -1415,29 +1415,29 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4378] = 
+	[282] = 
 	{
-		[1] = 83708,
-		[2] = "/esoui/art/icons/dyestamp_burntoranges.dds",
-		[3] = "Torrid: Burnt Oranges",
+		[1] = 71668,
+		[2] = "/esoui/art/icons/crafing_universal_item.dds",
+		[3] = "Crown Mimic Stone",
 		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[5] = 1,
+		[6] = 26,
 	},
-	[4379] = 
+	[283] = 
 	{
-		[1] = 83737,
-		[2] = "/esoui/art/icons/dyestamp_cinnamonandshadows.dds",
-		[3] = "Torrid: Cinnamon and Shadows",
+		[1] = 71668,
+		[2] = "/esoui/art/icons/crafing_universal_item.dds",
+		[3] = "Crown Mimic Stone",
 		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[5] = 1,
+		[6] = 54,
 	},
-	[4380] = 
+	[284] = 
 	{
-		[1] = 84215,
-		[2] = "/esoui/art/icons/dyestamp_tawnytangerine.dds",
-		[3] = "Torrid: Tawny Tangerine",
+		[1] = 73871,
+		[2] = "/esoui/art/icons/justice_stolen_unique_crimson_ticket.dds",
+		[3] = "Jubilee Cake Voucher",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -1793,40 +1793,40 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4420] = 
+	[324] = 
 	{
-		[1] = 83797,
-		[2] = "/esoui/art/icons/dyestamp_desertsandsandstone.dds",
-		[3] = "Sunny: Desert Sands and Stone",
-		[4] = 5,
-		[5] = 0,
+		[1] = 45879,
+		[2] = "/esoui/art/icons/quest_container_001.dds",
+		[3] = "Covenant Treasure Maps",
+		[4] = 3,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4421] = 
+	[325] = 
 	{
-		[1] = 83879,
-		[2] = "/esoui/art/icons/dyestamp_yellowpatternedviper.dds",
-		[3] = "Sunny: Yellow-Patterned Viper",
-		[4] = 5,
-		[5] = 0,
+		[1] = 45880,
+		[2] = "/esoui/art/icons/quest_container_001.dds",
+		[3] = "Dominion Treasure Maps",
+		[4] = 3,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4422] = 
+	[326] = 
 	{
-		[1] = 83814,
-		[2] = "/esoui/art/icons/dyestamp_gleamsofgoldandsteel.dds",
-		[3] = "Sunny: Gleams of Gold and Steel",
-		[4] = 5,
-		[5] = 0,
+		[1] = 45881,
+		[2] = "/esoui/art/icons/quest_container_001.dds",
+		[3] = "Pact Treasure Maps",
+		[4] = 3,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4423] = 
+	[327] = 
 	{
-		[1] = 84217,
-		[2] = "/esoui/art/icons/dyestamp_greenatthegills.dds",
-		[3] = "Sunny: Green at the Gills",
-		[4] = 5,
-		[5] = 0,
+		[1] = 45882,
+		[2] = "/esoui/art/icons/quest_container_001.dds",
+		[3] = "Coldharbour Treasure Map",
+		[4] = 3,
+		[5] = 1,
 		[6] = 1,
 	},
 	[4424] = 
@@ -1901,23 +1901,23 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4432] = 
+	[336] = 
 	{
-		[1] = 84446,
-		[2] = "/esoui/art/icons/dyestamp_ochreandironoxide.dds",
-		[3] = "Rusty: Ochre and Iron Oxide",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[1] = 61079,
+		[2] = "/esoui/art/icons/store_repairkit_002.dds",
+		[3] = "Crown Repair Kit",
+		[4] = 3,
+		[5] = 1,
+		[6] = 20,
 	},
-	[4433] = 
+	[337] = 
 	{
-		[1] = 84045,
-		[2] = "/esoui/art/icons/dyestamp_beggarsguildbrown.dds",
-		[3] = "Rusty: Beggars' Guild Brown",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[1] = 61080,
+		[2] = "/esoui/art/icons/store_soulgem_001.dds",
+		[3] = "Crown Soul Gem",
+		[4] = 3,
+		[5] = 1,
+		[6] = 20,
 	},
 	[4434] = 
 	{
@@ -2045,15 +2045,6 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4448] = 
-	{
-		[1] = 84401,
-		[2] = "/esoui/art/icons/dyestamp_amethystadept.dds",
-		[3] = "Nuptial: Amethyst Adept",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
 	[4449] = 
 	{
 		[1] = 84073,
@@ -2135,58 +2126,58 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4458] = 
+	[362] = 
 	{
-		[1] = 83940,
-		[2] = "/esoui/art/icons/dyestamp_somberblueespousal.dds",
-		[3] = "Nuptial: Somber Blue Espousal",
-		[4] = 5,
-		[5] = 0,
+		[1] = 64552,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 14: Daedric Style",
+		[4] = 4,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4459] = 
+	[363] = 
 	{
-		[1] = 84234,
-		[2] = "/esoui/art/icons/dyestamp_lilacandwhite.dds",
-		[3] = "Nuptial: Lilac and White",
-		[4] = 5,
-		[5] = 0,
+		[1] = 64551,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 11: Ancient Elf Style",
+		[4] = 4,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4460] = 
+	[364] = 
 	{
-		[1] = 84389,
-		[2] = "/esoui/art/icons/dyestamp_magentamage.dds",
-		[3] = "Nuptial: Magenta Mage",
-		[4] = 5,
-		[5] = 0,
+		[1] = 64550,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 12: Barbaric Style",
+		[4] = 4,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4461] = 
+	[365] = 
 	{
-		[1] = 83953,
-		[2] = "/esoui/art/icons/dyestamp_darklavenderwedlock.dds",
-		[3] = "Nuptial: Dark Lavender Wedlock",
-		[4] = 5,
-		[5] = 0,
+		[1] = 64549,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 13: Primal Style",
+		[4] = 4,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4462] = 
+	[366] = 
 	{
-		[1] = 84186,
-		[2] = "/esoui/art/icons/dyestamp_brassydarkred.dds",
-		[3] = "Dusky: Brassy Dark Red",
+		[1] = 71668,
+		[2] = "/esoui/art/icons/crafing_universal_item.dds",
+		[3] = "Crown Mimic Stone",
 		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[5] = 1,
+		[6] = 5,
 	},
-	[4463] = 
+	[367] = 
 	{
-		[1] = 84284,
-		[2] = "/esoui/art/icons/dyestamp_antiqueautomaton.dds",
-		[3] = "Dusky: Antique Automaton",
+		[1] = 64553,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 15: Dwemer Style",
 		[4] = 5,
-		[5] = 0,
+		[5] = 1,
 		[6] = 1,
 	},
 	[4464] = 
@@ -2198,13 +2189,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4465] = 
+	[369] = 
 	{
-		[1] = 84289,
-		[2] = "/esoui/art/icons/dyestamp_ruddyalloyandoil.dds",
-		[3] = "Dusky: Ruddy Alloy and Oil",
+		[1] = 64559,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 10: Imperial Style",
 		[4] = 5,
-		[5] = 0,
+		[5] = 1,
 		[6] = 1,
 	},
 	[4466] = 
@@ -2315,13 +2306,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4478] = 
+	[382] = 
 	{
-		[1] = 83718,
-		[2] = "/esoui/art/icons/dyestamp_darkmetaldevice.dds",
-		[3] = "Dusky: Dark Metal Device",
+		[1] = 64555,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 20: Yokudan Style",
 		[4] = 5,
-		[5] = 0,
+		[5] = 1,
 		[6] = 1,
 	},
 	[4479] = 
@@ -2576,13 +2567,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4507] = 
+	[411] = 
 	{
-		[1] = 83626,
-		[2] = "/esoui/art/icons/dyestamp_sunriseinthealikr.dds",
-		[3] = "Dawning: Sunrise in the Alik'r",
+		[1] = 64556,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 17: Xivkyn Style",
 		[4] = 5,
-		[5] = 0,
+		[5] = 1,
 		[6] = 1,
 	},
 	[4508] = 
@@ -2648,41 +2639,41 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4515] = 
+	[419] = 
 	{
-		[1] = 84155,
-		[2] = "/esoui/art/icons/dyestamp_muddymorningsky.dds",
-		[3] = "Dawning: Muddy Morning Sky",
-		[4] = 5,
+		[1] = 61080,
+		[2] = "/esoui/art/icons/store_soulgem_001.dds",
+		[3] = "Crown Soul Gem",
+		[4] = 3,
 		[5] = 0,
+		[6] = 2,
+	},
+	[420] = 
+	{
+		[1] = 61079,
+		[2] = "/esoui/art/icons/store_repairkit_002.dds",
+		[3] = "Crown Repair Kit",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[421] = 
+	{
+		[1] = 64711,
+		[2] = "/esoui/art/icons/store_crownfood_01.dds",
+		[3] = "Crown Fortifying Meal",
+		[4] = 4,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4516] = 
+	[422] = 
 	{
-		[1] = 83753,
-		[2] = "/esoui/art/icons/dyestamp_westwealdwines.dds",
-		[3] = "Ripe: West Weald Wines",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4517] = 
-	{
-		[1] = 84204,
-		[2] = "/esoui/art/icons/dyestamp_pinkrotmethparfait.dds",
-		[3] = "Ripe: Pink Rotmeth Parfait",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4518] = 
-	{
-		[1] = 84082,
-		[2] = "/esoui/art/icons/dyestamp_honeyandwatermelon.dds",
-		[3] = "Ripe: Honey and Watermelon",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[1] = 64710,
+		[2] = "/esoui/art/icons/crownpotion_trires.dds",
+		[3] = "Crown Tri-Restoration Potion",
+		[4] = 4,
+		[5] = 1,
+		[6] = 10,
 	},
 	[4519] = 
 	{
@@ -2864,41 +2855,41 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4539] = 
+	[443] = 
 	{
-		[1] = 83906,
-		[2] = "/esoui/art/icons/dyestamp_mountainflowergarden.dds",
-		[3] = "Vivid: Mountain Flower Garden",
-		[4] = 5,
+		[1] = 61080,
+		[2] = "/esoui/art/icons/store_soulgem_001.dds",
+		[3] = "Crown Soul Gem",
+		[4] = 3,
 		[5] = 0,
-		[6] = 1,
+		[6] = 5,
 	},
-	[4540] = 
+	[444] = 
 	{
-		[1] = 83998,
-		[2] = "/esoui/art/icons/dyestamp_greenladyssmockandroses.dds",
-		[3] = "Vivid: Green Lady's Smock & Roses",
-		[4] = 5,
+		[1] = 61079,
+		[2] = "/esoui/art/icons/store_repairkit_002.dds",
+		[3] = "Crown Repair Kit",
+		[4] = 3,
 		[5] = 0,
-		[6] = 1,
+		[6] = 5,
 	},
-	[4541] = 
+	[445] = 
 	{
-		[1] = 84086,
-		[2] = "/esoui/art/icons/dyestamp_greensandseasoning.dds",
-		[3] = "Vivid: Greens and Seasoning",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[1] = 64711,
+		[2] = "/esoui/art/icons/store_crownfood_01.dds",
+		[3] = "Crown Fortifying Meal",
+		[4] = 4,
+		[5] = 1,
+		[6] = 5,
 	},
-	[4542] = 
+	[446] = 
 	{
-		[1] = 84108,
-		[2] = "/esoui/art/icons/dyestamp_deepblessedthistle.dds",
-		[3] = "Vivid: Deep Blessed Thistle",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[1] = 64710,
+		[2] = "/esoui/art/icons/crownpotion_trires.dds",
+		[3] = "Crown Tri-Restoration Potion",
+		[4] = 4,
+		[5] = 1,
+		[6] = 20,
 	},
 	[4543] = 
 	{
@@ -2909,21 +2900,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4544] = 
+	[448] = 
 	{
-		[1] = 84499,
-		[2] = "/esoui/art/icons/dyestamp_nightshadeandiron.dds",
-		[3] = "Vivid: Nightshade and Iron",
-		[4] = 5,
+		[1] = 61080,
+		[2] = "/esoui/art/icons/store_soulgem_001.dds",
+		[3] = "Crown Soul Gem",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4545] = 
+	[449] = 
 	{
-		[1] = 83647,
-		[2] = "/esoui/art/icons/dyestamp_waterhyacinthandgray.dds",
-		[3] = "Vivid: Water Hyacinth and Gray",
-		[4] = 5,
+		[1] = 61079,
+		[2] = "/esoui/art/icons/store_repairkit_002.dds",
+		[3] = "Crown Repair Kit",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -2999,11 +2990,11 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4554] = 
+	[458] = 
 	{
-		[1] = 84358,
-		[2] = "/esoui/art/icons/dyestamp_mostlyblackwithred.dds",
-		[3] = "Darkheart: Mostly Black with Red",
+		[1] = 74554,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 32: Abah's Watch Style",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -3080,50 +3071,50 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4563] = 
+	[467] = 
 	{
-		[1] = 84179,
-		[2] = "/esoui/art/icons/dyestamp_bloodonthesnowdrift.dds",
-		[3] = "Peppermint: Blood on the Snowdrift",
+		[1] = 64537,
+		[2] = "/esoui/art/icons/store_experiencescroll_001.dds",
+		[3] = "Crown Experience Scroll",
 		[4] = 5,
 		[5] = 0,
+		[6] = 10,
+	},
+	[468] = 
+	{
+		[1] = 71540,
+		[2] = "/esoui/art/icons/store_bundle_ridinglessons_speed+capacity.dds",
+		[3] = "Crown Lessons Pack",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
-	[4564] = 
+	[469] = 
 	{
-		[1] = 84274,
-		[2] = "/esoui/art/icons/dyestamp_whitediamond,reddiamond.dds",
-		[3] = "Peppermint: White Diamond, Red Diamond",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[1] = 64711,
+		[2] = "/esoui/art/icons/store_crownfood_01.dds",
+		[3] = "Crown Fortifying Meal",
+		[4] = 4,
+		[5] = 1,
+		[6] = 10,
 	},
-	[4565] = 
+	[470] = 
 	{
-		[1] = 83922,
-		[2] = "/esoui/art/icons/dyestamp_rubiesanddiamonds.dds",
-		[3] = "Peppermint: Rubies and Diamonds",
-		[4] = 5,
+		[1] = 61080,
+		[2] = "/esoui/art/icons/store_soulgem_001.dds",
+		[3] = "Crown Soul Gem",
+		[4] = 3,
 		[5] = 0,
-		[6] = 1,
+		[6] = 10,
 	},
-	[4566] = 
+	[471] = 
 	{
-		[1] = 83521,
-		[2] = "/esoui/art/icons/dyestamp_whitewithblackoutlines.dds",
-		[3] = "Monochrome: White with Black Outlines",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4567] = 
-	{
-		[1] = 84377,
-		[2] = "/esoui/art/icons/dyestamp_checkerboard.dds",
-		[3] = "Monochrome: Checkerboard",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[1] = 64710,
+		[2] = "/esoui/art/icons/crownpotion_trires.dds",
+		[3] = "Crown Tri-Restoration Potion",
+		[4] = 4,
+		[5] = 1,
+		[6] = 50,
 	},
 	[4568] = 
 	{
@@ -3168,7 +3159,7 @@ lib.MarkedIdToItemInfo = {
 		[3] = "Gold Coast Swift Survivor Elixir",
 		[4] = 4,
 		[5] = 0,
-		[6] = 10,
+		[6] = 5,
 	},
 	[4573] = 
 	{
@@ -3179,13 +3170,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4574] = 
+	[478] = 
 	{
-		[1] = 124676,
-		[2] = "/esoui/art/icons/crowncrate_staminahealth_food.dds",
-		[3] = "Crown Vigorous Ragout",
-		[4] = 3,
-		[5] = 0,
+		[1] = 69542,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 21: Ancient Orc Style",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
 	[4575] = 
@@ -3197,13 +3188,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4576] = 
+	[480] = 
 	{
-		[1] = 124678,
-		[2] = "/esoui/art/icons/crowncrate_staminahealth_drink.dds",
-		[3] = "Crown Vigorous Tincture",
-		[4] = 3,
-		[5] = 0,
+		[1] = 71581,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 23: Malacath Style",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
 	[482] = 
@@ -3224,14 +3215,14 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 10,
 	},
-	[4580] = 
+	[484] = 
 	{
-		[1] = 64710,
-		[2] = "/esoui/art/icons/crownpotion_trires.dds",
-		[3] = "Crown Tri-Restoration Potion",
-		[4] = 4,
+		[1] = 71537,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 24: Outlaw Style",
+		[4] = 5,
 		[5] = 1,
-		[6] = 30,
+		[6] = 1,
 	},
 	[4581] = 
 	{
@@ -3260,14 +3251,14 @@ lib.MarkedIdToItemInfo = {
 		[5] = 1,
 		[6] = 90,
 	},
-	[4584] = 
+	[488] = 
 	{
-		[1] = 79690,
-		[2] = "/esoui/art/icons/crownpoison_lethal.dds",
-		[3] = "Crown Lethal Poison",
+		[1] = 64537,
+		[2] = "/esoui/art/icons/store_experiencescroll_001.dds",
+		[3] = "Crown Experience Scroll",
 		[4] = 5,
-		[5] = 1,
-		[6] = 255,
+		[5] = 0,
+		[6] = 5,
 	},
 	[4585] = 
 	{
@@ -3368,14 +3359,14 @@ lib.MarkedIdToItemInfo = {
 		[5] = 1,
 		[6] = 1,
 	},
-	[4609] = 
+	[513] = 
 	{
-		[1] = 126039,
-		[2] = "/esoui/art/icons/housing_uni_exc_clavicusvileshrine002.dds",
-		[3] = "Statue of Masked Clavicus Vile with Barbas",
+		[1] = 79690,
+		[2] = "/esoui/art/icons/crownpoison_lethal.dds",
+		[3] = "Crown Lethal Poison",
 		[4] = 5,
-		[5] = 0,
-		[6] = 1,
+		[5] = 1,
+		[6] = 80,
 	},
 	[514] = 
 	{
@@ -3971,13 +3962,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4679] = 
+	[583] = 
 	{
-		[1] = 126149,
-		[2] = "/esoui/art/icons/housing_vrd_lsb_varhlavivecbanner001.dds",
-		[3] = "Tapestry, Vivec",
-		[4] = 4,
-		[5] = 0,
+		[1] = 74570,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 33: Thieves Guild Style",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
 	[4680] = 
@@ -4388,7 +4379,7 @@ lib.MarkedIdToItemInfo = {
 	[4727] = 
 	{
 		[1] = 126369,
-		[2] = "/esoui/art/icons/housing_vrd_lsb_hlalamppostalwayson004.dds",
+		[2] = "/esoui/art/icons/housing_vrd_lsb_hlalamppost004.dds",
 		[3] = "Indoril Lantern, Hanging",
 		[4] = 3,
 		[5] = 0,
@@ -5519,12 +5510,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4853] = 
+	[757] = 
 	{
-		[1] = 126495,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hladrawer004.dds",
-		[3] = "Hlaalu Dresser, Scroll Drawers",
-		[4] = 3,
+		[1] = 81189,
+		[2] = "/esoui/art/icons/witches_festival_icon_ravenwhistle.dds",
+		[3] = "Crow Caller",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -5546,1235 +5537,1235 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4856] = 
-	{
-		[1] = 126498,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlanightstand001.dds",
-		[3] = "Hlaalu Nightstand, Scholar's",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4857] = 
-	{
-		[1] = 126499,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlabookcase001.dds",
-		[3] = "Hlaalu Bookcase, Empty",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4858] = 
-	{
-		[1] = 126500,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlachinacabinetdoor001.dds",
-		[3] = "Hlaalu Bookcase, Orderly",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4859] = 
-	{
-		[1] = 126501,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlachinacabinet001.dds",
-		[3] = "Hlaalu Wardrobe, Formal",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4860] = 
-	{
-		[1] = 126502,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hladrawer001.dds",
-		[3] = "Hlaalu Sideboard, Low Cabinet",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4861] = 
-	{
-		[1] = 126503,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hladrawer003.dds",
-		[3] = "Hlaalu Sideboard, Scholar's",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4862] = 
-	{
-		[1] = 126504,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hladrawer005.dds",
-		[3] = "Hlaalu Sideboard, Scribe's",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4863] = 
-	{
-		[1] = 126505,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hladesktop001.dds",
-		[3] = "Hlaalu Desk, Scholar's",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4864] = 
-	{
-		[1] = 126506,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlanightstand002.dds",
-		[3] = "Hlaalu Nightstand, Formal",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4865] = 
-	{
-		[1] = 126507,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlaendtable003.dds",
-		[3] = "Hlaalu End Table, Formal Turtle",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4866] = 
-	{
-		[1] = 126508,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlaendtable004.dds",
-		[3] = "Hlaalu End Table, Formal Scales",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4867] = 
-	{
-		[1] = 126509,
-		[2] = "/esoui/art/icons/housing_vrd_duc_urn004.dds",
-		[3] = "Redoran Amphora, Sealed Marble",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4868] = 
-	{
-		[1] = 126510,
-		[2] = "/esoui/art/icons/housing_vrd_duc_urn005.dds",
-		[3] = "Redoran Urn, Pale Marble",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4869] = 
-	{
-		[1] = 126511,
-		[2] = "/esoui/art/icons/housing_vrd_duc_urn006.dds",
-		[3] = "Redoran Urn, Dusky Marble",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4870] = 
-	{
-		[1] = 126512,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlaincensepot001.dds",
-		[3] = "Redoran Incense Pot, Beastly",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4871] = 
-	{
-		[1] = 126513,
-		[2] = "/esoui/art/icons/housing_vrd_duc_urn0010.dds",
-		[3] = "Hlaalu Jar, Sealed Malachite",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4872] = 
-	{
-		[1] = 126514,
-		[2] = "/esoui/art/icons/housing_vrd_duc_urn009.dds",
-		[3] = "Hlaalu Cannister, Sealed Azurite",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4873] = 
-	{
-		[1] = 126515,
-		[2] = "/esoui/art/icons/housing_vrd_duc_urn003.dds",
-		[3] = "Hlaalu Amphora, Sealed Orichalcum",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4874] = 
-	{
-		[1] = 126516,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlastrongbox004.dds",
-		[3] = "Indoril Cassone, Sealed",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4875] = 
-	{
-		[1] = 126517,
-		[2] = "/esoui/art/icons/housing_vrd_fur_hlastrongbox003.dds",
-		[3] = "Indoril Vault, Sealed",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4876] = 
-	{
-		[1] = 126518,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlaurn003.dds",
-		[3] = "Hlaalu Vase, Gilded",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4877] = 
-	{
-		[1] = 126519,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlaincenseburner002.dds",
-		[3] = "Redoran Incense Holder, Mesh",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4878] = 
-	{
-		[1] = 126520,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlaincenseburner003.dds",
-		[3] = "Hlaalu Censer, Mesh",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4879] = 
-	{
-		[1] = 126521,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlaincenseburner004.dds",
-		[3] = "Dres Incense Stand, Chains",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4880] = 
-	{
-		[1] = 126522,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlateapot001.dds",
-		[3] = "Dres Teapot, Ceramic",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4881] = 
-	{
-		[1] = 126523,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlasteamer001.dds",
-		[3] = "Redoran Steamer, Iron",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4882] = 
-	{
-		[1] = 126524,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlaplatter001.dds",
-		[3] = "Redoran Tray, Floral",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4883] = 
-	{
-		[1] = 126525,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlaplate001_empty.dds",
-		[3] = "Redoran Plate, Floral",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4884] = 
-	{
-		[1] = 126526,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlaplate001_full.dds",
-		[3] = "Redoran Plate, Meal",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4885] = 
-	{
-		[1] = 126527,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlacup001c_empty.dds",
-		[3] = "Redoran Cup, Empty",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4886] = 
-	{
-		[1] = 126528,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlacup001c_full.dds",
-		[3] = "Redoran Cup, Mazte",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4887] = 
-	{
-		[1] = 126529,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlacup001b_empty.dds",
-		[3] = "Dres Cup, Empty Sujamma",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4888] = 
-	{
-		[1] = 126530,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlacup001b_full.dds",
-		[3] = "Dres Cup, Sujamma",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4889] = 
-	{
-		[1] = 126531,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hladinnerplatter001.dds",
-		[3] = "Indoril Platter, Floral",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4890] = 
-	{
-		[1] = 126532,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage004.dds",
-		[3] = "Indoril Box, Trinket",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4891] = 
-	{
-		[1] = 126533,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage002.dds",
-		[3] = "Indoril Cannister, Trinket",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4892] = 
-	{
-		[1] = 126534,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage002a.dds",
-		[3] = "Hlaalu Cannister, Trinket",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4893] = 
-	{
-		[1] = 126535,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage003.dds",
-		[3] = "Hlaalu Box, Trinket",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4894] = 
-	{
-		[1] = 126536,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugalmalexia004.dds",
-		[3] = "Indoril Carpet, Grand Almalexia",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4895] = 
-	{
-		[1] = 126537,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugsothasil004.dds",
-		[3] = "Indoril Carpet, Grand Sotha Sil",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4896] = 
-	{
-		[1] = 126538,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugvivec004.dds",
-		[3] = "Indoril Carpet, Grand Vivec",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4897] = 
-	{
-		[1] = 126539,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugalmalexia003.dds",
-		[3] = "Indoril Carpet, Almalexia",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4898] = 
-	{
-		[1] = 126540,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugsothasil003.dds",
-		[3] = "Indoril Carpet, Sotha Sil",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4899] = 
-	{
-		[1] = 126541,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugvivec003.dds",
-		[3] = "Indoril Carpet, Vivec",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4900] = 
-	{
-		[1] = 126542,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugalmalexia002.dds",
-		[3] = "Indoril Rug, Almalexia",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4901] = 
-	{
-		[1] = 126543,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugsothasil002.dds",
-		[3] = "Indoril Rug, Sotha Sil",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4902] = 
-	{
-		[1] = 126544,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugvivec002.dds",
-		[3] = "Indoril Rug, Vivec",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4903] = 
-	{
-		[1] = 126545,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugalmalexia001.dds",
-		[3] = "Indoril Runner, Almalexia",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4904] = 
-	{
-		[1] = 126546,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugsothasil001.dds",
-		[3] = "Indoril Runner, Sotha Sil",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4905] = 
-	{
-		[1] = 126547,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugvivec001.dds",
-		[3] = "Indoril Runner, Vivec",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4906] = 
-	{
-		[1] = 126548,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugplain004.dds",
-		[3] = "Dres Runner, Chains",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4907] = 
-	{
-		[1] = 126549,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugplain005.dds",
-		[3] = "Dres Rug, Chains",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4908] = 
-	{
-		[1] = 126550,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlatapestryalmalexia001.dds",
-		[3] = "Indoril Tapestry, Almalexia",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4909] = 
-	{
-		[1] = 126551,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlatapestrysothasil001.dds",
-		[3] = "Indoril Tapestry, Sotha Sil",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4910] = 
-	{
-		[1] = 126552,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlatapestryvivec001.dds",
-		[3] = "Indoril Tapestry, Vivec",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4911] = 
-	{
-		[1] = 126553,
-		[2] = "/esoui/art/icons/housing_vrd_lsb_hlabanneralmalexia001.dds",
-		[3] = "Indoril Banner, Almalexia",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4912] = 
-	{
-		[1] = 126554,
-		[2] = "/esoui/art/icons/housing_vrd_lsb_hlabannersothasil001.dds",
-		[3] = "Indoril Banner, Sotha Sil",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4913] = 
-	{
-		[1] = 126555,
-		[2] = "/esoui/art/icons/housing_vrd_lsb_hlabannervivec001.dds",
-		[3] = "Indoril Banner, Vivec",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4914] = 
-	{
-		[1] = 126556,
-		[2] = "/esoui/art/icons/housing_dun_lsb_post001.dds",
-		[3] = "Indoril Lightpost, Stone",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4915] = 
-	{
-		[1] = 126557,
-		[2] = "/esoui/art/icons/housing_dun_lsb_postlight004.dds",
-		[3] = "Indoril Streetlight, Full Stone",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4916] = 
-	{
-		[1] = 126558,
-		[2] = "/esoui/art/icons/housing_dun_lsb_postlight003.dds",
-		[3] = "Indoril Streetlight, Stone",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4917] = 
-	{
-		[1] = 126592,
-		[2] = "/esoui/art/icons/housing_vrd_inc_paintingalrg002.dds",
-		[3] = "Velothi Panels, Volcano",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4918] = 
-	{
-		[1] = 126597,
-		[2] = "/esoui/art/icons/housing_vrd_inc_paintingalrg001.dds",
-		[3] = "Velothi Painting, Oversized Volcano",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4919] = 
-	{
-		[1] = 126598,
-		[2] = "/esoui/art/icons/housing_vrd_inc_paintingclrg002.dds",
-		[3] = "Velothi Panels, Waterfall",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4920] = 
-	{
-		[1] = 126601,
-		[2] = "/esoui/art/icons/housing_vrd_inc_paintingblrg001.dds",
-		[3] = "Velothi Painting, Oversized Geyser",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4921] = 
-	{
-		[1] = 126604,
-		[2] = "/esoui/art/icons/housing_vrd_inc_paintingblrg002.dds",
-		[3] = "Velothi Panels, Geyser",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4922] = 
-	{
-		[1] = 126607,
-		[2] = "/esoui/art/icons/housing_vrd_inc_paintingclrg001.dds",
-		[3] = "Velothi Painting, Oversized Waterfall",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4923] = 
-	{
-		[1] = 126771,
-		[2] = "/esoui/art/icons/housing_vrd_duc_podium001.dds",
-		[3] = "Velothi Podium of Illumination",
+	[760] = 
+	{
+		[1] = 83531,
+		[2] = "/esoui/art/icons/dyestamp_fallforesttints.dds",
+		[3] = "First Frost: Fall Forest Tints",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4924] = 
+	[761] = 
 	{
-		[1] = 126774,
-		[2] = "/esoui/art/icons/housing_dun_lsb_housebannerdres001.dds",
-		[3] = "Dres Tapestry, House",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4925] = 
-	{
-		[1] = 126775,
-		[2] = "/esoui/art/icons/housing_dun_lsb_housebannerhlaalu001.dds",
-		[3] = "Hlaalu Tapestry, House",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4926] = 
-	{
-		[1] = 126776,
-		[2] = "/esoui/art/icons/housing_dun_lsb_housebannerindoril001.dds",
-		[3] = "Indoril Tapestry, House",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4927] = 
-	{
-		[1] = 126777,
-		[2] = "/esoui/art/icons/housing_dun_lsb_housebannerredoran001.dds",
-		[3] = "Redoran Tapestry, House",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4928] = 
-	{
-		[1] = 126778,
-		[2] = "/esoui/art/icons/housing_dun_lsb_housebannertelvanni001.dds",
-		[3] = "Telvanni Tapestry, House",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4929] = 
-	{
-		[1] = 126655,
-		[2] = "/esoui/art/icons/housing_dwe_inc_pot002.dds",
-		[3] = "Dwarven Cannister, Sealed",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4930] = 
-	{
-		[1] = 126656,
-		[2] = "/esoui/art/icons/housing_dwe_inc_vase002.dds",
-		[3] = "Dwarven Pot, Sealed",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4931] = 
-	{
-		[1] = 126657,
-		[2] = "/esoui/art/icons/housing_dwe_inc_vase003.dds",
-		[3] = "Dwarven Urn, Sealed",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4932] = 
-	{
-		[1] = 126658,
-		[2] = "/esoui/art/icons/housing_dwe_duc_pipecap002.dds",
-		[3] = "Dwarven Pipeline Cap, Sealed",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4933] = 
-	{
-		[1] = 126661,
-		[2] = "/esoui/art/icons/housing_dwe_fur_tablea001.dds",
-		[3] = "Dwarven Table, Workbench",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4934] = 
-	{
-		[1] = 126662,
-		[2] = "/esoui/art/icons/housing_dwe_fur_benchb001.dds",
-		[3] = "Dwarven Bench, Forged",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4935] = 
-	{
-		[1] = 126663,
-		[2] = "/esoui/art/icons/housing_dwe_inc_wayshrinebowl001.dds",
-		[3] = "Dwarven Basin, Forged",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4936] = 
-	{
-		[1] = 126664,
-		[2] = "/esoui/art/icons/housing_dwe_inc_vase001.dds",
-		[3] = "Dwarven Vase, Forged",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4937] = 
-	{
-		[1] = 126665,
-		[2] = "/esoui/art/icons/housing_dwe_inc_juglarge001.dds",
-		[3] = "Dwarven Amphora, Sealed",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4938] = 
-	{
-		[1] = 126666,
-		[2] = "/esoui/art/icons/housing_dwe_inc_largepot001.dds",
-		[3] = "Dwarven Jar, Sealed",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4939] = 
-	{
-		[1] = 126667,
-		[2] = "/esoui/art/icons/housing_dwe_inc_pot001.dds",
-		[3] = "Dwarven Vessel, Sealed",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4940] = 
-	{
-		[1] = 126668,
-		[2] = "/esoui/art/icons/housing_dwe_inc_jug001.dds",
-		[3] = "Dwarven Jug, Sealed",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4941] = 
-	{
-		[1] = 126669,
-		[2] = "/esoui/art/icons/housing_dwe_inc_goblet001.dds",
-		[3] = "Dwarven Goblet, Forged",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4942] = 
-	{
-		[1] = 126670,
-		[2] = "/esoui/art/icons/housing_dwe_inc_bowl002.dds",
-		[3] = "Dwarven Bowl, Forged Serving",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4943] = 
-	{
-		[1] = 126671,
-		[2] = "/esoui/art/icons/housing_dwe_inc_bowl001.dds",
-		[3] = "Dwarven Bowl, Forged",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4944] = 
-	{
-		[1] = 126672,
-		[2] = "/esoui/art/icons/housing_dwe_inc_plate001.dds",
-		[3] = "Dwarven Plate, Forged",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4945] = 
-	{
-		[1] = 126673,
-		[2] = "/esoui/art/icons/housing_dwe_inc_candleplate002.dds",
-		[3] = "Dwarven Candles, Cup",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4946] = 
-	{
-		[1] = 126674,
-		[2] = "/esoui/art/icons/housing_dwe_inc_candleplate001.dds",
-		[3] = "Dwarven Candles, Plate",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4947] = 
-	{
-		[1] = 126675,
-		[2] = "/esoui/art/icons/housing_dwe_inc_candlestick002.dds",
-		[3] = "Dwarven Candlestick, Laboratory",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4948] = 
-	{
-		[1] = 126676,
-		[2] = "/esoui/art/icons/housing_dwe_inc_candlestick001.dds",
-		[3] = "Dwarven Candlestick, Orrery",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4949] = 
-	{
-		[1] = 126677,
-		[2] = "/esoui/art/icons/housing_dwe_fur_bencha001.dds",
-		[3] = "Dwarven Pew, Refined",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4950] = 
-	{
-		[1] = 126678,
-		[2] = "/esoui/art/icons/housing_dwe_fur_tabled001.dds",
-		[3] = "Dwarven Table, Refined",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4951] = 
-	{
-		[1] = 126679,
-		[2] = "/esoui/art/icons/housing_dwe_lsb_chandeliere001.dds",
-		[3] = "Dwarven Chandelier, Framework",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4952] = 
-	{
-		[1] = 126680,
-		[2] = "/esoui/art/icons/housing_dwe_lsb_chandelierd001.dds",
-		[3] = "Dwarven Chandelier, Braced",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4953] = 
-	{
-		[1] = 126681,
-		[2] = "/esoui/art/icons/housing_dwe_lsb_chandelierb001.dds",
-		[3] = "Dwarven Chandelier, Barred",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4954] = 
-	{
-		[1] = 126682,
-		[2] = "/esoui/art/icons/housing_dwe_lsb_chandeliera001.dds",
-		[3] = "Dwarven Chandelier, Caged",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4955] = 
-	{
-		[1] = 126683,
-		[2] = "/esoui/art/icons/housing_dwe_lsb_wallsconcerounda001.dds",
-		[3] = "Dwarven Sconce, Barred",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4956] = 
-	{
-		[1] = 126684,
-		[2] = "/esoui/art/icons/housing_dwe_lsb_wallsconceroundb001.dds",
-		[3] = "Dwarven Sconce, Framework",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4957] = 
-	{
-		[1] = 126685,
-		[2] = "/esoui/art/icons/housing_dwe_duc_gearassembly001.dds",
-		[3] = "Dwarven Engine, Fan",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4958] = 
-	{
-		[1] = 126686,
-		[2] = "/esoui/art/icons/housing_dwe_inc_conjurationchest001.dds",
-		[3] = "Dwarven Chest, Relic",
+		[1] = 83924,
+		[2] = "/esoui/art/icons/dyestamp_grapegarden.dds",
+		[3] = "Forest: Grape Garden",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4959] = 
+	[762] = 
 	{
-		[1] = 126687,
-		[2] = "/esoui/art/icons/housing_dwe_duc_altera001.dds",
-		[3] = "Dwarven Altar, Stairs",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4960] = 
-	{
-		[1] = 126688,
-		[2] = "/esoui/art/icons/housing_dwe_fur_tablec001.dds",
-		[3] = "Dwarven Table, Assembly",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4961] = 
-	{
-		[1] = 126689,
-		[2] = "/esoui/art/icons/housing_dwe_duc_pipeboiler001.dds",
-		[3] = "Dwarven Engine, Boiler",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4962] = 
-	{
-		[1] = 126690,
-		[2] = "/esoui/art/icons/housing_dwe_inc_valve001.dds",
-		[3] = "Dwarven Valve, Disconnected",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4963] = 
-	{
-		[1] = 126691,
-		[2] = "/esoui/art/icons/housing_dwe_duc_rkindeleftswitch003.dds",
-		[3] = "Dwarven Engine, Turbine",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4964] = 
-	{
-		[1] = 126692,
-		[2] = "/esoui/art/icons/housing_dwe_duc_rkindeleftswitch001.dds",
-		[3] = "Dwarven Engine, Switch",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4965] = 
-	{
-		[1] = 126693,
-		[2] = "/esoui/art/icons/housing_dwe_fur_bookshelfa001.dds",
-		[3] = "Dwarven Bookcase, Full",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4966] = 
-	{
-		[1] = 126694,
-		[2] = "/esoui/art/icons/housing_dwe_inc_platforma001.dds",
-		[3] = "Dwarven Platform, Steps",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4967] = 
-	{
-		[1] = 126695,
-		[2] = "/esoui/art/icons/housing_dwe_lsb_lampa001.dds",
-		[3] = "Dwarven Lantern, Oil",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4968] = 
-	{
-		[1] = 126696,
-		[2] = "/esoui/art/icons/housing_dae_lsb_pedestal001.dds",
-		[3] = "Daedric Pedestal, Ritual",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4969] = 
-	{
-		[1] = 126697,
-		[2] = "/esoui/art/icons/housing_dae_lsb_chandelier001.dds",
-		[3] = "Daedric Chandelier, Ritual",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4970] = 
-	{
-		[1] = 126698,
-		[2] = "/esoui/art/icons/housing_dae_lsb_candelabrar002.dds",
-		[3] = "Daedric Brazier, Standing",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4971] = 
-	{
-		[1] = 126699,
-		[2] = "/esoui/art/icons/housing_dae_lsb_braziertabletop001.dds",
-		[3] = "Daedric Brazier, Table",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4972] = 
-	{
-		[1] = 130065,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "",
+		[1] = 83621,
+		[2] = "/esoui/art/icons/dyestamp_vibrantmidyearhues.dds",
+		[3] = "Necrotic: Vibrant Mid Year Hues",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4973] = 
+	[763] = 
 	{
-		[1] = 130066,
-		[2] = "/esoui/art/icons/housing_cld_duc_gate001.dds",
-		[3] = "Daedric Doorway, Spiked",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4974] = 
-	{
-		[1] = 130067,
-		[2] = "/esoui/art/icons/housing_cld_duc_shacklechain001.dds",
-		[3] = "Daedric Chain, Segment",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4975] = 
-	{
-		[1] = 130068,
-		[2] = "/esoui/art/icons/housing_cld_duc_smallwall001.dds",
-		[3] = "Daedric Fence, Section",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4976] = 
-	{
-		[1] = 130069,
-		[2] = "/esoui/art/icons/housing_cld_duc_spout001.dds",
-		[3] = "Daedric Spout, Block",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4977] = 
-	{
-		[1] = 130070,
-		[2] = "/esoui/art/icons/housing_cld_duc_spout002.dds",
-		[3] = "Daedric Spout, Arched",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4978] = 
-	{
-		[1] = 130071,
-		[2] = "/esoui/art/icons/housing_cld_duc_torchrockpile001.dds",
-		[3] = "Daedric Torch, Coldharbour",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[4979] = 
-	{
-		[1] = 119556,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneatronach001.dds",
-		[3] = "The Atronach",
+		[1] = 83600,
+		[2] = "/esoui/art/icons/dyestamp_lastseedfields.dds",
+		[3] = "Shadows: Last Seed Fields",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4980] = 
+	[764] = 
 	{
-		[1] = 125451,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneapprentice001.dds",
-		[3] = "The Apprentice",
+		[1] = 84040,
+		[2] = "/esoui/art/icons/dyestamp_deepharvesttime.dds",
+		[3] = "Autumn: Deep Harvest Time",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4981] = 
+	[765] = 
 	{
-		[1] = 125452,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonelady001.dds",
-		[3] = "The Lady",
+		[1] = 84144,
+		[2] = "/esoui/art/icons/dyestamp_butternutandblue.dds",
+		[3] = "Harvest: Butternut and Blue",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4982] = 
+	[766] = 
 	{
-		[1] = 125453,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonewarrior001.dds",
-		[3] = "The Warrior",
+		[1] = 84442,
+		[2] = "/esoui/art/icons/dyestamp_theangrytomato.dds",
+		[3] = "Witches: The Angry Tomato",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4983] = 
+	[767] = 
 	{
-		[1] = 125454,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonetower001.dds",
-		[3] = "The Tower",
+		[1] = 83529,
+		[2] = "/esoui/art/icons/dyestamp_honeyandwine.dds",
+		[3] = "Hoarfrost: Honey and Wine",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4984] = 
+	[768] = 
 	{
-		[1] = 125455,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonethief001.dds",
-		[3] = "The Thief",
+		[1] = 83915,
+		[2] = "/esoui/art/icons/dyestamp_juniperandwoodtones.dds",
+		[3] = "Alchemical: Juniper and Wood Tones",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4985] = 
+	[769] = 
 	{
-		[1] = 125456,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonesteed001.dds",
-		[3] = "The Steed",
+		[1] = 83740,
+		[2] = "/esoui/art/icons/dyestamp_plumorchard.dds",
+		[3] = "First Frost: Plum Orchard",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4986] = 
+	[770] = 
 	{
-		[1] = 125457,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneshadow001.dds",
-		[3] = "The Shadow",
+		[1] = 83646,
+		[2] = "/esoui/art/icons/dyestamp_violetsandgreensward.dds",
+		[3] = "Forest: Violets and Greensward",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4987] = 
+	[771] = 
 	{
-		[1] = 125458,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneserpent001.dds",
-		[3] = "The Serpent",
+		[1] = 83622,
+		[2] = "/esoui/art/icons/dyestamp_lavenderandvines.dds",
+		[3] = "Necrotic: Lavender and Vines",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4988] = 
+	[772] = 
 	{
-		[1] = 125459,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneritual001.dds",
-		[3] = "The Ritual",
+		[1] = 84111,
+		[2] = "/esoui/art/icons/dyestamp_beigeandbasil.dds",
+		[3] = "Shadows: Beige and Basil",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4989] = 
+	[773] = 
 	{
-		[1] = 125460,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonemage001.dds",
-		[3] = "The Mage",
+		[1] = 83593,
+		[2] = "/esoui/art/icons/dyestamp_antiquespectrum.dds",
+		[3] = "Autumn: Antique Spectrum",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4990] = 
+	[774] = 
 	{
-		[1] = 125461,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonelover001.dds",
-		[3] = "The Lover",
+		[1] = 84460,
+		[2] = "/esoui/art/icons/dyestamp_summerkhaki.dds",
+		[3] = "Harvest: Summer Khaki",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4991] = 
+	[775] = 
 	{
-		[1] = 126831,
-		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage001.dds",
-		[3] = "Hlaalu Boxes, Compact",
-		[4] = 3,
+		[1] = 84280,
+		[2] = "/esoui/art/icons/dyestamp_gingertinge.dds",
+		[3] = "Witches: Ginger Tinge",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4992] = 
+	[776] = 
 	{
-		[1] = 126034,
-		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonelord001.dds",
-		[3] = "The Lord",
+		[1] = 84149,
+		[2] = "/esoui/art/icons/dyestamp_dominiondressmustard.dds",
+		[3] = "Hoarfrost: Dominion Dress Mustard",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[777] = 
+	{
+		[1] = 83764,
+		[2] = "/esoui/art/icons/dyestamp_marshstalkertones.dds",
+		[3] = "Alchemical: Marsh Stalker Tones",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[778] = 
+	{
+		[1] = 84103,
+		[2] = "/esoui/art/icons/dyestamp_rustandmulberry.dds",
+		[3] = "First Frost: Rust and Mulberry",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[779] = 
+	{
+		[1] = 83967,
+		[2] = "/esoui/art/icons/dyestamp_khakiandindigo.dds",
+		[3] = "Forest: Khaki and Indigo",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[780] = 
+	{
+		[1] = 84227,
+		[2] = "/esoui/art/icons/dyestamp_mudcrabwithclashingaccents.dds",
+		[3] = "Necrotic: Mudcrab with Clashing Accents",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[781] = 
+	{
+		[1] = 83822,
+		[2] = "/esoui/art/icons/dyestamp_hummusandchips.dds",
+		[3] = "Shadows: Hummus and Chips",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[782] = 
+	{
+		[1] = 84071,
+		[2] = "/esoui/art/icons/dyestamp_mustardmudcrab.dds",
+		[3] = "Autumn: Mustard Mudcrab",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[783] = 
+	{
+		[1] = 84180,
+		[2] = "/esoui/art/icons/dyestamp_westwealdmidnight.dds",
+		[3] = "Harvest: West Weald Midnight",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[784] = 
+	{
+		[1] = 84309,
+		[2] = "/esoui/art/icons/dyestamp_scarletmastery.dds",
+		[3] = "Witches: Scarlet Mastery",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[785] = 
+	{
+		[1] = 84051,
+		[2] = "/esoui/art/icons/dyestamp_violetofthevictor.dds",
+		[3] = "Hoarfrost: Violet of the Victor",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[786] = 
+	{
+		[1] = 84393,
+		[2] = "/esoui/art/icons/dyestamp_forestoutlawopaques.dds",
+		[3] = "Alchemical: Forest Outlaw Opaques",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[787] = 
+	{
+		[1] = 84026,
+		[2] = "/esoui/art/icons/dyestamp_dessertfordinner.dds",
+		[3] = "First Frost: Dessert for Dinner",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[788] = 
+	{
+		[1] = 84299,
+		[2] = "/esoui/art/icons/dyestamp_sandandmoss.dds",
+		[3] = "Forest: Sand and Moss",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[789] = 
+	{
+		[1] = 84027,
+		[2] = "/esoui/art/icons/dyestamp_flaxenbutgarish.dds",
+		[3] = "Necrotic: Flaxen but Garish",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[790] = 
+	{
+		[1] = 84178,
+		[2] = "/esoui/art/icons/dyestamp_desertoasis.dds",
+		[3] = "Shadows: Desert Oasis",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[791] = 
+	{
+		[1] = 83832,
+		[2] = "/esoui/art/icons/dyestamp_autumnevening.dds",
+		[3] = "Autumn: Autumn Evening",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[792] = 
+	{
+		[1] = 84064,
+		[2] = "/esoui/art/icons/dyestamp_navyblueandbeans.dds",
+		[3] = "Harvest: Navy Blue and Beans",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[793] = 
+	{
+		[1] = 84264,
+		[2] = "/esoui/art/icons/dyestamp_redapplecobbler.dds",
+		[3] = "Witches: Red Apple Cobbler",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[794] = 
+	{
+		[1] = 83639,
+		[2] = "/esoui/art/icons/dyestamp_purpleanddignity.dds",
+		[3] = "Hoarfrost: Purple and Dignity",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[795] = 
+	{
+		[1] = 84198,
+		[2] = "/esoui/art/icons/dyestamp_viridiansentinel.dds",
+		[3] = "Alchemical: Viridian Sentinel",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[796] = 
+	{
+		[1] = 84329,
+		[2] = "/esoui/art/icons/dyestamp_falkreathfirforest.dds",
+		[3] = "First Frost: Falkreath Fir Forest",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[797] = 
+	{
+		[1] = 84494,
+		[2] = "/esoui/art/icons/dyestamp_vineyardtintmixture.dds",
+		[3] = "Forest: Vineyard Tint Mixture",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[798] = 
+	{
+		[1] = 84202,
+		[2] = "/esoui/art/icons/dyestamp_luridseafoamscheme.dds",
+		[3] = "Necrotic: Lurid Seafoam Scheme",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[799] = 
+	{
+		[1] = 83679,
+		[2] = "/esoui/art/icons/dyestamp_theroyalgardener.dds",
+		[3] = "Shadows: The Royal Gardener",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[800] = 
+	{
+		[1] = 84132,
+		[2] = "/esoui/art/icons/dyestamp_marinecommander.dds",
+		[3] = "Autumn: Marine Commander",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[801] = 
+	{
+		[1] = 83563,
+		[2] = "/esoui/art/icons/dyestamp_greenrushesandgold.dds",
+		[3] = "Harvest: Greenrushes and Gold",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[802] = 
+	{
+		[1] = 84448,
+		[2] = "/esoui/art/icons/dyestamp_brushfiretints.dds",
+		[3] = "Witches: Brushfire Tints",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[803] = 
+	{
+		[1] = 83725,
+		[2] = "/esoui/art/icons/dyestamp_navyandbutterscotch.dds",
+		[3] = "Hoarfrost: Navy and Butterscotch",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[804] = 
+	{
+		[1] = 83807,
+		[2] = "/esoui/art/icons/dyestamp_olivedragoon.dds",
+		[3] = "Alchemical: Olive Dragoon",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[805] = 
+	{
+		[1] = 83841,
+		[2] = "/esoui/art/icons/dyestamp_pinesandcocoa.dds",
+		[3] = "First Frost: Pines and Cocoa",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[806] = 
+	{
+		[1] = 84062,
+		[2] = "/esoui/art/icons/dyestamp_firstseedswamp.dds",
+		[3] = "Forest: First Seed Swamp",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[807] = 
+	{
+		[1] = 83880,
+		[2] = "/esoui/art/icons/dyestamp_galvanicaqua.dds",
+		[3] = "Necrotic: Galvanic Aqua",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[808] = 
+	{
+		[1] = 84007,
+		[2] = "/esoui/art/icons/dyestamp_alitsden.dds",
+		[3] = "Shadows: Alit's Den",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[809] = 
+	{
+		[1] = 84036,
+		[2] = "/esoui/art/icons/dyestamp_abeceanbleucheese.dds",
+		[3] = "Autumn: Abecean Bleu Cheese",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[810] = 
+	{
+		[1] = 83662,
+		[2] = "/esoui/art/icons/dyestamp_hircineshunter.dds",
+		[3] = "Harvest: Hircine's Hunter",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[811] = 
+	{
+		[1] = 84426,
+		[2] = "/esoui/art/icons/dyestamp_pickleandcrimson.dds",
+		[3] = "Witches: Pickle and Crimson",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[812] = 
+	{
+		[1] = 84214,
+		[2] = "/esoui/art/icons/dyestamp_bluedawnarray.dds",
+		[3] = "Hoarfrost: Blue Dawn Array",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[813] = 
+	{
+		[1] = 84503,
+		[2] = "/esoui/art/icons/dyestamp_lichenandfern.dds",
+		[3] = "Alchemical: Lichen and Fern",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[814] = 
+	{
+		[1] = 83882,
+		[2] = "/esoui/art/icons/dyestamp_undertakerboysenberry.dds",
+		[3] = "First Frost: Undertaker Boysenberry",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[815] = 
+	{
+		[1] = 83719,
+		[2] = "/esoui/art/icons/dyestamp_grapesandcrackers.dds",
+		[3] = "Forest: Grapes and Crackers",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[816] = 
+	{
+		[1] = 84237,
+		[2] = "/esoui/art/icons/dyestamp_royalvaletsupreme.dds",
+		[3] = "Necrotic: Royal Valet Supreme",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[817] = 
+	{
+		[1] = 84159,
+		[2] = "/esoui/art/icons/dyestamp_warmcocoa.dds",
+		[3] = "Shadows: Warm Cocoa",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[818] = 
+	{
+		[1] = 83773,
+		[2] = "/esoui/art/icons/dyestamp_hearthfirevixen.dds",
+		[3] = "Autumn: Hearthfire Vixen",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[819] = 
+	{
+		[1] = 83629,
+		[2] = "/esoui/art/icons/dyestamp_taffyandcoffee.dds",
+		[3] = "Harvest: Taffy and Coffee",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[820] = 
+	{
+		[1] = 83636,
+		[2] = "/esoui/art/icons/dyestamp_ogresdessert.dds",
+		[3] = "Witches: Ogre's Dessert",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[821] = 
+	{
+		[1] = 83706,
+		[2] = "/esoui/art/icons/dyestamp_bruisedlemon.dds",
+		[3] = "Hoarfrost: Bruised Lemon",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[822] = 
+	{
+		[1] = 84063,
+		[2] = "/esoui/art/icons/dyestamp_chocolateseaweed.dds",
+		[3] = "Alchemical: Chocolate Seaweed",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[823] = 
+	{
+		[1] = 84054,
+		[2] = "/esoui/art/icons/dyestamp_burntrosewood.dds",
+		[3] = "First Frost: Burnt Rosewood",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[824] = 
+	{
+		[1] = 83546,
+		[2] = "/esoui/art/icons/dyestamp_indigosundas.dds",
+		[3] = "Forest: Indigo Sundas",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[825] = 
+	{
+		[1] = 83964,
+		[2] = "/esoui/art/icons/dyestamp_encumberedmagenta.dds",
+		[3] = "Necrotic: Encumbered Magenta",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[826] = 
+	{
+		[1] = 83978,
+		[2] = "/esoui/art/icons/dyestamp_kavehandcream.dds",
+		[3] = "Shadows: Kaveh and Cream",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[827] = 
+	{
+		[1] = 84310,
+		[2] = "/esoui/art/icons/dyestamp_sweetpotatoflan.dds",
+		[3] = "Autumn: Sweet Potato Flan",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[828] = 
+	{
+		[1] = 83798,
+		[2] = "/esoui/art/icons/dyestamp_tawnyandtopgrain.dds",
+		[3] = "Harvest: Tawny and Topgrain",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[829] = 
+	{
+		[1] = 83963,
+		[2] = "/esoui/art/icons/dyestamp_shornhelmtruffle.dds",
+		[3] = "Witches: Shornhelm Truffle",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[830] = 
+	{
+		[1] = 84219,
+		[2] = "/esoui/art/icons/dyestamp_yellowtwilight.dds",
+		[3] = "Hoarfrost: Yellow Twilight",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[831] = 
+	{
+		[1] = 84305,
+		[2] = "/esoui/art/icons/dyestamp_woodlandshadows.dds",
+		[3] = "Alchemical: Woodland Shadows",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[832] = 
+	{
+		[1] = 84184,
+		[2] = "/esoui/art/icons/dyestamp_cranberrycake.dds",
+		[3] = "First Frost: Cranberry Cake",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[833] = 
+	{
+		[1] = 83839,
+		[2] = "/esoui/art/icons/dyestamp_mauvecoffee.dds",
+		[3] = "Forest: Mauve Coffee",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[834] = 
+	{
+		[1] = 84047,
+		[2] = "/esoui/art/icons/dyestamp_lilacandcocoa.dds",
+		[3] = "Necrotic: Lilac and Cocoa",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[835] = 
+	{
+		[1] = 84267,
+		[2] = "/esoui/art/icons/dyestamp_canteloupeandsmoke.dds",
+		[3] = "Shadows: Canteloupe and Smoke",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[836] = 
+	{
+		[1] = 83554,
+		[2] = "/esoui/art/icons/dyestamp_ashyam.dds",
+		[3] = "Autumn: Ash Yam",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[837] = 
+	{
+		[1] = 84402,
+		[2] = "/esoui/art/icons/dyestamp_goldandiron.dds",
+		[3] = "Harvest: Gold and Iron",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[838] = 
+	{
+		[1] = 83795,
+		[2] = "/esoui/art/icons/dyestamp_gingersteel.dds",
+		[3] = "Witches: Ginger Steel",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[839] = 
+	{
+		[1] = 83857,
+		[2] = "/esoui/art/icons/dyestamp_sandcastleandgrit.dds",
+		[3] = "Hoarfrost: Sandcastle and Grit",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[840] = 
+	{
+		[1] = 83858,
+		[2] = "/esoui/art/icons/dyestamp_cemeterymoss.dds",
+		[3] = "Alchemical: Cemetery Moss",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[841] = 
+	{
+		[1] = 83717,
+		[2] = "/esoui/art/icons/dyestamp_shadowjam.dds",
+		[3] = "First Frost: Shadow Jam",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[842] = 
+	{
+		[1] = 83972,
+		[2] = "/esoui/art/icons/dyestamp_purplemidnight.dds",
+		[3] = "Forest: Purple Midnight",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[843] = 
+	{
+		[1] = 83526,
+		[2] = "/esoui/art/icons/dyestamp_boskymauve.dds",
+		[3] = "Necrotic: Bosky Mauve",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[844] = 
+	{
+		[1] = 84222,
+		[2] = "/esoui/art/icons/dyestamp_manganesemelon.dds",
+		[3] = "Shadows: Manganese Melon",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[845] = 
+	{
+		[1] = 83586,
+		[2] = "/esoui/art/icons/dyestamp_amberandshadows.dds",
+		[3] = "Autumn: Amber and Shadows",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[846] = 
+	{
+		[1] = 83661,
+		[2] = "/esoui/art/icons/dyestamp_armoredtawn.dds",
+		[3] = "Harvest: Armored Tawn",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[847] = 
+	{
+		[1] = 83551,
+		[2] = "/esoui/art/icons/dyestamp_cinnamonandiron.dds",
+		[3] = "Witches: Cinnamon and Iron",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[848] = 
+	{
+		[1] = 84480,
+		[2] = "/esoui/art/icons/dyestamp_marigoldandiron.dds",
+		[3] = "Hoarfrost: Marigold and Iron",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[849] = 
+	{
+		[1] = 83565,
+		[2] = "/esoui/art/icons/dyestamp_bayleafgrayscale.dds",
+		[3] = "Alchemical: Bay Leaf Gray Scale",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[850] = 
+	{
+		[1] = 84102,
+		[2] = "/esoui/art/icons/dyestamp_sepiaandcinnamon.dds",
+		[3] = "First Frost: Sepia and Cinnamon",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[851] = 
+	{
+		[1] = 84471,
+		[2] = "/esoui/art/icons/dyestamp_oatmealandcoffee.dds",
+		[3] = "Forest: Oatmeal and Coffee",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[852] = 
+	{
+		[1] = 83747,
+		[2] = "/esoui/art/icons/dyestamp_mudcrabdippedinchocolate.dds",
+		[3] = "Necrotic: Mudcrab Dipped in Chocolate",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[853] = 
+	{
+		[1] = 83702,
+		[2] = "/esoui/art/icons/dyestamp_torvaltiramisu.dds",
+		[3] = "Shadows: Torval Tiramisu",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[854] = 
+	{
+		[1] = 84375,
+		[2] = "/esoui/art/icons/dyestamp_tawnymoose.dds",
+		[3] = "Autumn: Tawny Moose",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[855] = 
+	{
+		[1] = 84383,
+		[2] = "/esoui/art/icons/dyestamp_indigoandloam.dds",
+		[3] = "Harvest: Indigo and Loam",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[856] = 
+	{
+		[1] = 84385,
+		[2] = "/esoui/art/icons/dyestamp_brickredandbrown.dds",
+		[3] = "Witches: Brick Red and Brown",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[857] = 
+	{
+		[1] = 84412,
+		[2] = "/esoui/art/icons/dyestamp_practicalpurplescheme.dds",
+		[3] = "Hoarfrost: Practical Purple Scheme",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[858] = 
+	{
+		[1] = 83555,
+		[2] = "/esoui/art/icons/dyestamp_shamrockandsyrup.dds",
+		[3] = "Alchemical: Shamrock and Syrup",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[859] = 
+	{
+		[1] = 83829,
+		[2] = "/esoui/art/icons/dyestamp_tooledleather.dds",
+		[3] = "First Frost: Tooled Leather",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[860] = 
+	{
+		[1] = 84488,
+		[2] = "/esoui/art/icons/dyestamp_tannedpanther.dds",
+		[3] = "Forest: Tanned Panther",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[861] = 
+	{
+		[1] = 83609,
+		[2] = "/esoui/art/icons/dyestamp_macaroniandmahogany.dds",
+		[3] = "Necrotic: Macaroni and Mahogany",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[862] = 
+	{
+		[1] = 83703,
+		[2] = "/esoui/art/icons/dyestamp_senchelionshades.dds",
+		[3] = "Shadows: Senche-Lion Shades",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[863] = 
+	{
+		[1] = 83968,
+		[2] = "/esoui/art/icons/dyestamp_hotbutteredcoffee.dds",
+		[3] = "Autumn: Hot Buttered Coffee",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[864] = 
+	{
+		[1] = 83689,
+		[2] = "/esoui/art/icons/dyestamp_marinelederhosen.dds",
+		[3] = "Harvest: Marine Lederhosen",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[865] = 
+	{
+		[1] = 84245,
+		[2] = "/esoui/art/icons/dyestamp_bloodandbrown.dds",
+		[3] = "Witches: Blood and Brown",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[866] = 
+	{
+		[1] = 83768,
+		[2] = "/esoui/art/icons/dyestamp_eggplantandcinnamon.dds",
+		[3] = "Hoarfrost: Eggplant and Cinnamon",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[867] = 
+	{
+		[1] = 84495,
+		[2] = "/esoui/art/icons/dyestamp_greenwinterwheat.dds",
+		[3] = "Alchemical: Green Winter Wheat",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[868] = 
+	{
+		[1] = 84213,
+		[2] = "/esoui/art/icons/dyestamp_battleaxebrown.dds",
+		[3] = "First Frost: Battleaxe Brown",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[869] = 
+	{
+		[1] = 84130,
+		[2] = "/esoui/art/icons/dyestamp_sootycanary.dds",
+		[3] = "Forest: Sooty Canary",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[870] = 
+	{
+		[1] = 83926,
+		[2] = "/esoui/art/icons/dyestamp_sulfuricsteel.dds",
+		[3] = "Necrotic: Sulfuric Steel",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[871] = 
+	{
+		[1] = 84317,
+		[2] = "/esoui/art/icons/dyestamp_forgewroughtbeige.dds",
+		[3] = "Shadows: Forge-Wrought Beige",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[872] = 
+	{
+		[1] = 84290,
+		[2] = "/esoui/art/icons/dyestamp_mustardandashes.dds",
+		[3] = "Autumn: Mustard and Ashes",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[873] = 
+	{
+		[1] = 84099,
+		[2] = "/esoui/art/icons/dyestamp_gatesofnight.dds",
+		[3] = "Harvest: Gates of Night",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[874] = 
+	{
+		[1] = 83904,
+		[2] = "/esoui/art/icons/dyestamp_rustychainmail.dds",
+		[3] = "Witches: Rusty Chain Mail",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[875] = 
+	{
+		[1] = 84113,
+		[2] = "/esoui/art/icons/dyestamp_violetandcharcoal.dds",
+		[3] = "Hoarfrost: Violet and Charcoal",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[876] = 
+	{
+		[1] = 84065,
+		[2] = "/esoui/art/icons/dyestamp_greenandgraphite.dds",
+		[3] = "Alchemical: Green and Graphite",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[877] = 
+	{
+		[1] = 84124,
+		[2] = "/esoui/art/icons/dyestamp_walnutandlead.dds",
+		[3] = "First Frost: Walnut and Lead",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[878] = 
+	{
+		[1] = 83575,
+		[2] = "/esoui/art/icons/dyestamp_burntgoldandgray.dds",
+		[3] = "Forest: Burnt Gold and Gray",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[879] = 
+	{
+		[1] = 83897,
+		[2] = "/esoui/art/icons/dyestamp_mudcrabinshadows.dds",
+		[3] = "Necrotic: Mudcrab in Shadows",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[880] = 
+	{
+		[1] = 83838,
+		[2] = "/esoui/art/icons/dyestamp_oysterandpewter.dds",
+		[3] = "Shadows: Oyster and Pewter",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[881] = 
+	{
+		[1] = 83603,
+		[2] = "/esoui/art/icons/dyestamp_jaundiceandsmoke.dds",
+		[3] = "Autumn: Jaundice and Smoke",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[882] = 
+	{
+		[1] = 84104,
+		[2] = "/esoui/art/icons/dyestamp_nightskyandironsea.dds",
+		[3] = "Harvest: Night Sky and Iron Sea",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[883] = 
+	{
+		[1] = 84223,
+		[2] = "/esoui/art/icons/dyestamp_bloodstainedsteel.dds",
+		[3] = "Witches: Bloodstained Steel",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[884] = 
+	{
+		[1] = 83579,
+		[2] = "/esoui/art/icons/dyestamp_purpleandslate.dds",
+		[3] = "Hoarfrost: Purple and Slate",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[885] = 
+	{
+		[1] = 83995,
+		[2] = "/esoui/art/icons/dyestamp_chlorophyllandcharcoal.dds",
+		[3] = "Alchemical: Chlorophyll and Charcoal",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[886] = 
+	{
+		[1] = 84369,
+		[2] = "/esoui/art/icons/dyestamp_heartlandforest.dds",
+		[3] = "First Frost: Heartland Forest",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[887] = 
+	{
+		[1] = 84422,
+		[2] = "/esoui/art/icons/dyestamp_slimemoldtrio.dds",
+		[3] = "Forest: Slime Mold Trio",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[888] = 
+	{
+		[1] = 84171,
+		[2] = "/esoui/art/icons/dyestamp_aquamarineandclay.dds",
+		[3] = "Necrotic: Aquamarine and Clay",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[889] = 
+	{
+		[1] = 83908,
+		[2] = "/esoui/art/icons/dyestamp_arenthianalfalfa.dds",
+		[3] = "Shadows: Arenthian Alfalfa",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[890] = 
+	{
+		[1] = 83817,
+		[2] = "/esoui/art/icons/dyestamp_garnetandwalnut.dds",
+		[3] = "Autumn: Garnet and Walnut",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[891] = 
+	{
+		[1] = 84042,
+		[2] = "/esoui/art/icons/dyestamp_jaqspurleathers.dds",
+		[3] = "Harvest: Jaqspur Leathers",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[892] = 
+	{
+		[1] = 83613,
+		[2] = "/esoui/art/icons/dyestamp_goldensweetroll.dds",
+		[3] = "Witches: Golden Sweetroll",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[893] = 
+	{
+		[1] = 84474,
+		[2] = "/esoui/art/icons/dyestamp_indigoconniption.dds",
+		[3] = "Hoarfrost: Indigo Conniption",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[894] = 
+	{
+		[1] = 84356,
+		[2] = "/esoui/art/icons/dyestamp_mushroomandcinnamon.dds",
+		[3] = "Alchemical: Mushroom and Cinnamon",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[895] = 
+	{
+		[1] = 83786,
+		[2] = "/esoui/art/icons/dyestamp_emeraldandleather.dds",
+		[3] = "First Frost: Emerald and Leather",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[896] = 
+	{
+		[1] = 83901,
+		[2] = "/esoui/art/icons/dyestamp_limeandcaramel.dds",
+		[3] = "Forest: Lime and Caramel",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -6788,156 +6779,156 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4994] = 
+	[898] = 
 	{
-		[1] = 125481,
-		[2] = "/esoui/art/icons/housing_rok_vol_vrdlavacolumn004.dds",
-		[3] = "Boulder, Volcanic Column",
-		[4] = 2,
+		[1] = 84303,
+		[2] = "/esoui/art/icons/dyestamp_cedarsofcyrodiil.dds",
+		[3] = "Shadows: Cedars of Cyrodiil",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4995] = 
+	[899] = 
 	{
-		[1] = 125482,
-		[2] = "/esoui/art/icons/housing_rok_vol_vrdmed005.dds",
-		[3] = "Boulder, Volcanic Crag",
-		[4] = 2,
+		[1] = 83610,
+		[2] = "/esoui/art/icons/dyestamp_darkazureandtan.dds",
+		[3] = "Autumn: Dark Azure and Tan",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4996] = 
+	[900] = 
 	{
-		[1] = 125483,
-		[2] = "/esoui/art/icons/housing_rok_vol_vrdmed004.dds",
-		[3] = "Boulder, Volcanic Plug",
-		[4] = 2,
+		[1] = 84002,
+		[2] = "/esoui/art/icons/dyestamp_helstromsummer.dds",
+		[3] = "Harvest: Helstrom Summer",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4997] = 
+	[901] = 
 	{
-		[1] = 125484,
-		[2] = "/esoui/art/icons/housing_veg_bsh_vrdlaurelbush002.dds",
-		[3] = "Bush, Lush Laurel",
-		[4] = 2,
+		[1] = 83598,
+		[2] = "/esoui/art/icons/dyestamp_sloadhoneyandthrasmud.dds",
+		[3] = "Witches: Sload Honey and Thras Mud",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4998] = 
+	[902] = 
 	{
-		[1] = 125543,
-		[2] = "/esoui/art/icons/housing_veg_bsh_vrdyellowfern001.dds",
-		[3] = "Fern, Ashen",
-		[4] = 2,
+		[1] = 83561,
+		[2] = "/esoui/art/icons/dyestamp_blueinkandrust.dds",
+		[3] = "Hoarfrost: Blue Ink and Rust",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4999] = 
+	[903] = 
 	{
-		[1] = 125544,
-		[2] = "/esoui/art/icons/housing_veg_bsh_vrdfern002.dds",
-		[3] = "Fern, Strong Dusky",
-		[4] = 2,
+		[1] = 84058,
+		[2] = "/esoui/art/icons/dyestamp_oliveandmerlot.dds",
+		[3] = "Alchemical: Olive and Merlot",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5000] = 
+	[904] = 
 	{
-		[1] = 125545,
-		[2] = "/esoui/art/icons/housing_veg_bsh_vrdfern004.dds",
-		[3] = "Fern, Young Dusky",
-		[4] = 2,
+		[1] = 83527,
+		[2] = "/esoui/art/icons/dyestamp_firgreenandstonegray.dds",
+		[3] = "First Frost: Fir Green and Stone Gray",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5001] = 
+	[905] = 
 	{
-		[1] = 125546,
-		[2] = "/esoui/art/icons/housing_veg_flr_vrdspikeyred002.dds",
-		[3] = "Flower Patch, Lava Blooms",
-		[4] = 4,
+		[1] = 83916,
+		[2] = "/esoui/art/icons/dyestamp_figleafandashes.dds",
+		[3] = "Forest: Fig Leaf and Ashes",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5002] = 
+	[906] = 
 	{
-		[1] = 125547,
-		[2] = "/esoui/art/icons/housing_veg_fan_vrdbatflower001.dds",
-		[3] = "Flower, Healthy Purple Bat Bloom",
-		[4] = 4,
+		[1] = 84014,
+		[2] = "/esoui/art/icons/dyestamp_seafoamandshadows.dds",
+		[3] = "Necrotic: Seafoam and Shadows",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5003] = 
+	[907] = 
 	{
-		[1] = 125548,
-		[2] = "/esoui/art/icons/housing_veg_fan_vrdbatflower004.dds",
-		[3] = "Flower, Towering Purple Bat Bloom",
-		[4] = 4,
+		[1] = 84238,
+		[2] = "/esoui/art/icons/dyestamp_crocodilesinfog.dds",
+		[3] = "Shadows: Crocodiles in Fog",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5004] = 
+	[908] = 
 	{
-		[1] = 125549,
-		[2] = "/esoui/art/icons/housing_veg_fan_mphclusterbatflower001.dds",
-		[3] = "Flowers, Double Purple Bat Blooms",
-		[4] = 4,
+		[1] = 84492,
+		[2] = "/esoui/art/icons/dyestamp_bluemorndas.dds",
+		[3] = "Autumn: Blue Morndas",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5005] = 
+	[909] = 
 	{
-		[1] = 125550,
-		[2] = "/esoui/art/icons/housing_veg_flr_vrdspikeyred001.dds",
-		[3] = "Flowers, Lava Blooms",
-		[4] = 4,
+		[1] = 84136,
+		[2] = "/esoui/art/icons/dyestamp_rainshandmist.dds",
+		[3] = "Harvest: Rain's Hand Mist",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5006] = 
+	[910] = 
 	{
-		[1] = 125551,
-		[2] = "/esoui/art/icons/housing_veg_flr_vrdsymplocarpus002.dds",
-		[3] = "Flowers, Netch Cabbage",
-		[4] = 3,
+		[1] = 84242,
+		[2] = "/esoui/art/icons/dyestamp_ocelotandopossum.dds",
+		[3] = "Witches: Ocelot and Opossum",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5007] = 
+	[911] = 
 	{
-		[1] = 125552,
-		[2] = "/esoui/art/icons/housing_veg_flr_vrdsymplocarpus001.dds",
-		[3] = "Flowers, Netch Cabbage Patch",
-		[4] = 3,
+		[1] = 84176,
+		[2] = "/esoui/art/icons/dyestamp_darkbluemelancholy.dds",
+		[3] = "Hoarfrost: Dark Blue Melancholy",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5008] = 
+	[912] = 
 	{
-		[1] = 125553,
-		[2] = "/esoui/art/icons/housing_veg_flr_vrdsymplocarpus004.dds",
-		[3] = "Flowers, Netch Cabbage Stalks",
-		[4] = 3,
+		[1] = 83680,
+		[2] = "/esoui/art/icons/dyestamp_kwamachitin.dds",
+		[3] = "Alchemical: Kwama Chitin",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5009] = 
+	[913] = 
 	{
-		[1] = 125554,
-		[2] = "/esoui/art/icons/housing_veg_fan_vrdclusterbatflower001.dds",
-		[3] = "Flowers, Opposing Purple Bat Blooms",
-		[4] = 4,
+		[1] = 83697,
+		[2] = "/esoui/art/icons/dyestamp_kagoutihidegreen.dds",
+		[3] = "First Frost: Alit Hide Green",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5010] = 
+	[914] = 
 	{
-		[1] = 125555,
-		[2] = "/esoui/art/icons/housing_veg_fan_mphclusterbatflower003.dds",
-		[3] = "Flowers, Sullen Purple Bat Blooms",
-		[4] = 4,
+		[1] = 83877,
+		[2] = "/esoui/art/icons/dyestamp_limesandcarbonsteel.dds",
+		[3] = "Forest: Limes and Carbon Steel",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -6995,30 +6986,30 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5017] = 
+	[921] = 
 	{
-		[1] = 125562,
-		[2] = "/esoui/art/icons/housing_veg_bsh_vrdfoxtailgrass001.dds",
-		[3] = "Grass, Foxtail Cluster",
-		[4] = 2,
+		[1] = 83947,
+		[2] = "/esoui/art/icons/dyestamp_seaweedandanchorchains.dds",
+		[3] = "Alchemical: Seaweed and Anchor Chains",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5018] = 
+	[922] = 
 	{
-		[1] = 125581,
-		[2] = "/esoui/art/icons/housing_veg_fug_pagoda002.dds",
-		[3] = "Mushroom, Buttercake",
-		[4] = 3,
+		[1] = 83930,
+		[2] = "/esoui/art/icons/dyestamp_harvestcemetery.dds",
+		[3] = "Graveyard: Harvest Cemetery",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5019] = 
+	[923] = 
 	{
-		[1] = 125582,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "",
-		[4] = 4,
+		[1] = 84470,
+		[2] = "/esoui/art/icons/dyestamp_pumpkinmidnight.dds",
+		[3] = "Holiday: Pumpkin Midnight",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -7049,30 +7040,30 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5023] = 
+	[927] = 
 	{
-		[1] = 125586,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "",
-		[4] = 4,
+		[1] = 84346,
+		[2] = "/esoui/art/icons/dyestamp_darknesseverweaves.dds",
+		[3] = "Holiday: Darkness Ever Weaves",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5024] = 
+	[928] = 
 	{
-		[1] = 125587,
-		[2] = "/esoui/art/icons/housing_veg_fug_vrdfunnelmushroom001.dds",
-		[3] = "Mushroom, Funnel Caps",
-		[4] = 4,
+		[1] = 84043,
+		[2] = "/esoui/art/icons/dyestamp_hollowtwilight.dds",
+		[3] = "Graveyard: Hollow Twilight",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5025] = 
+	[929] = 
 	{
-		[1] = 125588,
-		[2] = "/esoui/art/icons/housing_veg_fug_vrdinkcap011.dds",
-		[3] = "Mushroom, Lanky Erupted Stinkcap",
-		[4] = 2,
+		[1] = 83656,
+		[2] = "/esoui/art/icons/dyestamp_burningwitches.dds",
+		[3] = "Holiday: Burning Witches",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -7157,13 +7148,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5037] = 
+	[941] = 
 	{
-		[1] = 125600,
-		[2] = "/esoui/art/icons/housing_veg_fug_vrdsmmushroom005.dds",
-		[3] = "Mushroom, Spongecap Patch",
-		[4] = 3,
-		[5] = 0,
+		[1] = 82086,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 39: Minotaur Style",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
 	[5038] = 
@@ -7175,13 +7166,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5039] = 
+	[943] = 
 	{
-		[1] = 125602,
-		[2] = "/esoui/art/icons/housing_veg_fug_vrdinkcap007.dds",
-		[3] = "Mushroom, Stinkcap Button",
-		[4] = 2,
-		[5] = 0,
+		[1] = 96954,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 46: Frostcaster Style",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
 	[5040] = 
@@ -7202,58 +7193,58 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5042] = 
+	[946] = 
 	{
-		[1] = 125605,
-		[2] = "/esoui/art/icons/housing_veg_fug_vrdinkcap008.dds",
-		[3] = "Mushroom, Young Erupted Stinkcap",
-		[4] = 2,
-		[5] = 0,
+		[1] = 94440,
+		[2] = "/esoui/art/icons/crowncrate_experiencescroll_002.dds",
+		[3] = "Major Gold Coast Experience Scroll",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
-	[5043] = 
+	[947] = 
 	{
-		[1] = 125606,
-		[2] = "/esoui/art/icons/housing_veg_fug_vrdmedmush003.dds",
-		[3] = "Mushroom, Young Milkcap",
-		[4] = 2,
-		[5] = 0,
+		[1] = 94441,
+		[2] = "/esoui/art/icons/crowncrate_experiencescroll_003.dds",
+		[3] = "Grand Gold Coast Experience Scroll",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
-	[5044] = 
+	[948] = 
 	{
-		[1] = 125607,
-		[2] = "/esoui/art/icons/housing_veg_fug_vrdmedmush004.dds",
-		[3] = "Mushroom, Young Netch Shield",
-		[4] = 2,
-		[5] = 0,
+		[1] = 94439,
+		[2] = "/esoui/art/icons/crowncrate_experiencescroll_001.dds",
+		[3] = "Gold Coast Experience Scroll",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
-	[5045] = 
+	[949] = 
 	{
-		[1] = 125608,
-		[2] = "/esoui/art/icons/housing_veg_fug_pagoda005.dds",
-		[3] = "Mushrooms, Buttercake Cluster",
-		[4] = 3,
-		[5] = 0,
+		[1] = 94437,
+		[2] = "/esoui/art/icons/store_tricolor_food_01.dds",
+		[3] = "Crown Crate Fortifying Meal",
+		[4] = 4,
+		[5] = 1,
 		[6] = 1,
 	},
-	[5046] = 
+	[950] = 
 	{
-		[1] = 125609,
-		[2] = "/esoui/art/icons/housing_veg_fug_pagoda004.dds",
-		[3] = "Mushrooms, Buttercake Stack",
-		[4] = 3,
-		[5] = 0,
+		[1] = 94438,
+		[2] = "/esoui/art/icons/crowncrate_tricolor_drink_01.dds",
+		[3] = "Crown Crate Refreshing Drink",
+		[4] = 4,
+		[5] = 1,
 		[6] = 1,
 	},
-	[5047] = 
+	[951] = 
 	{
-		[1] = 125610,
-		[2] = "/esoui/art/icons/housing_veg_fug_vrdhangingmushrooms005.dds",
-		[3] = "Mushrooms, Cave Bracket Cluster",
-		[4] = 3,
-		[5] = 0,
+		[1] = 82069,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 36: Dark Brotherhood Style",
+		[4] = 5,
+		[5] = 1,
 		[6] = 1,
 	},
 	[5049] = 
@@ -7726,18 +7717,18 @@ lib.MarkedIdToItemInfo = {
 	},
 	[5184] = 
 	{
-		[1] = 130072,
+		[1] = 132580,
 		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 48: Falkreath Demise Style",
+		[3] = "Crown Crafting Motif 55: Dreadhorn Style",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
 	[5186] = 
 	{
-		[1] = 130073,
+		[1] = 132548,
 		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 48: Bloodroot Forge Style",
+		[3] = "Crown Crafting Motif 54: Bloodforge Style",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -7756,7 +7747,7 @@ lib.MarkedIdToItemInfo = {
 		[1] = 130076,
 		[2] = "/esoui/art/icons/housing_cld_inc_brazier002.dds",
 		[3] = "Daedric Brazier, Coldharbour",
-		[4] = 4,
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -7809,7 +7800,7 @@ lib.MarkedIdToItemInfo = {
 	{
 		[1] = 130082,
 		[2] = "/esoui/art/icons/housing_cld_inc_soulshrivensinglerobed001.dds",
-		[3] = "Shriven, Robed",
+		[3] = "Soul-Shriven, Robed",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -7819,7 +7810,7 @@ lib.MarkedIdToItemInfo = {
 		[1] = 130083,
 		[2] = "/esoui/art/icons/housing_cld_inc_stoneblock001.dds",
 		[3] = "Daedric Block, Seat",
-		[4] = 4,
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -7859,59 +7850,59 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5240] = 
+	[1144] = 
 	{
-		[1] = 130088,
-		[2] = "/esoui/art/icons/housing_cld_lsb_crystaltorch000.dds",
-		[3] = "Daedric Fragment, Coldharbour",
+		[1] = 64310,
+		[2] = "/esoui/art/icons/housing_gen_bucket_001.dds",
+		[3] = "Bucket^n",
 		[4] = 5,
-		[5] = 0,
+		[5] = 1,
 		[6] = 1,
 	},
-	[5241] = 
+	[1145] = 
 	{
-		[1] = 130089,
-		[2] = "/esoui/art/icons/housing_cld_lsb_rockbrazier001.dds",
-		[3] = "Daedric Brazier, Molag Bal",
+		[1] = 64311,
+		[2] = "/esoui/art/icons/housing_gen_broom_001.dds",
+		[3] = "Broom^n",
+		[4] = 5,
+		[5] = 1,
+		[6] = 1,
+	},
+	[1146] = 
+	{
+		[1] = 112430,
+		[2] = "/esoui/art/icons/crownpotion_survivor.dds",
+		[3] = "Gold Coast Survivor Elixir",
 		[4] = 4,
 		[5] = 0,
-		[6] = 1,
+		[6] = 5,
 	},
-	[5242] = 
+	[1147] = 
 	{
-		[1] = 130090,
-		[2] = "/esoui/art/icons/housing_cld_lsb_wallsconce001.dds",
-		[3] = "Daedric Sconce, Molag Bal",
+		[1] = 112427,
+		[2] = "/esoui/art/icons/crownpotion_spellcaster.dds",
+		[3] = "Gold Coast Spellcaster Elixir",
 		[4] = 4,
 		[5] = 0,
-		[6] = 1,
+		[6] = 5,
 	},
-	[5243] = 
+	[1148] = 
 	{
-		[1] = 130091,
-		[2] = "/esoui/art/icons/housing_vrd_exc_statuemolagbal001.dds",
-		[3] = "Statue of Molag Bal, God of Schemes",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5244] = 
-	{
-		[1] = 130092,
-		[2] = "/esoui/art/icons/housing_cld_duc_floorseal001.dds",
-		[3] = "Seal of Molag Bal, Grand",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5245] = 
-	{
-		[1] = 130093,
-		[2] = "/esoui/art/icons/housing_cld_inc_bookopen001.dds",
-		[3] = "Coldharbour Compact",
+		[1] = 112428,
+		[2] = "/esoui/art/icons/crownpotion_warrior.dds",
+		[3] = "Gold Coast Warrior Elixir",
 		[4] = 4,
 		[5] = 0,
-		[6] = 1,
+		[6] = 5,
+	},
+	[1149] = 
+	{
+		[1] = 112437,
+		[2] = "/esoui/art/icons/crowncrate_invisibility_potion_01.dds",
+		[3] = "Crown Invisibility Potion",
+		[4] = 4,
+		[5] = 0,
+		[6] = 5,
 	},
 	[5246] = 
 	{
@@ -7922,29 +7913,29 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5247] = 
+	[1151] = 
 	{
-		[1] = 130095,
-		[2] = "/esoui/art/icons/housing_cld_duc_shackledprisoner001.dds",
-		[3] = "Daedric Torture Device, Chained",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5248] = 
-	{
-		[1] = 130353,
-		[2] = "/esoui/art/icons/housing_vrd_inc_housingstatuesheogorath001.dds",
-		[3] = "Statuette of Sheogorath, the Mad Lord",
+		[1] = 83642,
+		[2] = "/esoui/art/icons/dyestamp_dec11.dds",
+		[3] = "Frosted: Glacial Tinges",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5249] = 
+	[1152] = 
 	{
-		[1] = 130187,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Statuette of Hircine, the Huntsman",
+		[1] = 83537,
+		[2] = "/esoui/art/icons/dyestamp_dec12.dds",
+		[3] = "Frosted: Iceberg Hues",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1153] = 
+	{
+		[1] = 84081,
+		[2] = "/esoui/art/icons/dyestamp_dec13.dds",
+		[3] = "Frosted: Somber Stalhrim",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -7958,651 +7949,651 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5251] = 
+	[1155] = 
 	{
-		[1] = 130189,
-		[2] = "/esoui/art/icons/housing_dae_lsb_bannersheogorath001.dds",
-		[3] = "Tapestry of Sheogorath",
+		[1] = 83614,
+		[2] = "/esoui/art/icons/dyestamp_dec15.dds",
+		[3] = "Frosted: Sea of Ghosts",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5252] = 
+	[1156] = 
 	{
-		[1] = 130190,
-		[2] = "/esoui/art/icons/housing_dae_lsb_bannersheogorathsmall001.dds",
-		[3] = "Banner of Sheogorath",
+		[1] = 84390,
+		[2] = "/esoui/art/icons/dyestamp_dec16.dds",
+		[3] = "Frosted: Frozen Phantom",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5253] = 
+	[1157] = 
 	{
-		[1] = 130191,
-		[2] = "/esoui/art/icons/housing_gen_inc_cheesewheel001.dds",
-		[3] = "The Shivering Cheese",
+		[1] = 83966,
+		[2] = "/esoui/art/icons/dyestamp_dec17.dds",
+		[3] = "Frosted: Blue Nobility",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5254] = 
+	[1158] = 
 	{
-		[1] = 130286,
-		[2] = "/esoui/art/icons/housing_tre_ded_mrkrottenlog001.dds",
-		[3] = "Log, Rotten Bog",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5255] = 
-	{
-		[1] = 130197,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bookcaselarge001.dds",
-		[3] = "Ayleid Bookcase, Filled",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5256] = 
-	{
-		[1] = 130198,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bookcaselarge002.dds",
-		[3] = "Ayleid Bookcase, Cluttered",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5257] = 
-	{
-		[1] = 130199,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasesmallstackable002.dds",
-		[3] = "Ayleid Bookshelf, Bare",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5258] = 
-	{
-		[1] = 130200,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasesmallstackable001.dds",
-		[3] = "Ayleid Bookshelf, Cluttered",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5259] = 
-	{
-		[1] = 130201,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasedoorsmall001.dds",
-		[3] = "Ayleid Grate, Small",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5260] = 
-	{
-		[1] = 130202,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasedoorlarge002.dds",
-		[3] = "Ayleid Grate, Tall",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5261] = 
-	{
-		[1] = 130203,
-		[2] = "/esoui/art/icons/housing_ayl_duc_brazierb001.dds",
-		[3] = "Ayleid Brazier, Welkynd Holder",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5262] = 
-	{
-		[1] = 130204,
-		[2] = "/esoui/art/icons/housing_ayl_duc_welkydcluster01.dds",
-		[3] = "Welkynd Stones, Glowing",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5263] = 
-	{
-		[1] = 130205,
-		[2] = "/esoui/art/icons/housing_ayl_exc_prieststatue001.dds",
-		[3] = "Ayleid Statue, Pious Priest",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5264] = 
-	{
-		[1] = 130206,
-		[2] = "/esoui/art/icons/housing_ayl_exc_smallstatue001.dds",
-		[3] = "Ayleid Apparatus, Welkynd",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5265] = 
-	{
-		[1] = 130207,
-		[2] = "/esoui/art/icons/housing_ayl_exc_base001.dds",
-		[3] = "Ayleid Plinth, Engraved",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5266] = 
-	{
-		[1] = 130208,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bencha001.dds",
-		[3] = "Ayleid Bench, Carved",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5267] = 
-	{
-		[1] = 130209,
-		[2] = "/esoui/art/icons/housing_ayl_duc_altar001.dds",
-		[3] = "Ayleid Table, Carved",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5268] = 
-	{
-		[1] = 130210,
-		[2] = "/esoui/art/icons/housing_cra_inc_book003.dds",
-		[3] = "Books, Scattered Row",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5269] = 
-	{
-		[1] = 130211,
-		[2] = "/esoui/art/icons/housing_cra_inc_book002.dds",
-		[3] = "Books, Ordered Row",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5270] = 
-	{
-		[1] = 130193,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Robust Target Minotaur Handler^m",
+		[1] = 83965,
+		[2] = "/esoui/art/icons/dyestamp_dec18.dds",
+		[3] = "Frosted: Solstheim Sweetroll",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5271] = 
+	[1159] = 
 	{
-		[1] = 130194,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Target Stone Atronach^n",
+		[1] = 83806,
+		[2] = "/esoui/art/icons/dyestamp_dec19.dds",
+		[3] = "Frosted: Arctic Phase",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5272] = 
+	[1160] = 
 	{
-		[1] = 130195,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Target Iron Atronach^n",
+		[1] = 83760,
+		[2] = "/esoui/art/icons/dyestamp_dec110.dds",
+		[3] = "Frosted: Spectrum of Sleet",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5273] = 
+	[1161] = 
 	{
-		[1] = 130212,
-		[2] = "/esoui/art/icons/housing_cra_inc_book001.dds",
-		[3] = "Daedra Worship: The Ayleids",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5274] = 
-	{
-		[1] = 130213,
-		[2] = "/esoui/art/icons/housing_ayl_duc_lanternhangingc001.dds",
-		[3] = "Ayleid Cage, Hanging",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5275] = 
-	{
-		[1] = 130214,
-		[2] = "/esoui/art/icons/housing_ayl_duc_braziera001.dds",
-		[3] = "Ayleid Brazier, Fiery",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5276] = 
-	{
-		[1] = 130215,
-		[2] = "/esoui/art/icons/housing_uni_exc_harvestcauldronshort001.dds",
-		[3] = "Witches' Cauldron, Provisioning",
+		[1] = 83868,
+		[2] = "/esoui/art/icons/dyestamp_dec111.dds",
+		[3] = "Frosted: Icy Northern Coast",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5277] = 
+	[1162] = 
 	{
-		[1] = 130216,
-		[2] = "/esoui/art/icons/housing_uni_exc_scryingpool002.dds",
-		[3] = "Witches' Basin, Scrying",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5278] = 
-	{
-		[1] = 130217,
-		[2] = "/esoui/art/icons/housing_uni_exc_reachantlertotem001.dds",
-		[3] = "Hagraven Totem, Horns and Bones",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5279] = 
-	{
-		[1] = 130320,
-		[2] = "/esoui/art/icons/housing_bos_cmp_cauldron001.dds",
-		[3] = "Hagraven Cauldron, Rough Stone",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5280] = 
-	{
-		[1] = 130219,
-		[2] = "/esoui/art/icons/housing_gen_exc_skulllamp001.dds",
-		[3] = "Witches' Brazier, Beast Skull",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5281] = 
-	{
-		[1] = 130220,
-		[2] = "/esoui/art/icons/housing_uni_exc_reachhealingtotem001.dds",
-		[3] = "Hagraven Altar, Alchemical",
+		[1] = 84281,
+		[2] = "/esoui/art/icons/dyestamp_dec112.dds",
+		[3] = "Frosted: Promises in Fog",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5282] = 
+	[1163] = 
 	{
-		[1] = 130221,
-		[2] = "/esoui/art/icons/housing_uni_exc_reachcage001.dds",
-		[3] = "Reachmen Cage, Sturdy",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5283] = 
-	{
-		[1] = 130222,
-		[2] = "/esoui/art/icons/housing_uni_exc_reachmantotem003.dds",
-		[3] = "Hagraven Totem, Skull",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5284] = 
-	{
-		[1] = 130223,
-		[2] = "/esoui/art/icons/housing_orc_inc_rugskin001.dds",
-		[3] = "Reachmen Rug, Mottled Skin",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5285] = 
-	{
-		[1] = 130224,
-		[2] = "/esoui/art/icons/housing_orc_inc_rugskin003.dds",
-		[3] = "Reachmen Rug, Smooth Skin",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5286] = 
-	{
-		[1] = 130225,
-		[2] = "/esoui/art/icons/housing_coh_inc_pileoskulls002.dds",
-		[3] = "Skulls, Heap",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5287] = 
-	{
-		[1] = 130226,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Carcass, Hanging Deer",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5288] = 
-	{
-		[1] = 130227,
-		[2] = "/esoui/art/icons/housing_gen_cmp_primativeleantoo002.dds",
-		[3] = "Witches' Tent, Lean-To",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5289] = 
-	{
-		[1] = 130228,
-		[2] = "/esoui/art/icons/housing_bre_inc_book_closed002.dds",
-		[3] = "The Witches of Hag Fen",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5290] = 
-	{
-		[1] = 130229,
-		[2] = "/esoui/art/icons/housing_tre_dec_sfcypressdead010.dds",
-		[3] = "Tree, Wretched Cypress",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5291] = 
-	{
-		[1] = 130230,
-		[2] = "/esoui/art/icons/housing_tre_dec_sfcypressstump001.dds",
-		[3] = "Stump, Wretched Cypress",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5292] = 
-	{
-		[1] = 130247,
-		[2] = "/esoui/art/icons/housing_tre_dec_sfcypress004.dds",
-		[3] = "Tree, Fetid Cypress",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5293] = 
-	{
-		[1] = 130248,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Log, Rotten",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5294] = 
-	{
-		[1] = 130249,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Tree, Rotten Cypress",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5295] = 
-	{
-		[1] = 130250,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Tree, Fallen Pine",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5296] = 
-	{
-		[1] = 130305,
-		[2] = "/esoui/art/icons/housing_rok_mos_tanlgt005.dds",
-		[3] = "Stone, Mossy Swamp",
-		[4] = 1,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5297] = 
-	{
-		[1] = 130306,
-		[2] = "/esoui/art/icons/housing_rok_mos_tansmall009.dds",
-		[3] = "Stones, Gray Swampy",
-		[4] = 1,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5298] = 
-	{
-		[1] = 130307,
-		[2] = "/esoui/art/icons/housing_rok_mos_tancluslgt005.dds",
-		[3] = "Rocks, Swampy Slab",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5299] = 
-	{
-		[1] = 130308,
-		[2] = "/esoui/art/icons/housing_rok_mos_tansmall011.dds",
-		[3] = "Stone, Rough Swamp",
-		[4] = 1,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5300] = 
-	{
-		[1] = 130309,
-		[2] = "/esoui/art/icons/housing_tre_ded_stuntedoakcluster003.dds",
-		[3] = "Boulder, Swampy Growth",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5301] = 
-	{
-		[1] = 130310,
-		[2] = "/esoui/art/icons/housing_tre_ded_marsh002.dds",
-		[3] = "Tree, Dead Marsh",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5302] = 
-	{
-		[1] = 130311,
-		[2] = "/esoui/art/icons/housing_tre_ded_marsh001.dds",
-		[3] = "Tree, Dead Swamp",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5303] = 
-	{
-		[1] = 130312,
-		[2] = "/esoui/art/icons/housing_tre_eve_vrdlimberpine007.dds",
-		[3] = "Tree, Dead Pine",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5304] = 
-	{
-		[1] = 130313,
-		[2] = "/esoui/art/icons/housing_tre_ded_marsh008.dds",
-		[3] = "Tree, Gnarled Marsh",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5305] = 
-	{
-		[1] = 130314,
-		[2] = "/esoui/art/icons/housing_tre_ded_marsh007.dds",
-		[3] = "Tree, Withered Marsh",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5306] = 
-	{
-		[1] = 130315,
-		[2] = "/esoui/art/icons/housing_tre_ded_marsh003.dds",
-		[3] = "Tree, Ancient Rotten",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5307] = 
-	{
-		[1] = 130273,
-		[2] = "/esoui/art/icons/housing_rok_vol_coldharbor001.dds",
-		[3] = "Boulder, Coldharbour Fan",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5308] = 
-	{
-		[1] = 130274,
-		[2] = "/esoui/art/icons/housing_rok_vol_coldharbor_med002.dds",
-		[3] = "Boulder, Coldharbour Shard",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5309] = 
-	{
-		[1] = 130275,
-		[2] = "/esoui/art/icons/housing_rok_vol_chsmallpointed001.dds",
-		[3] = "Boulder, Coldharbour Spikes",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5310] = 
-	{
-		[1] = 130276,
-		[2] = "/esoui/art/icons/housing_rok_vol_coldharbor_grp003.dds",
-		[3] = "Rocks, Coldharbour Cluster",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5311] = 
-	{
-		[1] = 130277,
-		[2] = "/esoui/art/icons/housing_tre_ded_coldharbormb004.dds",
-		[3] = "Tree, Towering Withered",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5312] = 
-	{
-		[1] = 130278,
-		[2] = "/esoui/art/icons/housing_tre_ded_coldharbormb002.dds",
-		[3] = "Tree, Strong Withered",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5313] = 
-	{
-		[1] = 130279,
-		[2] = "/esoui/art/icons/housing_tre_ded_coldharbor004.dds",
-		[3] = "Tree, Petrified Ashen",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5314] = 
-	{
-		[1] = 130280,
-		[2] = "/esoui/art/icons/housing_tre_ded_coldharbor007.dds",
-		[3] = "Sapling, Petrified Ashen",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5315] = 
-	{
-		[1] = 130281,
-		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk001.dds",
-		[3] = "Coldharbour Glowstalk, Towering",
+		[1] = 84127,
+		[2] = "/esoui/art/icons/dyestamp_dec113.dds",
+		[3] = "Frosted: Frosty Patina",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5316] = 
+	[1164] = 
 	{
-		[1] = 130282,
-		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk002.dds",
-		[3] = "Coldharbour Glowstalk, Strong",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5317] = 
-	{
-		[1] = 130283,
-		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk004.dds",
-		[3] = "Coldharbour Glowstalk, Sprout",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5318] = 
-	{
-		[1] = 130284,
-		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk007.dds",
-		[3] = "Coldharbour Glowstalk, Seedlings",
+		[1] = 83999,
+		[2] = "/esoui/art/icons/dyestamp_dec114.dds",
+		[3] = "Frosted: Ghostwalker",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5319] = 
+	[1165] = 
 	{
-		[1] = 130285,
-		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk003.dds",
-		[3] = "Coldharbour Glowstalk, Young",
-		[4] = 4,
+		[1] = 84291,
+		[2] = "/esoui/art/icons/dyestamp_dec115.dds",
+		[3] = "Frosted: Alabaster and Grape",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5320] = 
+	[1166] = 
 	{
-		[1] = 130316,
-		[2] = "/esoui/art/icons/housing_veg_crp_pumpkinlarge001.dds",
-		[3] = "Pumpkin, Frail",
-		[4] = 3,
+		[1] = 84314,
+		[2] = "/esoui/art/icons/dyestamp_dec116.dds",
+		[3] = "Frosted: Gray Linens",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5321] = 
+	[1167] = 
 	{
-		[1] = 130317,
-		[2] = "/esoui/art/icons/housing_veg_crp_pumpkinlarge002.dds",
-		[3] = "Pumpkin, Sickly",
-		[4] = 3,
+		[1] = 83712,
+		[2] = "/esoui/art/icons/dyestamp_dec117.dds",
+		[3] = "Frosted: Fabric of Steel",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5322] = 
+	[1168] = 
 	{
-		[1] = 130318,
-		[2] = "/esoui/art/icons/housing_veg_crp_wheatstalks006.dds",
-		[3] = "Crop, Wheat Pile",
-		[4] = 2,
+		[1] = 84514,
+		[2] = "/esoui/art/icons/dyestamp_dec118.dds",
+		[3] = "Frosted: Cold Twilight",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1169] = 
+	{
+		[1] = 84285,
+		[2] = "/esoui/art/icons/dyestamp_dec81.dds",
+		[3] = "Misty: Shadows Dance",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1170] = 
+	{
+		[1] = 84141,
+		[2] = "/esoui/art/icons/dyestamp_dec82.dds",
+		[3] = "Misty: Gray Becomes You",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1171] = 
+	{
+		[1] = 84069,
+		[2] = "/esoui/art/icons/dyestamp_dec83.dds",
+		[3] = "Misty: Ominous Clouds",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1172] = 
+	{
+		[1] = 84445,
+		[2] = "/esoui/art/icons/dyestamp_dec84.dds",
+		[3] = "Misty: Wreathed in Smoke",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1173] = 
+	{
+		[1] = 84018,
+		[2] = "/esoui/art/icons/dyestamp_dec85.dds",
+		[3] = "Misty: Winter in Windhelm",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1174] = 
+	{
+		[1] = 83724,
+		[2] = "/esoui/art/icons/dyestamp_dec86.dds",
+		[3] = "Misty: Markarth Pavement",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1175] = 
+	{
+		[1] = 83651,
+		[2] = "/esoui/art/icons/dyestamp_dec87.dds",
+		[3] = "Misty: The Gray Cat's Fur",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1176] = 
+	{
+		[1] = 83675,
+		[2] = "/esoui/art/icons/dyestamp_dec88.dds",
+		[3] = "Misty: Falkreath Headstones",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1177] = 
+	{
+		[1] = 83648,
+		[2] = "/esoui/art/icons/dyestamp_dec89.dds",
+		[3] = "Misty: Lies Told in the Dark",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1178] = 
+	{
+		[1] = 84152,
+		[2] = "/esoui/art/icons/dyestamp_dec810.dds",
+		[3] = "Misty: Cryptic Grays",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1179] = 
+	{
+		[1] = 84231,
+		[2] = "/esoui/art/icons/dyestamp_dec811.dds",
+		[3] = "Misty: Rime and Bark",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1180] = 
+	{
+		[1] = 83583,
+		[2] = "/esoui/art/icons/dyestamp_dec812.dds",
+		[3] = "Misty: Fustian Flax",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1181] = 
+	{
+		[1] = 83931,
+		[2] = "/esoui/art/icons/dyestamp_dec813.dds",
+		[3] = "Misty: High-Contrast Concept",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1182] = 
+	{
+		[1] = 84029,
+		[2] = "/esoui/art/icons/dyestamp_dec814.dds",
+		[3] = "Misty: Ashen Spectrum",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1183] = 
+	{
+		[1] = 83714,
+		[2] = "/esoui/art/icons/dyestamp_dec815.dds",
+		[3] = "Misty: Pearly Pear",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1184] = 
+	{
+		[1] = 84386,
+		[2] = "/esoui/art/icons/dyestamp_dec816.dds",
+		[3] = "Misty: Almost Pallid",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1185] = 
+	{
+		[1] = 84133,
+		[2] = "/esoui/art/icons/dyestamp_dec817.dds",
+		[3] = "Misty: Imperial Cadet",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1186] = 
+	{
+		[1] = 84430,
+		[2] = "/esoui/art/icons/dyestamp_dec818.dds",
+		[3] = "Misty: Thunderhead",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1187] = 
+	{
+		[1] = 84190,
+		[2] = "/esoui/art/icons/dyestamp_dec151.dds",
+		[3] = "Darkening: Night in Necrom",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1188] = 
+	{
+		[1] = 83580,
+		[2] = "/esoui/art/icons/dyestamp_dec152.dds",
+		[3] = "Darkening: Narsis Navy",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1189] = 
+	{
+		[1] = 83588,
+		[2] = "/esoui/art/icons/dyestamp_dec153.dds",
+		[3] = "Darkening: Dark of the Moons",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1190] = 
+	{
+		[1] = 83943,
+		[2] = "/esoui/art/icons/dyestamp_dec154.dds",
+		[3] = "Darkening: Curse the Darkness",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1191] = 
+	{
+		[1] = 83820,
+		[2] = "/esoui/art/icons/dyestamp_dec155.dds",
+		[3] = "Darkening: Naval Dress Uniform",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1192] = 
+	{
+		[1] = 84353,
+		[2] = "/esoui/art/icons/dyestamp_dec156.dds",
+		[3] = "Darkening: Winterhold Slate",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1193] = 
+	{
+		[1] = 83759,
+		[2] = "/esoui/art/icons/dyestamp_dec157.dds",
+		[3] = "Darkening: Grievous Twilight",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1194] = 
+	{
+		[1] = 84481,
+		[2] = "/esoui/art/icons/dyestamp_dec158.dds",
+		[3] = "Darkening: Bluebottle Blush",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1195] = 
+	{
+		[1] = 84021,
+		[2] = "/esoui/art/icons/dyestamp_dec159.dds",
+		[3] = "Darkening: Dress Blues",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1196] = 
+	{
+		[1] = 84428,
+		[2] = "/esoui/art/icons/dyestamp_dec1510.dds",
+		[3] = "Darkening: Cold Reception",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1197] = 
+	{
+		[1] = 83956,
+		[2] = "/esoui/art/icons/dyestamp_dec1511.dds",
+		[3] = "Darkening: Widow's Weeds",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1198] = 
+	{
+		[1] = 83834,
+		[2] = "/esoui/art/icons/dyestamp_dec1512.dds",
+		[3] = "Darkening: Dark Eclipse",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1199] = 
+	{
+		[1] = 84431,
+		[2] = "/esoui/art/icons/dyestamp_dec1513.dds",
+		[3] = "Darkening: Furtive Shadow",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1200] = 
+	{
+		[1] = 83892,
+		[2] = "/esoui/art/icons/dyestamp_dec1514.dds",
+		[3] = "Darkening: Black Mantra",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1201] = 
+	{
+		[1] = 84148,
+		[2] = "/esoui/art/icons/dyestamp_dec1515.dds",
+		[3] = "Darkening: Night's Depth",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1202] = 
+	{
+		[1] = 84466,
+		[2] = "/esoui/art/icons/dyestamp_dec1516.dds",
+		[3] = "Darkening: Woolly Lichen",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1203] = 
+	{
+		[1] = 83830,
+		[2] = "/esoui/art/icons/dyestamp_dec1517.dds",
+		[3] = "Darkening: Gray Expectance",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1204] = 
+	{
+		[1] = 84265,
+		[2] = "/esoui/art/icons/dyestamp_dec1518.dds",
+		[3] = "Darkening: Gray Winter's Day",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1205] = 
+	{
+		[1] = 83987,
+		[2] = "/esoui/art/icons/dyestamp_dec221.dds",
+		[3] = "Elegiac: Night Hyacinth",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1206] = 
+	{
+		[1] = 84490,
+		[2] = "/esoui/art/icons/dyestamp_dec222.dds",
+		[3] = "Elegiac: Footman's Livery",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1207] = 
+	{
+		[1] = 83624,
+		[2] = "/esoui/art/icons/dyestamp_dec223.dds",
+		[3] = "Elegiac: Tarbuckle",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1208] = 
+	{
+		[1] = 83601,
+		[2] = "/esoui/art/icons/dyestamp_dec224.dds",
+		[3] = "Elegiac: Deep Night Sky",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1209] = 
+	{
+		[1] = 83765,
+		[2] = "/esoui/art/icons/dyestamp_dec225.dds",
+		[3] = "Elegiac: Mortician's Morndas",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1210] = 
+	{
+		[1] = 84508,
+		[2] = "/esoui/art/icons/dyestamp_dec226.dds",
+		[3] = "Elegiac: Dusk in Dawnstar",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1211] = 
+	{
+		[1] = 83570,
+		[2] = "/esoui/art/icons/dyestamp_dec227.dds",
+		[3] = "Elegiac: Dunmeri Eyeliner",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1212] = 
+	{
+		[1] = 83540,
+		[2] = "/esoui/art/icons/dyestamp_dec228.dds",
+		[3] = "Elegiac: Filled Soul Gem",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1213] = 
+	{
+		[1] = 83945,
+		[2] = "/esoui/art/icons/dyestamp_dec229.dds",
+		[3] = "Elegiac: Purple Toupee",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1214] = 
+	{
+		[1] = 83572,
+		[2] = "/esoui/art/icons/dyestamp_dec2210.dds",
+		[3] = "Elegiac: Fruit of the Vine",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1215] = 
+	{
+		[1] = 83720,
+		[2] = "/esoui/art/icons/dyestamp_dec2211.dds",
+		[3] = "Elegiac: Royal Ink Pigments",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1216] = 
+	{
+		[1] = 83749,
+		[2] = "/esoui/art/icons/dyestamp_dec2212.dds",
+		[3] = "Elegiac: Darkened Accents",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1217] = 
+	{
+		[1] = 83710,
+		[2] = "/esoui/art/icons/dyestamp_dec2213.dds",
+		[3] = "Elegiac: Pitch Purple",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1218] = 
+	{
+		[1] = 84319,
+		[2] = "/esoui/art/icons/dyestamp_dec2214.dds",
+		[3] = "Elegiac: Ordinator's Opinion",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1219] = 
+	{
+		[1] = 83818,
+		[2] = "/esoui/art/icons/dyestamp_dec2215.dds",
+		[3] = "Elegiac: Woven Darkness",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1220] = 
+	{
+		[1] = 83640,
+		[2] = "/esoui/art/icons/dyestamp_dec2216.dds",
+		[3] = "Elegiac: Stone and Sand",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1221] = 
+	{
+		[1] = 83691,
+		[2] = "/esoui/art/icons/dyestamp_dec2217.dds",
+		[3] = "Elegiac: Princely Gray",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1222] = 
+	{
+		[1] = 83667,
+		[2] = "/esoui/art/icons/dyestamp_dec2218.dds",
+		[3] = "Elegiac: Fancy Granite",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1223] = 
+	{
+		[1] = 84096,
+		[2] = "/esoui/art/icons/dyestamp_dec291.dds",
+		[3] = "Magnanimous: Dancer in Webbing",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1224] = 
+	{
+		[1] = 83607,
+		[2] = "/esoui/art/icons/dyestamp_dec292.dds",
+		[3] = "Magnanimous: Fuschia Cloud",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1225] = 
+	{
+		[1] = 83903,
+		[2] = "/esoui/art/icons/dyestamp_dec293.dds",
+		[3] = "Magnanimous: Evening Star Bride",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1226] = 
+	{
+		[1] = 83990,
+		[2] = "/esoui/art/icons/dyestamp_dec294.dds",
+		[3] = "Magnanimous: Livid Satin",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -8714,48 +8705,48 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5335] = 
+	[1239] = 
 	{
-		[1] = 130188,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Statuette of Molag Bal, Lord of Brutality",
+		[1] = 84506,
+		[2] = "/esoui/art/icons/dyestamp_dec2917.dds",
+		[3] = "Magnanimous: Adept's Apprentice",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5336] = 
+	[1240] = 
 	{
-		[1] = 130192,
-		[2] = "/esoui/art/icons/housing_vrd_exc_statuesheogorath001.dds",
-		[3] = "Statue of Sheogorath, the Madgod",
+		[1] = 83645,
+		[2] = "/esoui/art/icons/dyestamp_dec2918.dds",
+		[3] = "Magnanimous: Mousey Modesty",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5337] = 
+	[1241] = 
 	{
-		[1] = 130090,
-		[2] = "/esoui/art/icons/housing_cld_lsb_wallsconce001.dds",
-		[3] = "Daedric Sconce, Molag Bal",
-		[4] = 4,
+		[1] = 83617,
+		[2] = "/esoui/art/icons/dyestamp_jan51.dds",
+		[3] = "Golden: Golden Fiancee",
+		[4] = 5,
 		[5] = 0,
-		[6] = 3,
+		[6] = 1,
 	},
-	[5338] = 
+	[1242] = 
 	{
-		[1] = 130083,
-		[2] = "/esoui/art/icons/housing_cld_inc_stoneblock001.dds",
-		[3] = "Daedric Block, Seat",
-		[4] = 4,
+		[1] = 84013,
+		[2] = "/esoui/art/icons/dyestamp_jan52.dds",
+		[3] = "Golden: Chimer-That-Was",
+		[4] = 5,
 		[5] = 0,
-		[6] = 3,
+		[6] = 1,
 	},
-	[5339] = 
+	[1243] = 
 	{
-		[1] = 130319,
-		[2] = "/esoui/art/icons/housing_veg_crp_wheatstalks007.dds",
-		[3] = "Crop, Wheat Stack",
-		[4] = 2,
+		[1] = 83869,
+		[2] = "/esoui/art/icons/dyestamp_jan53.dds",
+		[3] = "Golden: Pearls and Gold",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -8768,165 +8759,165 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5341] = 
+	[1245] = 
 	{
-		[1] = 130321,
-		[2] = "/esoui/art/icons/housing_bre_cmp_campfireringed001.dds",
-		[3] = "Campfire, Tended",
-		[4] = 3,
+		[1] = 83918,
+		[2] = "/esoui/art/icons/dyestamp_jan55.dds",
+		[3] = "Golden: Philosopher's Stone",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5342] = 
+	[1246] = 
 	{
-		[1] = 130322,
-		[2] = "/esoui/art/icons/housing_bre_exc_scythe001.dds",
-		[3] = "Tool, Harvest Scythe",
-		[4] = 3,
+		[1] = 83619,
+		[2] = "/esoui/art/icons/dyestamp_jan56.dds",
+		[3] = "Golden: Alchemist's Attire",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5343] = 
+	[1247] = 
 	{
-		[1] = 130323,
-		[2] = "/esoui/art/icons/housing_bre_lsb_torchelaborate001.dds",
-		[3] = "Witches Sconce, Grated Iron",
-		[4] = 3,
+		[1] = 84134,
+		[2] = "/esoui/art/icons/dyestamp_jan57.dds",
+		[3] = "Golden: Wealth and Jaundice",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5344] = 
+	[1248] = 
 	{
-		[1] = 130324,
-		[2] = "/esoui/art/icons/housing_cre_lsb_skullpole001.dds",
-		[3] = "Witches Totem, Basic Warning",
-		[4] = 3,
+		[1] = 84395,
+		[2] = "/esoui/art/icons/dyestamp_jan58.dds",
+		[3] = "Golden: Coffers of Gold",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5345] = 
+	[1249] = 
 	{
-		[1] = 130325,
-		[2] = "/esoui/art/icons/housing_cre_lsb_skullpole002.dds",
-		[3] = "Witches Totem, Emphatic Warning",
-		[4] = 4,
+		[1] = 83625,
+		[2] = "/esoui/art/icons/dyestamp_jan59.dds",
+		[3] = "Golden: The Walking Ingot",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5346] = 
+	[1250] = 
 	{
-		[1] = 130326,
-		[2] = "/esoui/art/icons/housing_gen_exc_lampstand001.dds",
-		[3] = "Witches Brazier, Primitive Log",
-		[4] = 3,
+		[1] = 83871,
+		[2] = "/esoui/art/icons/dyestamp_jan510.dds",
+		[3] = "Golden: Noble Metals",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5347] = 
+	[1251] = 
 	{
-		[1] = 130327,
-		[2] = "/esoui/art/icons/housing_gen_exc_ogretotemstand001.dds",
-		[3] = "Witches Totem, Wooden Rack",
-		[4] = 3,
+		[1] = 84320,
+		[2] = "/esoui/art/icons/dyestamp_jan511.dds",
+		[3] = "Golden: Snow on the Senche",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5348] = 
+	[1252] = 
 	{
-		[1] = 130328,
-		[2] = "/esoui/art/icons/housing_gen_exc_ramskull001.dds",
-		[3] = "Witches Skull, Horned Ram",
-		[4] = 4,
+		[1] = 84423,
+		[2] = "/esoui/art/icons/dyestamp_jan512.dds",
+		[3] = "Golden: Paper and Leather",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5349] = 
+	[1253] = 
 	{
-		[1] = 130329,
-		[2] = "/esoui/art/icons/housing_gen_exc_rocklampb001.dds",
-		[3] = "Primal Brazier, Rock Slab",
-		[4] = 4,
+		[1] = 83713,
+		[2] = "/esoui/art/icons/dyestamp_jan513.dds",
+		[3] = "Golden: A Distinguished Pallor",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5350] = 
+	[1254] = 
 	{
-		[1] = 130330,
-		[2] = "/esoui/art/icons/housing_gen_lsb_torch002.dds",
-		[3] = "Rough Torch, Standing",
-		[4] = 2,
+		[1] = 83632,
+		[2] = "/esoui/art/icons/dyestamp_jan514.dds",
+		[3] = "Golden: Frosty Gravel",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5351] = 
+	[1255] = 
 	{
-		[1] = 130332,
-		[2] = "/esoui/art/icons/housing_uni_exc_dreamcatcher001.dds",
-		[3] = "Witches Totem, Bone Charms",
-		[4] = 4,
+		[1] = 84201,
+		[2] = "/esoui/art/icons/dyestamp_jan515.dds",
+		[3] = "Golden: Magnus' New Life",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5352] = 
+	[1256] = 
 	{
-		[1] = 130333,
-		[2] = "/esoui/art/icons/housing_uni_exc_dreamcatcher002.dds",
-		[3] = "Witches Totem, Ribcage Charms",
-		[4] = 4,
+		[1] = 84381,
+		[2] = "/esoui/art/icons/dyestamp_jan516.dds",
+		[3] = "Golden: Unexpectedly Somber",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5353] = 
+	[1257] = 
 	{
-		[1] = 130334,
-		[2] = "/esoui/art/icons/housing_uni_exc_reachantlertotem001.dds",
-		[3] = "Witches Totem, Antler Charms",
-		[4] = 4,
+		[1] = 84293,
+		[2] = "/esoui/art/icons/dyestamp_jan517.dds",
+		[3] = "Golden: Lead and Haze",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5354] = 
+	[1258] = 
 	{
-		[1] = 130336,
-		[2] = "/esoui/art/icons/housing_gen_exc_hagravenhead001.dds",
-		[3] = "Witches Remains, Hagraven",
-		[4] = 4,
+		[1] = 84187,
+		[2] = "/esoui/art/icons/dyestamp_jan518.dds",
+		[3] = "Golden: The Unnoticed Servant",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5355] = 
+	[1259] = 
 	{
-		[1] = 130337,
-		[2] = "/esoui/art/icons/housing_red_exc_yokudancorpse001.dds",
-		[3] = "Witches Corpse, Wrapped",
-		[4] = 4,
+		[1] = 83582,
+		[2] = "/esoui/art/icons/dyestamp_jan121.dds",
+		[3] = "Molten: Ochre Penumbra",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5356] = 
+	[1260] = 
 	{
-		[1] = 130338,
-		[2] = "/esoui/art/icons/housing_uni_exc_hagravenskullpile001.dds",
-		[3] = "Witches Bones, Offering",
-		[4] = 3,
+		[1] = 83577,
+		[2] = "/esoui/art/icons/dyestamp_jan122.dds",
+		[3] = "Molten: Rusty Blade",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5357] = 
+	[1261] = 
 	{
-		[1] = 130339,
-		[2] = "/esoui/art/icons/housing_uni_exc_reachmantotem001.dds",
-		[3] = "Witches Totem, Twisted Vines and Skull",
-		[4] = 3,
+		[1] = 83637,
+		[2] = "/esoui/art/icons/dyestamp_jan123.dds",
+		[3] = "Molten: Hobnailed Boot",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5358] = 
+	[1262] = 
 	{
-		[1] = 130340,
-		[2] = "/esoui/art/icons/housing_uni_exc_reachmantotem002.dds",
-		[3] = "Totem, Gnarled Vines and Skull",
-		[4] = 3,
+		[1] = 83827,
+		[2] = "/esoui/art/icons/dyestamp_jan124.dds",
+		[3] = "Molten: Gray as Stendarr's Sermon",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -9200,155 +9191,155 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5389] = 
+	[1293] = 
 	{
-		[1] = 130201,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasedoorsmall001.dds",
-		[3] = "Ayleid Grate, Small",
-		[4] = 4,
-		[5] = 0,
-		[6] = 2,
-	},
-	[5390] = 
-	{
-		[1] = 130202,
-		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasedoorlarge002.dds",
-		[3] = "Ayleid Grate, Tall",
-		[4] = 4,
-		[5] = 0,
-		[6] = 2,
-	},
-	[5391] = 
-	{
-		[1] = 130203,
-		[2] = "/esoui/art/icons/housing_ayl_duc_brazierb001.dds",
-		[3] = "Ayleid Brazier, Welkynd Holder",
-		[4] = 3,
-		[5] = 0,
-		[6] = 2,
-	},
-	[5392] = 
-	{
-		[1] = 130204,
-		[2] = "/esoui/art/icons/housing_ayl_duc_welkydcluster01.dds",
-		[3] = "Welkynd Stones, Glowing",
-		[4] = 4,
-		[5] = 0,
-		[6] = 6,
-	},
-	[5393] = 
-	{
-		[1] = 130214,
-		[2] = "/esoui/art/icons/housing_ayl_duc_braziera001.dds",
-		[3] = "Ayleid Brazier, Fiery",
-		[4] = 4,
-		[5] = 0,
-		[6] = 2,
-	},
-	[5394] = 
-	{
-		[1] = 131420,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Shrub, Glowing Thistle",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5395] = 
-	{
-		[1] = 131421,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Sapling, Withered Thicket",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5396] = 
-	{
-		[1] = 131422,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Flower Patch, Glowstalks",
+		[1] = 83980,
+		[2] = "/esoui/art/icons/dyestamp_jan1917.dds",
+		[3] = "Radiant: Last Melon in the Basket",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5397] = 
+	[1294] = 
 	{
-		[1] = 131423,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Mists of the Hag Fen",
+		[1] = 84392,
+		[2] = "/esoui/art/icons/dyestamp_jan1918.dds",
+		[3] = "Radiant: Gray Tinged with Gold",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5398] = 
+	[1295] = 
 	{
-		[1] = 131424,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Fogs of the Hag Fen",
+		[1] = 83843,
+		[2] = "/esoui/art/icons/dyestamp_jan261.dds",
+		[3] = "Metallic: Iron Filings",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5399] = 
+	[1296] = 
 	{
-		[1] = 130288,
-		[2] = "/esoui/art/icons/housing_tre_eve_vrdlimberpine_fallentree001.dds",
-		[3] = "Log, Fallen Pine",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5400] = 
-	{
-		[1] = 130289,
-		[2] = "/esoui/art/icons/housing_tre_trp_mrkcypress006.dds",
-		[3] = "Stump, Mossy Cypress",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5401] = 
-	{
-		[1] = 131425,
-		[2] = "/esoui/art/icons/housing_orc_cmp_tent001.dds",
-		[3] = "Orc Tent, Soldier's",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5402] = 
-	{
-		[1] = 130083,
-		[2] = "/esoui/art/icons/housing_cld_inc_stoneblock001.dds",
-		[3] = "Daedric Block, Seat",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5403] = 
-	{
-		[1] = 130083,
-		[2] = "/esoui/art/icons/housing_cld_inc_stoneblock001.dds",
-		[3] = "Daedric Block, Seat",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5404] = 
-	{
-		[1] = 130009,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 51: Hlaalu Style",
+		[1] = 83862,
+		[2] = "/esoui/art/icons/dyestamp_jan262.dds",
+		[3] = "Metallic: Stone Watchtower",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5405] = 
+	[1297] = 
 	{
-		[1] = 130025,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 52: Redoran Style",
+		[1] = 83833,
+		[2] = "/esoui/art/icons/dyestamp_jan263.dds",
+		[3] = "Metallic: Graveyard Grays",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1298] = 
+	{
+		[1] = 83562,
+		[2] = "/esoui/art/icons/dyestamp_jan264.dds",
+		[3] = "Metallic: Dependable Woollies",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1299] = 
+	{
+		[1] = 84001,
+		[2] = "/esoui/art/icons/dyestamp_jan265.dds",
+		[3] = "Metallic: Accountant's Heart Gray",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1300] = 
+	{
+		[1] = 84236,
+		[2] = "/esoui/art/icons/dyestamp_jan266.dds",
+		[3] = "Metallic: The Fog of Sleep",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1301] = 
+	{
+		[1] = 84076,
+		[2] = "/esoui/art/icons/dyestamp_jan267.dds",
+		[3] = "Metallic: Sword and Scabbard",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1302] = 
+	{
+		[1] = 84510,
+		[2] = "/esoui/art/icons/dyestamp_jan268.dds",
+		[3] = "Metallic: Mephala's Towels",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1303] = 
+	{
+		[1] = 83762,
+		[2] = "/esoui/art/icons/dyestamp_jan269.dds",
+		[3] = "Metallic: Forgemaster's Apron",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1304] = 
+	{
+		[1] = 84098,
+		[2] = "/esoui/art/icons/dyestamp_jan2610.dds",
+		[3] = "Metallic: Metallurgy",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1305] = 
+	{
+		[1] = 84468,
+		[2] = "/esoui/art/icons/dyestamp_jan2611.dds",
+		[3] = "Metallic: Ironbound Oak",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1306] = 
+	{
+		[1] = 84485,
+		[2] = "/esoui/art/icons/dyestamp_jan2612.dds",
+		[3] = "Metallic: Muddy Puddle",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1307] = 
+	{
+		[1] = 84020,
+		[2] = "/esoui/art/icons/dyestamp_jan2613.dds",
+		[3] = "Metallic: The Butcher's Cleaver",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1308] = 
+	{
+		[1] = 84235,
+		[2] = "/esoui/art/icons/dyestamp_jan2614.dds",
+		[3] = "Metallic: The Mysteries of Metal",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1309] = 
+	{
+		[1] = 84354,
+		[2] = "/esoui/art/icons/dyestamp_jan2615.dds",
+		[3] = "Metallic: Slate Roof and Tiles",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -9398,192 +9389,192 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[5411] = 
+	[1315] = 
 	{
-		[1] = 61080,
-		[2] = "/esoui/art/icons/store_soulgem_001.dds",
-		[3] = "Crown Soul Gem",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5412] = 
-	{
-		[1] = 61079,
-		[2] = "/esoui/art/icons/store_repairkit_002.dds",
-		[3] = "Crown Repair Kit",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5413] = 
-	{
-		[1] = 132221,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Lily Pads, Swamp Cluster",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5414] = 
-	{
-		[1] = 132205,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Tree, Hardy Cedar",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5415] = 
-	{
-		[1] = 132206,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Tree, Towering Mountain Pine",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5416] = 
-	{
-		[1] = 132207,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Tree, Ancient Mountain Pine",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5417] = 
-	{
-		[1] = 132208,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Tree, Foothills Pine",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5418] = 
-	{
-		[1] = 132210,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Tree, Ancient Cedar",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5419] = 
-	{
-		[1] = 132211,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Ferns, Mountain Cluster",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5420] = 
-	{
-		[1] = 132212,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Shrub, Mountain Thistle",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5421] = 
-	{
-		[1] = 132212,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Shrub, Mountain Thistle",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5422] = 
-	{
-		[1] = 132213,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Boulder, Granite Chunk",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5423] = 
-	{
-		[1] = 132215,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Boulder, Granite Cap",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5424] = 
-	{
-		[1] = 132217,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Boulder, Granite Chunk",
-		[4] = 3,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5425] = 
-	{
-		[1] = 132218,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Stones, Granite Pair",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5426] = 
-	{
-		[1] = 132219,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Stones, Granite Group",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5427] = 
-	{
-		[1] = 132220,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Stones, Granite Cluster",
-		[4] = 2,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5428] = 
-	{
-		[1] = 118282,
-		[2] = "/esoui/art/icons/housing_orc_exc_geese002.dds",
-		[3] = "Carcass, Fresh Goose",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5429] = 
-	{
-		[1] = 118287,
-		[2] = "/esoui/art/icons/housing_orc_exc_rabbit002.dds",
-		[3] = "Carcass, Brown Hare",
-		[4] = 4,
-		[5] = 0,
-		[6] = 1,
-	},
-	[5430] = 
-	{
-		[1] = 132165,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Hlaalu Bath Tub, Empty Basin",
+		[1] = 84010,
+		[2] = "/esoui/art/icons/dyestamp_feb23.dds",
+		[3] = "Sanguinary: Snowflowers",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[5431] = 
+	[1316] = 
 	{
-		[1] = 132214,
-		[2] = "/esoui/art/icons/icon_missing.dds",
-		[3] = "Boulder, Granite Slab",
-		[4] = 3,
+		[1] = 83628,
+		[2] = "/esoui/art/icons/dyestamp_feb24.dds",
+		[3] = "Sanguinary: Kyne Priest's Cassock",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1317] = 
+	{
+		[1] = 83599,
+		[2] = "/esoui/art/icons/dyestamp_feb25.dds",
+		[3] = "Sanguinary: The Sun Sets Early",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1318] = 
+	{
+		[1] = 84338,
+		[2] = "/esoui/art/icons/dyestamp_feb26.dds",
+		[3] = "Sanguinary: The Death of Love",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1319] = 
+	{
+		[1] = 83939,
+		[2] = "/esoui/art/icons/dyestamp_feb27.dds",
+		[3] = "Sanguinary: Ruby and Rose",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1320] = 
+	{
+		[1] = 84483,
+		[2] = "/esoui/art/icons/dyestamp_feb28.dds",
+		[3] = "Sanguinary: Troll's Red Thoughts",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1321] = 
+	{
+		[1] = 84005,
+		[2] = "/esoui/art/icons/dyestamp_feb29.dds",
+		[3] = "Sanguinary: Hothouse Flowers",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1322] = 
+	{
+		[1] = 83539,
+		[2] = "/esoui/art/icons/dyestamp_feb210.dds",
+		[3] = "Sanguinary: Dried Bloodstains",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1323] = 
+	{
+		[1] = 84453,
+		[2] = "/esoui/art/icons/dyestamp_feb211.dds",
+		[3] = "Sanguinary: Wine on the Snow",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1324] = 
+	{
+		[1] = 84348,
+		[2] = "/esoui/art/icons/dyestamp_feb212.dds",
+		[3] = "Sanguinary: Hoarfrost and Rose Hips",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1325] = 
+	{
+		[1] = 83921,
+		[2] = "/esoui/art/icons/dyestamp_feb213.dds",
+		[3] = "Sanguinary: Peppermint Stick",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1326] = 
+	{
+		[1] = 84286,
+		[2] = "/esoui/art/icons/dyestamp_feb214.dds",
+		[3] = "Sanguinary: Sun's Dawn Glistening",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1327] = 
+	{
+		[1] = 84372,
+		[2] = "/esoui/art/icons/dyestamp_feb215.dds",
+		[3] = "Sanguinary: Surgeon's Gown",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1328] = 
+	{
+		[1] = 83863,
+		[2] = "/esoui/art/icons/dyestamp_feb216.dds",
+		[3] = "Sanguinary: Crypt Floor and Door",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1329] = 
+	{
+		[1] = 84049,
+		[2] = "/esoui/art/icons/dyestamp_feb217.dds",
+		[3] = "Sanguinary: Grim Festivity",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1330] = 
+	{
+		[1] = 83716,
+		[2] = "/esoui/art/icons/dyestamp_feb218.dds",
+		[3] = "Sanguinary: Next Door to Monochrome",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1331] = 
+	{
+		[1] = 84173,
+		[2] = "/esoui/art/icons/dyestamp_feb91.dds",
+		[3] = "Blushing: Blushing Darling",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1332] = 
+	{
+		[1] = 83664,
+		[2] = "/esoui/art/icons/dyestamp_feb92.dds",
+		[3] = "Blushing: Piglet and Bristles",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1333] = 
+	{
+		[1] = 84456,
+		[2] = "/esoui/art/icons/dyestamp_feb93.dds",
+		[3] = "Blushing: Purity Incarnate",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1334] = 
+	{
+		[1] = 84138,
+		[2] = "/esoui/art/icons/dyestamp_feb94.dds",
+		[3] = "Blushing: Snow and Ashes",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[1335] = 
+	{
+		[1] = 84147,
+		[2] = "/esoui/art/icons/dyestamp_feb95.dds",
+		[3] = "Blushing: Gray Remembrance",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -10292,7 +10283,7 @@ lib.MarkedIdToItemInfo = {
 	[1414] = 
 	{
 		[1] = 83541,
-		[2] = "/esoui/art/icons/dyestamp_twigsandblossoms.dds",
+		[2] = "/esoui/art/icons/dyestamp_twigsandblossoms.ddss",
 		[3] = "Sprouting: Twigs and Blossoms",
 		[4] = 5,
 		[5] = 0,
@@ -11810,6 +11801,96 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
+	[5679] = 
+	{
+		[1] = 134570,
+		[2] = "/esoui/art/icons/housing_orc_exc_bgsnowpile001.dds",
+		[3] = "Snow Pile",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5680] = 
+	{
+		[1] = 134571,
+		[2] = "/esoui/art/icons/housing_orc_exc_bgsnowpile002.dds",
+		[3] = "Snow Pile, Large",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5681] = 
+	{
+		[1] = 134572,
+		[2] = "/esoui/art/icons/housing_rok_gry_wrothsmalls009.dds",
+		[3] = "Stones, Snowswept Cluster",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5682] = 
+	{
+		[1] = 134573,
+		[2] = "/esoui/art/icons/housing_rok_gry_wrothsmalls003.dds",
+		[3] = "Stone, Snowswept Shard",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5683] = 
+	{
+		[1] = 134574,
+		[2] = "/esoui/art/icons/housing_rok_gry_wgrmedsnow007.dds",
+		[3] = "Boulder, Snowswept Peak",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5684] = 
+	{
+		[1] = 134575,
+		[2] = "/esoui/art/icons/housing_rok_gry_wgrmedsnow003.dds",
+		[3] = "Boulder, Snowswept Crag",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5685] = 
+	{
+		[1] = 134576,
+		[2] = "/esoui/art/icons/housing_orc_str_wtgthroneroomsconcesnow001.dds",
+		[3] = "Orcish Brazier, Snowswept Column",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5686] = 
+	{
+		[1] = 134577,
+		[2] = "/esoui/art/icons/housing_rok_aqa_wgriceflow004.dds",
+		[3] = "Ice Floe, Thin",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5687] = 
+	{
+		[1] = 134578,
+		[2] = "/esoui/art/icons/housing_rok_aqa_wgriceflow002.dds",
+		[3] = "Ice Floe, Thick",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5688] = 
+	{
+		[1] = 134579,
+		[2] = "/esoui/art/icons/housing_orc_duc_rubblepilemed001.dds",
+		[3] = "Rubble Pile, Worked Stone",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
 	[1599] = 
 	{
 		[1] = 82021,
@@ -11825,6 +11906,1293 @@ lib.MarkedIdToItemInfo = {
 		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
 		[3] = "Crown Crafting Motif 38: Draugr Style",
 		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5698] = 
+	{
+		[1] = 134250,
+		[2] = "/esoui/art/icons/housing_cwc_fur_housingtankhangingsphere001.dds",
+		[3] = "Fabrication Sphere, Inactive",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5699] = 
+	{
+		[1] = 134247,
+		[2] = "/esoui/art/icons/housing_cwc_inc_gemrecharger001.dds",
+		[3] = "Soul Gem Module, Experimental",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5700] = 
+	{
+		[1] = 134334,
+		[2] = "/esoui/art/icons/housing_cwc_fur_chair002.dds",
+		[3] = "Clockwork Chair, Reinforced",
+		[4] = 4,
+		[5] = 0,
+		[6] = 4,
+	},
+	[5701] = 
+	{
+		[1] = 134249,
+		[2] = "/esoui/art/icons/housing_uni_str_sothasilstatue001.dds",
+		[3] = "Sotha Sil, The Clockwork God",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5702] = 
+	{
+		[1] = 134248,
+		[2] = "/esoui/art/icons/housing_cwc_inc_sundial001.dds",
+		[3] = "Grand Mnemograph",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5703] = 
+	{
+		[1] = 134369,
+		[2] = "/esoui/art/icons/housing_cwc_lsb_lightconstruct001.dds",
+		[3] = "Clockwork Illuminator, Powered Capsule",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5704] = 
+	{
+		[1] = 134246,
+		[2] = "/esoui/art/icons/housing_cwc_fur_housingpodium002.dds",
+		[3] = "The Law of Gears",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5705] = 
+	{
+		[1] = 134258,
+		[2] = "/esoui/art/icons/housing_cra_fur_desk002.dds",
+		[3] = "Prayer to the Furious One",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5706] = 
+	{
+		[1] = 134259,
+		[2] = "/esoui/art/icons/housing_dae_exc_malacathstatue001.dds",
+		[3] = "Malacath, God of Oaths and Curses",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5707] = 
+	{
+		[1] = 115411,
+		[2] = "/esoui/art/icons/housing_nor_inc_bearrug001.dds",
+		[3] = "Nord Rug, Bearskin",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5708] = 
+	{
+		[1] = 134260,
+		[2] = "/esoui/art/icons/housing_orc_duc_housingbasrelief001.dds",
+		[3] = "Orcish Bas-Relief, Axe",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5709] = 
+	{
+		[1] = 134261,
+		[2] = "/esoui/art/icons/housing_orc_duc_housingbasrelief002.dds",
+		[3] = "Orcish Bas-Relief, Sword",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5710] = 
+	{
+		[1] = 134262,
+		[2] = "/esoui/art/icons/housing_orc_duc_basrelief003.dds",
+		[3] = "Orcish Bas-Relief, Spear",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5711] = 
+	{
+		[1] = 116499,
+		[2] = "/esoui/art/icons/housing_orc_exc_heavystatue002.dds",
+		[3] = "Orcish Figurine, Strength",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5712] = 
+	{
+		[1] = 116387,
+		[2] = "/esoui/art/icons/housing_orc_fur_wtgarmchair001.dds",
+		[3] = "Orcish Armchair, Peaked",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5713] = 
+	{
+		[1] = 116392,
+		[2] = "/esoui/art/icons/housing_orc_fur_wtgchair001.dds",
+		[3] = "Orcish Chair, Peaked",
+		[4] = 3,
+		[5] = 0,
+		[6] = 4,
+	},
+	[5715] = 
+	{
+		[1] = 134268,
+		[2] = "/esoui/art/icons/housing_orc_str_wtgthroneroomsconce001.dds",
+		[3] = "Orcish Brazier, Column",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5716] = 
+	{
+		[1] = 134263,
+		[2] = "/esoui/art/icons/housing_orc_str_housingwtgthroneroomthrone001.dds",
+		[3] = "Orcish Throne, Ancient",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5717] = 
+	{
+		[1] = 134256,
+		[2] = "/esoui/art/icons/housing_cld_duc_storagecolumn001.dds",
+		[3] = "Coldharbour Bookshelf, Filled Pillar",
+		[4] = 4,
+		[5] = 0,
+		[6] = 3,
+	},
+	[5718] = 
+	{
+		[1] = 134253,
+		[2] = "/esoui/art/icons/housing_cld_duc_bookcaseprop003.dds",
+		[3] = "Coldharbour Bookshelf, Filled Wide",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5719] = 
+	{
+		[1] = 134251,
+		[2] = "/esoui/art/icons/housing_cld_duc_bookcaseprop001.dds",
+		[3] = "Coldharbour Bookshelf, Filled",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5720] = 
+	{
+		[1] = 134252,
+		[2] = "/esoui/art/icons/housing_cld_duc_bookcaseprop002.dds",
+		[3] = "Coldharbour Bookshelf, Black Laboratory",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5721] = 
+	{
+		[1] = 134275,
+		[2] = "/esoui/art/icons/housing_cld_con_crategems002.dds",
+		[3] = "Coldharbour Bin, Black Soul Gem",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5722] = 
+	{
+		[1] = 134265,
+		[2] = "/esoui/art/icons/housing_cld_inc_bookpile001.dds",
+		[3] = "Daedric Books, Piled",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5723] = 
+	{
+		[1] = 134274,
+		[2] = "/esoui/art/icons/housing_cld_con_crategems001.dds",
+		[3] = "Coldharbour Crate, Black Soul Gem",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5724] = 
+	{
+		[1] = 134254,
+		[2] = "/esoui/art/icons/housing_cld_duc_floorsealentcenter.dds",
+		[3] = "Seal of Molag Bal",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5725] = 
+	{
+		[1] = 134264,
+		[2] = "/esoui/art/icons/housing_cld_inc_housingbluebrazier003.dds",
+		[3] = "Daedric Brazier, Cold-Flame",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5726] = 
+	{
+		[1] = 134257,
+		[2] = "/esoui/art/icons/housing_cld_inc_bookopen001.dds",
+		[3] = "Daedra Dossier: Cold-Flame Atronach",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5727] = 
+	{
+		[1] = 134255,
+		[2] = "/esoui/art/icons/housing_fx_transliminalrupture.dds",
+		[3] = "Transliminal Rupture",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5728] = 
+	{
+		[1] = 134263,
+		[2] = "/esoui/art/icons/housing_orc_str_housingwtgthroneroomthrone001.dds",
+		[3] = "Orcish Throne, Ancient",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5729] = 
+	{
+		[1] = 134410,
+		[2] = "/esoui/art/icons/housing_cwc_inc_kwamapedestalkeycrankhandle001.dds",
+		[3] = "Clockwork Crank, Miniature",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5730] = 
+	{
+		[1] = 134411,
+		[2] = "/esoui/art/icons/housing_cwc_inc_kwamapedestalkeygear001.dds",
+		[3] = "Clockwork Gear Shaft, Miniature",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5731] = 
+	{
+		[1] = 134412,
+		[2] = "/esoui/art/icons/housing_cwc_inc_kwamapedestalkeypiston001.dds",
+		[3] = "Clockwork Piston, Miniature",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5732] = 
+	{
+		[1] = 134413,
+		[2] = "/esoui/art/icons/housing_cwc_inc_smalltoolmagnifyingglass001.dds",
+		[3] = "Clockwork Magnifier, Handheld",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5733] = 
+	{
+		[1] = 134414,
+		[2] = "/esoui/art/icons/housing_cwc_inc_smalltoolmeasuringcaliper001.dds",
+		[3] = "Clockwork Micrometer, Handheld",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5734] = 
+	{
+		[1] = 134415,
+		[2] = "/esoui/art/icons/housing_cwc_inc_smalltoolmeasuringcaliper002.dds",
+		[3] = "Clockwork Dial Calipers, Handheld",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5735] = 
+	{
+		[1] = 134416,
+		[2] = "/esoui/art/icons/housing_cwc_inc_smalltoolmeasuringcaliper003.dds",
+		[3] = "Clockwork Slide Calipers, Handheld",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5736] = 
+	{
+		[1] = 134417,
+		[2] = "/esoui/art/icons/housing_cwc_inc_smalltooltweezer001.dds",
+		[3] = "Clockwork Firm-Joint Calipers, Handheld",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5737] = 
+	{
+		[1] = 134339,
+		[2] = "/esoui/art/icons/housing_cwc_fur_informationwall001.dds",
+		[3] = "Clockwork Sequence Spool, Triple",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5738] = 
+	{
+		[1] = 134373,
+		[2] = "/esoui/art/icons/housing_cwc_str_inlayedmachinery003.dds",
+		[3] = "Clockwork Wall Machinery, Rectangular",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5739] = 
+	{
+		[1] = 134375,
+		[2] = "/esoui/art/icons/housing_cwc_str_inlayedmachinery005.dds",
+		[3] = "Clockwork Wall Machinery, Arched",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5740] = 
+	{
+		[1] = 134397,
+		[2] = "/esoui/art/icons/housing_cwc_str_inlayedmachinery002.dds",
+		[3] = "Clockwork Wall Machinery, Ovoid",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5678] = 
+	{
+		[1] = 134569,
+		[2] = "/esoui/art/icons/housing_tre_eve_wrothgarpinesnowylow001.dds",
+		[3] = "Trees, Snowswept Pair",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5677] = 
+	{
+		[1] = 134568,
+		[2] = "/esoui/art/icons/housing_tre_eve_wrothgarpinesnowy006.dds",
+		[3] = "Tree, Snowswept Evergreen",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5676] = 
+	{
+		[1] = 134567,
+		[2] = "/esoui/art/icons/housing_veg_bsh_cyrodiilnorthdeadbushsnowy001.dds",
+		[3] = "Bush Cluster, Snowswept",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5675] = 
+	{
+		[1] = 134566,
+		[2] = "/esoui/art/icons/housing_veg_bsh_wrothgarevergreensnowclst002.dds",
+		[3] = "Shrub Cluster, Snowswept",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5674] = 
+	{
+		[1] = 134565,
+		[2] = "/esoui/art/icons/housing_cwc_fur_tank001.dds",
+		[3] = "Fabrication Tank, Reinforced",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5673] = 
+	{
+		[1] = 134564,
+		[2] = "/esoui/art/icons/housing_cwc_fur_table004.dds",
+		[3] = "Clockwork Shelf, Wall",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5672] = 
+	{
+		[1] = 116518,
+		[2] = "/esoui/art/icons/housing_orc_str_blacksmithhammer001.dds",
+		[3] = "Orcish Drop Hammer, Repeating",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5671] = 
+	{
+		[1] = 134475,
+		[2] = "/esoui/art/icons/housing_vrd_exc_housingstatuemalacath002.dds",
+		[3] = "Statue of Malacath, Orc-Father",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5670] = 
+	{
+		[1] = 134474,
+		[2] = "/esoui/art/icons/housing_dae_lsb_bannermalacathsmall001.dds",
+		[3] = "Banner, Malacath",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5669] = 
+	{
+		[1] = 134473,
+		[2] = "/esoui/art/icons/housing_dae_lsb_bannermalacath001.dds",
+		[3] = "Tapestry, Malacath",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5668] = 
+	{
+		[1] = 134398,
+		[2] = "/esoui/art/icons/housing_cwc_str_housingmerchantstall001.dds",
+		[3] = "Clockwork Gazebo, Copper and Basalt",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5667] = 
+	{
+		[1] = 134397,
+		[2] = "/esoui/art/icons/housing_cwc_str_inlayedmachinery002.dds",
+		[3] = "Clockwork Wall Machinery, Ovoid",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5666] = 
+	{
+		[1] = 134396,
+		[2] = "/esoui/art/icons/housing_cwc_str_inlayedmachinery001.dds",
+		[3] = "Clockwork Wall Machinery, Tall",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5665] = 
+	{
+		[1] = 134395,
+		[2] = "/esoui/art/icons/housing_cwc_lsb_lightconstruct003.dds",
+		[3] = "Clockwork Illuminator, Wall Capsule",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5664] = 
+	{
+		[1] = 134394,
+		[2] = "/esoui/art/icons/housing_cwc_lsb_lightceilingconstruct001.dds",
+		[3] = "Clockwork Illuminator, Capsule Chandelier",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5663] = 
+	{
+		[1] = 134393,
+		[2] = "/esoui/art/icons/housing_cwc_fur_tableworkbench001.dds",
+		[3] = "Clockwork Workbench, Spacious",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5662] = 
+	{
+		[1] = 134392,
+		[2] = "/esoui/art/icons/housing_cwc_fur_rechargecolumn001.dds",
+		[3] = "Clockwork Recharging Column, Octet",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5661] = 
+	{
+		[1] = 134391,
+		[2] = "/esoui/art/icons/housing_cwc_fur_informationcolumn001.dds",
+		[3] = "Clockwork Sequence Spool, Column",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5660] = 
+	{
+		[1] = 134390,
+		[2] = "/esoui/art/icons/housing_cwc_exc_rubblepile002.dds",
+		[3] = "Clockwork Junk Heap, Large",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5659] = 
+	{
+		[1] = 134389,
+		[2] = "/esoui/art/icons/housing_veg_bsh_clkscrubtree002.dds",
+		[3] = "Fabricant Tree, Decorative Brass",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5658] = 
+	{
+		[1] = 134388,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkskyrim004.dds",
+		[3] = "Fabricant Tree, Cobalt Oak",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5657] = 
+	{
+		[1] = 134387,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkskyrim003.dds",
+		[3] = "Fabricant Tree, Tall Cobalt Spruce",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5656] = 
+	{
+		[1] = 134386,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkpinkbonsai001.dds",
+		[3] = "Fabricant Tree, Forked Cherry Blossom",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5655] = 
+	{
+		[1] = 134385,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkmorrowind003.dds",
+		[3] = "Fabricant Tree, Brass Swamp",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5654] = 
+	{
+		[1] = 134384,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkmediumtree004.dds",
+		[3] = "Fabricant Tree, Decorative Electrum",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5653] = 
+	{
+		[1] = 134383,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkhighrock001.dds",
+		[3] = "Fabricant Tree, Towering Maple",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5652] = 
+	{
+		[1] = 134382,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkcypress002.dds",
+		[3] = "Fabricant Tree, Beryl Cypress",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5651] = 
+	{
+		[1] = 134381,
+		[2] = "/esoui/art/icons/housing_rok_uni_clcsinteredruins007.dds",
+		[3] = "Rocks, Sintered Outcropping",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5650] = 
+	{
+		[1] = 134380,
+		[2] = "/esoui/art/icons/housing_rok_uni_clcsinteredruins005.dds",
+		[3] = "Rocks, Sintered Arch",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5649] = 
+	{
+		[1] = 134379,
+		[2] = "/esoui/art/icons/housing_rok_tan_clcmed001.dds",
+		[3] = "Boulder, Large Metallic Shard",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5648] = 
+	{
+		[1] = 134378,
+		[2] = "/esoui/art/icons/housing_cwc_fur_fooddispersor001.dds",
+		[3] = "Clockwork Paste Dispenser, Empty",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5647] = 
+	{
+		[1] = 134377,
+		[2] = "/esoui/art/icons/housing_cwc_fur_factotem002.dds",
+		[3] = "Clockwork Charging Station, Factotum",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5646] = 
+	{
+		[1] = 134376,
+		[2] = "/esoui/art/icons/housing_cwc_fur_batteryrecharger001.dds",
+		[3] = "Clockwork Charging Station, Animo Core",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5645] = 
+	{
+		[1] = 134375,
+		[2] = "/esoui/art/icons/housing_cwc_str_inlayedmachinery005.dds",
+		[3] = "Clockwork Wall Machinery, Arched",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5644] = 
+	{
+		[1] = 134374,
+		[2] = "/esoui/art/icons/housing_cwc_str_inlayedmachinery004.dds",
+		[3] = "Clockwork Wall Machinery, Circular",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5643] = 
+	{
+		[1] = 134373,
+		[2] = "/esoui/art/icons/housing_cwc_str_inlayedmachinery003.dds",
+		[3] = "Clockwork Wall Machinery, Rectangular",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5642] = 
+	{
+		[1] = 134372,
+		[2] = "/esoui/art/icons/housing_cwc_lsb_lightsource002.dds",
+		[3] = "Clockwork Illuminator, Compact",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5641] = 
+	{
+		[1] = 134371,
+		[2] = "/esoui/art/icons/housing_cwc_lsb_lightsource001.dds",
+		[3] = "Clockwork Illuminator, Compact Stand",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5640] = 
+	{
+		[1] = 134370,
+		[2] = "/esoui/art/icons/housing_cwc_lsb_lightconstruct002.dds",
+		[3] = "Clockwork Illuminator, Capsule Tower",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5639] = 
+	{
+		[1] = 134369,
+		[2] = "/esoui/art/icons/housing_cwc_lsb_lightconstruct001.dds",
+		[3] = "Clockwork Illuminator, Powered Capsule",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5638] = 
+	{
+		[1] = 134368,
+		[2] = "/esoui/art/icons/quest_cwc_lsb_lightcapsule001.dds",
+		[3] = "Clockwork Illuminator, Solitary Capsule",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5637] = 
+	{
+		[1] = 134367,
+		[2] = "/esoui/art/icons/housing_cwc_lsb_lampdesk001.dds",
+		[3] = "Clockwork Illuminator, Personal Desk",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5636] = 
+	{
+		[1] = 134366,
+		[2] = "/esoui/art/icons/housing_cwc_inc_surveryerleveltall001.dds",
+		[3] = "Clockwork Surveyor's Tripod, Calibrated",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5635] = 
+	{
+		[1] = 134365,
+		[2] = "/esoui/art/icons/housing_cwc_inc_standsmall003.dds",
+		[3] = "Clockwork Flask Stand, Tall",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5634] = 
+	{
+		[1] = 134364,
+		[2] = "/esoui/art/icons/housing_cwc_inc_standsmall001.dds",
+		[3] = "Clockwork Flask Stand, Short",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5633] = 
+	{
+		[1] = 134363,
+		[2] = "/esoui/art/icons/housing_cwc_inc_scrollplate001.dds",
+		[3] = "Clockwork Sequence Plaque, Single",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5632] = 
+	{
+		[1] = 134362,
+		[2] = "/esoui/art/icons/housing_cwc_inc_scrollopen001.dds",
+		[3] = "Clockwork Sequence Plaques, Unfolded",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5631] = 
+	{
+		[1] = 134361,
+		[2] = "/esoui/art/icons/housing_cwc_inc_scrollfolded001.dds",
+		[3] = "Clockwork Sequence Plaques, Folded",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5630] = 
+	{
+		[1] = 134360,
+		[2] = "/esoui/art/icons/housing_cwc_inc_scale001.dds",
+		[3] = "Clockwork Scales, Precision Calibrated",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5629] = 
+	{
+		[1] = 134359,
+		[2] = "/esoui/art/icons/housing_cwc_inc_plate002.dds",
+		[3] = "Clockwork Meal, Plate",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5628] = 
+	{
+		[1] = 134358,
+		[2] = "/esoui/art/icons/housing_cwc_inc_plate001.dds",
+		[3] = "Clockwork Meal, Dish",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5627] = 
+	{
+		[1] = 134357,
+		[2] = "/esoui/art/icons/housing_cwc_inc_mugmetal001.dds",
+		[3] = "Clockwork Mug, Reinforced",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5626] = 
+	{
+		[1] = 134356,
+		[2] = "/esoui/art/icons/housing_cwc_inc_mortar001.dds",
+		[3] = "Clockwork Mortar and Pestle, Sintered",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5625] = 
+	{
+		[1] = 134355,
+		[2] = "/esoui/art/icons/housing_cwc_inc_measuringcup001.dds",
+		[3] = "Clockwork Measuring Cup, Sintered",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5624] = 
+	{
+		[1] = 134354,
+		[2] = "/esoui/art/icons/housing_cwc_inc_goblet001_full.dds",
+		[3] = "Clockwork Goblet, Recycled Water",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5623] = 
+	{
+		[1] = 134353,
+		[2] = "/esoui/art/icons/housing_cwc_inc_goblet001_empty.dds",
+		[3] = "Clockwork Goblet, Empty",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5622] = 
+	{
+		[1] = 134352,
+		[2] = "/esoui/art/icons/housing_cwc_inc_cup001_full.dds",
+		[3] = "Clockwork Cup, Recycled Water",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5621] = 
+	{
+		[1] = 134351,
+		[2] = "/esoui/art/icons/housing_cwc_inc_cup001_empty.dds",
+		[3] = "Clockwork Cup, Empty",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5620] = 
+	{
+		[1] = 134350,
+		[2] = "/esoui/art/icons/housing_cwc_inc_cofferclosed001.dds",
+		[3] = "Clockwork Coffer, Robust",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5619] = 
+	{
+		[1] = 134349,
+		[2] = "/esoui/art/icons/housing_cwc_inc_bowl002.dds",
+		[3] = "Clockwork Bowl, Nutriment Paste",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5618] = 
+	{
+		[1] = 134348,
+		[2] = "/esoui/art/icons/housing_cwc_inc_bowl001.dds",
+		[3] = "Clockwork Bowl, Large Nutriment Paste",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5617] = 
+	{
+		[1] = 134347,
+		[2] = "/esoui/art/icons/housing_cwc_fur_wardrobe001.dds",
+		[3] = "Clockwork Wardrobe, Precision Engineered",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5616] = 
+	{
+		[1] = 134346,
+		[2] = "/esoui/art/icons/housing_cwc_fur_tablelarge001.dds",
+		[3] = "Clockwork Table, Grand",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5615] = 
+	{
+		[1] = 134345,
+		[2] = "/esoui/art/icons/housing_cwc_fur_table005.dds",
+		[3] = "Clockwork Nightstand, Octagonal",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5614] = 
+	{
+		[1] = 134344,
+		[2] = "/esoui/art/icons/housing_cwc_fur_table003.dds",
+		[3] = "Clockwork Table, Octagonal",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5613] = 
+	{
+		[1] = 134343,
+		[2] = "/esoui/art/icons/housing_cwc_fur_table001.dds",
+		[3] = "Clockwork Table, Beveled",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5612] = 
+	{
+		[1] = 134342,
+		[2] = "/esoui/art/icons/housing_cwc_fur_stool001.dds",
+		[3] = "Clockwork Stool, Practical",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5611] = 
+	{
+		[1] = 134341,
+		[2] = "/esoui/art/icons/housing_cwc_fur_scrollcabinet002.dds",
+		[3] = "Clockwork Cabinet, Sequence Plaque",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5610] = 
+	{
+		[1] = 134340,
+		[2] = "/esoui/art/icons/housing_cwc_fur_podium001.dds",
+		[3] = "Clockwork Lectern, Empty",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5609] = 
+	{
+		[1] = 134339,
+		[2] = "/esoui/art/icons/housing_cwc_fur_informationwall001.dds",
+		[3] = "Clockwork Sequence Spool, Triple",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5608] = 
+	{
+		[1] = 134338,
+		[2] = "/esoui/art/icons/housing_cwc_fur_informationcolumnsmall001.dds",
+		[3] = "Clockwork Sequence Spool, Single",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5607] = 
+	{
+		[1] = 134337,
+		[2] = "/esoui/art/icons/housing_cwc_fur_evilgardenmachine001.dds",
+		[3] = "Clockwork Somnolostation, Octet",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5606] = 
+	{
+		[1] = 134336,
+		[2] = "/esoui/art/icons/housing_cwc_fur_desk002.dds",
+		[3] = "Clockwork Drafting Table, Flat",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5605] = 
+	{
+		[1] = 134335,
+		[2] = "/esoui/art/icons/housing_cwc_fur_desk001.dds",
+		[3] = "Clockwork Drafting Table, Raised",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5604] = 
+	{
+		[1] = 134334,
+		[2] = "/esoui/art/icons/housing_cwc_fur_chair002.dds",
+		[3] = "Clockwork Chair, Reinforced",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5603] = 
+	{
+		[1] = 134333,
+		[2] = "/esoui/art/icons/housing_cwc_fur_chair001.dds",
+		[3] = "Clockwork Chair, Practical",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5602] = 
+	{
+		[1] = 134332,
+		[2] = "/esoui/art/icons/housing_cwc_fur_bed002.dds",
+		[3] = "Clockwork Somnolostation",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5601] = 
+	{
+		[1] = 134331,
+		[2] = "/esoui/art/icons/housing_cwc_duc_vrdstaffkey002.dds",
+		[3] = "Clockwork Furnace, Socketed",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5600] = 
+	{
+		[1] = 134330,
+		[2] = "/esoui/art/icons/housing_cwc_duc_switch003.dds",
+		[3] = "Clockwork Control Panel, Double",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5599] = 
+	{
+		[1] = 134329,
+		[2] = "/esoui/art/icons/housing_cwc_duc_switch002.dds",
+		[3] = "Clockwork Control Panel, Single",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5598] = 
+	{
+		[1] = 134328,
+		[2] = "/esoui/art/icons/housing_cwc_duc_fangrate001.dds",
+		[3] = "Clockwork Vent, Octagonal Fan",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5597] = 
+	{
+		[1] = 134327,
+		[2] = "/esoui/art/icons/housing_cwc_duc_controlpanelsmall002.dds",
+		[3] = "Clockwork Switch, Sturdy",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5596] = 
+	{
+		[1] = 134326,
+		[2] = "/esoui/art/icons/housing_cwc_duc_blower002.dds",
+		[3] = "Clockwork Pump, Horizontal",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5595] = 
+	{
+		[1] = 134325,
+		[2] = "/esoui/art/icons/housing_cwc_duc_blower001.dds",
+		[3] = "Clockwork Pump, Vertical",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5594] = 
+	{
+		[1] = 134324,
+		[2] = "/esoui/art/icons/housing_cwc_crf_retraitlamp001.dds",
+		[3] = "Clockwork Lamppost, Gas",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5593] = 
+	{
+		[1] = 133576,
+		[2] = "/esoui/art/icons/housing_cwc_crf_housingretrait001.dds",
+		[3] = "Transmute Station",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5592] = 
+	{
+		[1] = 134322,
+		[2] = "/esoui/art/icons/housing_cwc_con_cargocratelg002.dds",
+		[3] = "Clockwork Crate, Large Open",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5591] = 
+	{
+		[1] = 134321,
+		[2] = "/esoui/art/icons/housing_cwc_con_cargocratelg001.dds",
+		[3] = "Clockwork Crate, Large Closed",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5590] = 
+	{
+		[1] = 134320,
+		[2] = "/esoui/art/icons/housing_cwc_con_cargocrate002.dds",
+		[3] = "Clockwork Crate, Wide",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5589] = 
+	{
+		[1] = 134319,
+		[2] = "/esoui/art/icons/housing_cwc_con_cargocrate001.dds",
+		[3] = "Clockwork Crate, Square",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5588] = 
+	{
+		[1] = 134318,
+		[2] = "/esoui/art/icons/housing_cwc_con_cargobarrel003.dds",
+		[3] = "Clockwork Keg, Sturdy",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5587] = 
+	{
+		[1] = 134317,
+		[2] = "/esoui/art/icons/housing_cwc_con_cargobarrel002.dds",
+		[3] = "Clockwork Barrel, Wide",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5586] = 
+	{
+		[1] = 134316,
+		[2] = "/esoui/art/icons/housing_cwc_con_cargobarrel001.dds",
+		[3] = "Clockwork Barrel, Sealed",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5585] = 
+	{
+		[1] = 134315,
+		[2] = "/esoui/art/icons/housing_veg_bsh_clkredscrub001.dds",
+		[3] = "Fabricant Shrub, Copper",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5584] = 
+	{
+		[1] = 134314,
+		[2] = "/esoui/art/icons/housing_veg_bsh_clkleafy003.dds",
+		[3] = "Fabricant Shrub, Gold",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5583] = 
+	{
+		[1] = 134313,
+		[2] = "/esoui/art/icons/housing_veg_bsh_clkleafy001.dds",
+		[3] = "Fabricant Shrubs, Beryl",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5582] = 
+	{
+		[1] = 134312,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkskyrim001.dds",
+		[3] = "Fabricant Tree, Cobalt Spruce",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5581] = 
+	{
+		[1] = 134311,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkpinkbonsai005.dds",
+		[3] = "Fabricant Tree, Miniature Cherry Blossom",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5580] = 
+	{
+		[1] = 134310,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkpinkbonsai003.dds",
+		[3] = "Fabricant Tree, Vibrant Cherry Blossom",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5579] = 
+	{
+		[1] = 134309,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkmediumtree003.dds",
+		[3] = "Fabricant Tree, Electrum",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5578] = 
+	{
+		[1] = 134308,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkmediumtree001.dds",
+		[3] = "Fabricant Saplings, Electrum",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -11864,552 +13232,840 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 25,
 	},
-	[824] = 
+	[5577] = 
 	{
-		[1] = 83546,
-		[2] = "/esoui/art/icons/dyestamp_indigosundas.dds",
-		[3] = "Forest: Indigo Sundas",
+		[1] = 134307,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkhighrock004.dds",
+		[3] = "Fabricant Trees, Clustered Maple",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5576] = 
+	{
+		[1] = 134306,
+		[2] = "/esoui/art/icons/housing_tre_fan_clkcypress004.dds",
+		[3] = "Fabricant Tree, Gnarled Cypress",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5575] = 
+	{
+		[1] = 134305,
+		[2] = "/esoui/art/icons/housing_cwc_exc_rubblepile001.dds",
+		[3] = "Clockwork Junk Heap, Small",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5574] = 
+	{
+		[1] = 134304,
+		[2] = "/esoui/art/icons/housing_cwc_duc_debriridgerock001.dds",
+		[3] = "Boulder, Basalt Slab",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5573] = 
+	{
+		[1] = 134303,
+		[2] = "/esoui/art/icons/housing_cwc_duc_debrilargerock002.dds",
+		[3] = "Rock, Basalt Slab",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5572] = 
+	{
+		[1] = 134302,
+		[2] = "/esoui/art/icons/housing_cwc_cmp_shantypole002.dds",
+		[3] = "Scavenged Support, Straight",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5571] = 
+	{
+		[1] = 134301,
+		[2] = "/esoui/art/icons/housing_cwc_cmp_shantyplate004.dds",
+		[3] = "Scavenged Plate, Ornate",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5570] = 
+	{
+		[1] = 134300,
+		[2] = "/esoui/art/icons/housing_cwc_cmp_shantyplate003.dds",
+		[3] = "Scavenged Plate, Wide",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5569] = 
+	{
+		[1] = 134299,
+		[2] = "/esoui/art/icons/housing_cwc_cmp_shantyplate001.dds",
+		[3] = "Scavenged Plate, Plain",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5568] = 
+	{
+		[1] = 134298,
+		[2] = "/esoui/art/icons/housing_cwc_cmp_shantypanel004.dds",
+		[3] = "Scavenged Grating, Wide",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5567] = 
+	{
+		[1] = 134297,
+		[2] = "/esoui/art/icons/housing_cwc_cmp_shantypanel002.dds",
+		[3] = "Scavenged Grating, Narrow",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5566] = 
+	{
+		[1] = 134296,
+		[2] = "/esoui/art/icons/housing_rok_uni_clcsinteredruinssmall005.dds",
+		[3] = "Rocks, Sintered Cluster",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5565] = 
+	{
+		[1] = 134295,
+		[2] = "/esoui/art/icons/housing_rok_uni_clcsinteredruinssmall001.dds",
+		[3] = "Rocks, Sintered Pile",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5564] = 
+	{
+		[1] = 134294,
+		[2] = "/esoui/art/icons/housing_rok_uni_clcsinteredruins006.dds",
+		[3] = "Rocks, Sintered Column",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5563] = 
+	{
+		[1] = 134293,
+		[2] = "/esoui/art/icons/housing_rok_tan_clcsm003.dds",
+		[3] = "Boulder, Metallic Shard",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5562] = 
+	{
+		[1] = 134292,
+		[2] = "/esoui/art/icons/housing_rok_tan_clcsm002.dds",
+		[3] = "Boulder, Metallic Rubble",
+		[4] = 1,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5561] = 
+	{
+		[1] = 134282,
+		[2] = "/esoui/art/icons/housing_cwc_crf_tablewoodworking001.dds",
+		[3] = "Clockwork Woodworking Station",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[826] = 
+	[5560] = 
 	{
-		[1] = 83978,
-		[2] = "/esoui/art/icons/dyestamp_kavehandcream.dds",
-		[3] = "Shadows: Kaveh and Cream",
+		[1] = 134281,
+		[2] = "/esoui/art/icons/housing_cwc_crf_tableleatherworking001.dds",
+		[3] = "Clockwork Clothing Station",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[827] = 
+	[5559] = 
 	{
-		[1] = 84310,
-		[2] = "/esoui/art/icons/dyestamp_sweetpotatoflan.dds",
-		[3] = "Autumn: Sweet Potato Flan",
+		[1] = 134280,
+		[2] = "/esoui/art/icons/housing_cwc_crf_tableenchanter001.dds",
+		[3] = "Clockwork Enchanting Station",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[828] = 
+	[5558] = 
 	{
-		[1] = 83798,
-		[2] = "/esoui/art/icons/dyestamp_tawnyandtopgrain.dds",
-		[3] = "Harvest: Tawny and Topgrain",
+		[1] = 134279,
+		[2] = "/esoui/art/icons/housing_cwc_crf_tableblacksmith001.dds",
+		[3] = "Clockwork Blacksmithing Station",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[829] = 
+	[5557] = 
 	{
-		[1] = 83963,
-		[2] = "/esoui/art/icons/dyestamp_shornhelmtruffle.dds",
-		[3] = "Witches: Shornhelm Truffle",
+		[1] = 134278,
+		[2] = "/esoui/art/icons/housing_cwc_crf_tablealchemycrafting001.dds",
+		[3] = "Clockwork Alchemy Station",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[830] = 
+	[5556] = 
 	{
-		[1] = 84219,
-		[2] = "/esoui/art/icons/dyestamp_yellowtwilight.dds",
-		[3] = "Hoarfrost: Yellow Twilight",
+		[1] = 134277,
+		[2] = "/esoui/art/icons/housing_cwc_crf_provisioning001.dds",
+		[3] = "Clockwork Provisioning Station",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[831] = 
+	[5555] = 
 	{
-		[1] = 84305,
-		[2] = "/esoui/art/icons/dyestamp_woodlandshadows.dds",
-		[3] = "Alchemical: Woodland Shadows",
+		[1] = 134276,
+		[2] = "/esoui/art/icons/housing_cwc_crf_dyestation001.dds",
+		[3] = "Clockwork Dye Station",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[832] = 
+	[5554] = 
 	{
-		[1] = 84184,
-		[2] = "/esoui/art/icons/dyestamp_cranberrycake.dds",
-		[3] = "First Frost: Cranberry Cake",
+		[1] = 134275,
+		[2] = "/esoui/art/icons/housing_cld_con_crategems002.dds",
+		[3] = "Coldharbour Bin, Black Soul Gem",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5553] = 
+	{
+		[1] = 134274,
+		[2] = "/esoui/art/icons/housing_cld_con_crategems001.dds",
+		[3] = "Coldharbour Crate, Black Soul Gem",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5552] = 
+	{
+		[1] = 134273,
+		[2] = "/esoui/art/icons/housing_cld_duc_sacrificialaltarpedestal001.dds",
+		[3] = "Daedric Plinth, Sacrificial",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5551] = 
+	{
+		[1] = 134272,
+		[2] = "/esoui/art/icons/housing_orc_duc_stalagmitesmall004.dds",
+		[3] = "Cave Deposit, Stalagmite Cluster",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5550] = 
+	{
+		[1] = 134271,
+		[2] = "/esoui/art/icons/housing_orc_duc_stalagmitesmall003.dds",
+		[3] = "Cave Deposit, Tall Stalagmite",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5549] = 
+	{
+		[1] = 134270,
+		[2] = "/esoui/art/icons/housing_orc_duc_mineraldeposit002.dds",
+		[3] = "Cave Deposit, Large Double-Sided",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5548] = 
+	{
+		[1] = 134269,
+		[2] = "/esoui/art/icons/housing_orc_duc_dungeonfloorraisedmedium001.dds",
+		[3] = "Orcish Dais, Raised",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5547] = 
+	{
+		[1] = 134268,
+		[2] = "/esoui/art/icons/housing_orc_str_wtgthroneroomsconce001.dds",
+		[3] = "Orcish Brazier, Column",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5546] = 
+	{
+		[1] = 134267,
+		[2] = "/esoui/art/icons/housing_orc_fur_wtgtablewideb002.dds",
+		[3] = "Orcish Table, Grand Furs",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5545] = 
+	{
+		[1] = 134266,
+		[2] = "/esoui/art/icons/housing_cld_inc_bookpile003.dds",
+		[3] = "Daedric Books, Stacked",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5544] = 
+	{
+		[1] = 134265,
+		[2] = "/esoui/art/icons/housing_cld_inc_bookpile001.dds",
+		[3] = "Daedric Books, Piled",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5543] = 
+	{
+		[1] = 134264,
+		[2] = "/esoui/art/icons/housing_cld_inc_housingbluebrazier003.dds",
+		[3] = "Daedric Brazier, Cold-Flame",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5542] = 
+	{
+		[1] = 134475,
+		[2] = "/esoui/art/icons/housing_vrd_exc_housingstatuemalacath002.dds",
+		[3] = "Statue of Malacath, Orc-Father",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[833] = 
+	[5541] = 
 	{
-		[1] = 83839,
-		[2] = "/esoui/art/icons/dyestamp_mauvecoffee.dds",
-		[3] = "Forest: Mauve Coffee",
+		[1] = 134474,
+		[2] = "/esoui/art/icons/housing_dae_lsb_bannermalacathsmall001.dds",
+		[3] = "Banner, Malacath",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[834] = 
+	[5540] = 
 	{
-		[1] = 84047,
-		[2] = "/esoui/art/icons/dyestamp_lilacandcocoa.dds",
-		[3] = "Necrotic: Lilac and Cocoa",
+		[1] = 134473,
+		[2] = "/esoui/art/icons/housing_dae_lsb_bannermalacath001.dds",
+		[3] = "Tapestry, Malacath",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[835] = 
+	[5471] = 
 	{
-		[1] = 84267,
-		[2] = "/esoui/art/icons/dyestamp_canteloupeandsmoke.dds",
-		[3] = "Shadows: Canteloupe and Smoke",
+		[1] = 132596,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 57: Ebonshadow Style",
+		[4] = 5,
+		[5] = 1,
+		[6] = 1,
+	},
+	[5469] = 
+	{
+		[1] = 132564,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 56: Apostle Style",
+		[4] = 5,
+		[5] = 1,
+		[6] = 1,
+	},
+	[5467] = 
+	{
+		[1] = 130041,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 53: Clockwork Style",
+		[4] = 5,
+		[5] = 1,
+		[6] = 1,
+	},
+	[5434] = 
+	{
+		[1] = 130088,
+		[2] = "/esoui/art/icons/housing_cld_lsb_crystaltorch000.dds",
+		[3] = "Daedric Fragment, Coldharbour",
+		[4] = 5,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5433] = 
+	{
+		[1] = 118244,
+		[2] = "/esoui/art/icons/housing_orc_inc_peltrug001.dds",
+		[3] = "Orc Rug, Echatere Skin",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5432] = 
+	{
+		[1] = 130068,
+		[2] = "/esoui/art/icons/housing_cld_duc_smallwall001.dds",
+		[3] = "Daedric Fence, Section",
+		[4] = 3,
+		[5] = 0,
+		[6] = 6,
+	},
+	[5431] = 
+	{
+		[1] = 132214,
+		[2] = "/esoui/art/icons/housing_rok_gry_em_flatrock003.dds",
+		[3] = "Boulder, Granite Slab",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5430] = 
+	{
+		[1] = 132165,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlabath001.dds",
+		[3] = "Hlaalu Bath Tub, Empty Basin",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[836] = 
+	[5429] = 
 	{
-		[1] = 83554,
-		[2] = "/esoui/art/icons/dyestamp_ashyam.dds",
-		[3] = "Autumn: Ash Yam",
+		[1] = 118287,
+		[2] = "/esoui/art/icons/housing_orc_exc_rabbit002.dds",
+		[3] = "Carcass, Brown Hare",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5428] = 
+	{
+		[1] = 118282,
+		[2] = "/esoui/art/icons/housing_orc_exc_geese002.dds",
+		[3] = "Carcass, Fresh Goose",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5427] = 
+	{
+		[1] = 132220,
+		[2] = "/esoui/art/icons/housing_rok_gry_eastmarchsmall007.dds",
+		[3] = "Stones, Granite Cluster",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5426] = 
+	{
+		[1] = 132219,
+		[2] = "/esoui/art/icons/housing_rok_gry_eastmarchsmall008.dds",
+		[3] = "Stones, Granite Group",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5425] = 
+	{
+		[1] = 132218,
+		[2] = "/esoui/art/icons/housing_rok_gry_eastmarchsmall011.dds",
+		[3] = "Stones, Granite Pair",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5424] = 
+	{
+		[1] = 132217,
+		[2] = "/esoui/art/icons/housing_rok_gry_eastmarch012.dds",
+		[3] = "Rock, Granite Chunk",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5423] = 
+	{
+		[1] = 132215,
+		[2] = "/esoui/art/icons/housing_rok_gry_em_flatrock002.dds",
+		[3] = "Boulder, Granite Cap",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5422] = 
+	{
+		[1] = 132213,
+		[2] = "/esoui/art/icons/housing_rok_gry_eastmarch006.dds",
+		[3] = "Boulder, Granite Chunk",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5420] = 
+	{
+		[1] = 132212,
+		[2] = "/esoui/art/icons/housing_veg_bsh_cyrodiilnorthdeadbush002.dds",
+		[3] = "Shrub, Mountain Thistle",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5419] = 
+	{
+		[1] = 132211,
+		[2] = "/esoui/art/icons/housing_veg_bsh_eastmarch_ferns004.dds",
+		[3] = "Ferns, Mountain Cluster",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5418] = 
+	{
+		[1] = 132210,
+		[2] = "/esoui/art/icons/housing_tre_eve_cyrodiilcedar002.dds",
+		[3] = "Tree, Ancient Cedar",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5417] = 
+	{
+		[1] = 132208,
+		[2] = "/esoui/art/icons/housing_tre_eve_emwhitepine001.dds",
+		[3] = "Tree, Foothills Pine",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5416] = 
+	{
+		[1] = 132207,
+		[2] = "/esoui/art/icons/housing_tre_eve_emwhitepine004.dds",
+		[3] = "Tree, Ancient Mountain Pine",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5415] = 
+	{
+		[1] = 132206,
+		[2] = "/esoui/art/icons/housing_tre_eve_emwhitepine003.dds",
+		[3] = "Tree, Towering Mountain Pine",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5414] = 
+	{
+		[1] = 132205,
+		[2] = "/esoui/art/icons/housing_tre_eve_cyrodiilcedar003.dds",
+		[3] = "Tree, Hardy Cedar",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5413] = 
+	{
+		[1] = 132221,
+		[2] = "/esoui/art/icons/housing_veg_aqa_lillypads004.dds",
+		[3] = "Lily Pads, Swamp Cluster",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5412] = 
+	{
+		[1] = 61079,
+		[2] = "/esoui/art/icons/store_repairkit_002.dds",
+		[3] = "Crown Repair Kit",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5411] = 
+	{
+		[1] = 61080,
+		[2] = "/esoui/art/icons/store_soulgem_001.dds",
+		[3] = "Crown Soul Gem",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5405] = 
+	{
+		[1] = 130025,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 52: Redoran Style",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[837] = 
+	[5404] = 
 	{
-		[1] = 84402,
-		[2] = "/esoui/art/icons/dyestamp_goldandiron.dds",
-		[3] = "Harvest: Gold and Iron",
+		[1] = 130009,
+		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
+		[3] = "Crown Crafting Motif 51: Hlaalu Style",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[838] = 
+	[5403] = 
 	{
-		[1] = 83795,
-		[2] = "/esoui/art/icons/dyestamp_gingersteel.dds",
-		[3] = "Witches: Ginger Steel",
+		[1] = 131427,
+		[2] = "/esoui/art/icons/housing_orc_cmp_tent003.dds",
+		[3] = "Orcish Tent, General's",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[839] = 
+	[5402] = 
 	{
-		[1] = 83857,
-		[2] = "/esoui/art/icons/dyestamp_sandcastleandgrit.dds",
-		[3] = "Hoarfrost: Sandcastle and Grit",
+		[1] = 131426,
+		[2] = "/esoui/art/icons/housing_orc_cmp_tent002.dds",
+		[3] = "Orcish Tent, Officer's",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5401] = 
+	{
+		[1] = 131425,
+		[2] = "/esoui/art/icons/housing_orc_cmp_tent001.dds",
+		[3] = "Orcish Tent, Soldier's",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5400] = 
+	{
+		[1] = 130289,
+		[2] = "/esoui/art/icons/housing_tre_trp_mrkcypress006.dds",
+		[3] = "Stump, Mossy Cypress",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5399] = 
+	{
+		[1] = 130288,
+		[2] = "/esoui/art/icons/housing_tre_eve_vrdlimberpine_fallentree001.dds",
+		[3] = "Log, Fallen Pine",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5398] = 
+	{
+		[1] = 131424,
+		[2] = "/esoui/art/icons/housing_fx_groundmist5m.dds",
+		[3] = "Fogs of the Hag Fen",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[840] = 
+	[5397] = 
 	{
-		[1] = 83858,
-		[2] = "/esoui/art/icons/dyestamp_cemeterymoss.dds",
-		[3] = "Alchemical: Cemetery Moss",
+		[1] = 131423,
+		[2] = "/esoui/art/icons/housing_fx_groundmistcreepy5m.dds",
+		[3] = "Mists of the Hag Fen",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[841] = 
+	[5396] = 
 	{
-		[1] = 83717,
-		[2] = "/esoui/art/icons/dyestamp_shadowjam.dds",
-		[3] = "First Frost: Shadow Jam",
-		[4] = 5,
+		[1] = 131422,
+		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk008.dds",
+		[3] = "Flower Patch, Glowstalks",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[842] = 
+	[5395] = 
 	{
-		[1] = 83972,
-		[2] = "/esoui/art/icons/dyestamp_purplemidnight.dds",
-		[3] = "Forest: Purple Midnight",
-		[4] = 5,
+		[1] = 131421,
+		[2] = "/esoui/art/icons/housing_tre_ded_coldhsapling004.dds",
+		[3] = "Sapling, Withered Thicket",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[843] = 
+	[5394] = 
 	{
-		[1] = 83526,
-		[2] = "/esoui/art/icons/dyestamp_boskymauve.dds",
-		[3] = "Necrotic: Bosky Mauve",
-		[4] = 5,
+		[1] = 131420,
+		[2] = "/esoui/art/icons/housing_veg_bsh_thistlebush002.dds",
+		[3] = "Shrub, Glowing Thistle",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[844] = 
+	[5393] = 
 	{
-		[1] = 84222,
-		[2] = "/esoui/art/icons/dyestamp_manganesemelon.dds",
-		[3] = "Shadows: Manganese Melon",
-		[4] = 5,
+		[1] = 130214,
+		[2] = "/esoui/art/icons/housing_ayl_duc_braziera001.dds",
+		[3] = "Ayleid Brazier, Fiery",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5392] = 
+	{
+		[1] = 130204,
+		[2] = "/esoui/art/icons/housing_ayl_duc_welkydcluster01.dds",
+		[3] = "Welkynd Stones, Glowing",
+		[4] = 4,
+		[5] = 0,
+		[6] = 6,
+	},
+	[5391] = 
+	{
+		[1] = 130203,
+		[2] = "/esoui/art/icons/housing_ayl_duc_brazierb001.dds",
+		[3] = "Ayleid Brazier, Welkynd Holder",
+		[4] = 3,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5390] = 
+	{
+		[1] = 130202,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasedoorlarge002.dds",
+		[3] = "Ayleid Grate, Tall",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5389] = 
+	{
+		[1] = 130201,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasedoorsmall001.dds",
+		[3] = "Ayleid Grate, Small",
+		[4] = 4,
+		[5] = 0,
+		[6] = 2,
+	},
+	[5358] = 
+	{
+		[1] = 130340,
+		[2] = "/esoui/art/icons/housing_uni_exc_reachmantotem002.dds",
+		[3] = "Witches Totem, Gnarled Vines and Skull",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[845] = 
+	[5357] = 
 	{
-		[1] = 83586,
-		[2] = "/esoui/art/icons/dyestamp_amberandshadows.dds",
-		[3] = "Autumn: Amber and Shadows",
-		[4] = 5,
+		[1] = 130339,
+		[2] = "/esoui/art/icons/housing_uni_exc_reachmantotem001.dds",
+		[3] = "Witches Totem, Twisted Vines and Skull",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[846] = 
+	[5356] = 
 	{
-		[1] = 83661,
-		[2] = "/esoui/art/icons/dyestamp_armoredtawn.dds",
-		[3] = "Harvest: Armored Tawn",
-		[4] = 5,
+		[1] = 130338,
+		[2] = "/esoui/art/icons/housing_uni_exc_hagravenskullpile001.dds",
+		[3] = "Witches Bones, Offering",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[847] = 
+	[5355] = 
 	{
-		[1] = 83551,
-		[2] = "/esoui/art/icons/dyestamp_cinnamonandiron.dds",
-		[3] = "Witches: Cinnamon and Iron",
-		[4] = 5,
+		[1] = 130337,
+		[2] = "/esoui/art/icons/housing_red_exc_yokudancorpse001.dds",
+		[3] = "Witches Corpse, Wrapped",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[848] = 
+	[5353] = 
 	{
-		[1] = 84480,
-		[2] = "/esoui/art/icons/dyestamp_marigoldandiron.dds",
-		[3] = "Hoarfrost: Marigold and Iron",
-		[4] = 5,
+		[1] = 130334,
+		[2] = "/esoui/art/icons/housing_uni_exc_reachantlertotem001.dds",
+		[3] = "Witches Totem, Antler Charms",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[849] = 
+	[5351] = 
 	{
-		[1] = 83565,
-		[2] = "/esoui/art/icons/dyestamp_bayleafgrayscale.dds",
-		[3] = "Alchemical: Bay Leaf Gray Scale",
-		[4] = 5,
+		[1] = 130332,
+		[2] = "/esoui/art/icons/housing_uni_exc_dreamcatcher001.dds",
+		[3] = "Witches Totem, Bone Charms",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[850] = 
+	[5349] = 
 	{
-		[1] = 84102,
-		[2] = "/esoui/art/icons/dyestamp_sepiaandcinnamon.dds",
-		[3] = "First Frost: Sepia and Cinnamon",
-		[4] = 5,
+		[1] = 130329,
+		[2] = "/esoui/art/icons/housing_gen_exc_rocklampb001.dds",
+		[3] = "Primal Brazier, Rock Slab",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[851] = 
+	[5348] = 
 	{
-		[1] = 84471,
-		[2] = "/esoui/art/icons/dyestamp_oatmealandcoffee.dds",
-		[3] = "Forest: Oatmeal and Coffee",
-		[4] = 5,
+		[1] = 130328,
+		[2] = "/esoui/art/icons/housing_gen_exc_ramskull001.dds",
+		[3] = "Witches Skull, Horned Ram",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[852] = 
+	[5347] = 
 	{
-		[1] = 83747,
-		[2] = "/esoui/art/icons/dyestamp_mudcrabdippedinchocolate.dds",
-		[3] = "Necrotic: Mudcrab Dipped in Chocolate",
-		[4] = 5,
+		[1] = 130327,
+		[2] = "/esoui/art/icons/housing_gen_exc_ogretotemstand001.dds",
+		[3] = "Witches Totem, Wooden Rack",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[853] = 
+	[5346] = 
 	{
-		[1] = 83702,
-		[2] = "/esoui/art/icons/dyestamp_torvaltiramisu.dds",
-		[3] = "Shadows: Torval Tiramisu",
-		[4] = 5,
+		[1] = 130326,
+		[2] = "/esoui/art/icons/housing_gen_exc_lampstand001.dds",
+		[3] = "Witches Brazier, Primitive Log",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[854] = 
+	[5345] = 
 	{
-		[1] = 84375,
-		[2] = "/esoui/art/icons/dyestamp_tawnymoose.dds",
-		[3] = "Autumn: Tawny Moose",
-		[4] = 5,
+		[1] = 130325,
+		[2] = "/esoui/art/icons/housing_cre_lsb_skullpole002.dds",
+		[3] = "Witches Totem, Emphatic Warning",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[855] = 
+	[5342] = 
 	{
-		[1] = 84383,
-		[2] = "/esoui/art/icons/dyestamp_indigoandloam.dds",
-		[3] = "Harvest: Indigo and Loam",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[856] = 
-	{
-		[1] = 84385,
-		[2] = "/esoui/art/icons/dyestamp_brickredandbrown.dds",
-		[3] = "Witches: Brick Red and Brown",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[857] = 
-	{
-		[1] = 84412,
-		[2] = "/esoui/art/icons/dyestamp_practicalpurplescheme.dds",
-		[3] = "Hoarfrost: Practical Purple Scheme",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[858] = 
-	{
-		[1] = 83555,
-		[2] = "/esoui/art/icons/dyestamp_shamrockandsyrup.dds",
-		[3] = "Alchemical: Shamrock and Syrup",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[859] = 
-	{
-		[1] = 83829,
-		[2] = "/esoui/art/icons/dyestamp_tooledleather.dds",
-		[3] = "First Frost: Tooled Leather",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[860] = 
-	{
-		[1] = 84488,
-		[2] = "/esoui/art/icons/dyestamp_tannedpanther.dds",
-		[3] = "Forest: Tanned Panther",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[861] = 
-	{
-		[1] = 83609,
-		[2] = "/esoui/art/icons/dyestamp_macaroniandmahogany.dds",
-		[3] = "Necrotic: Macaroni and Mahogany",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[862] = 
-	{
-		[1] = 83703,
-		[2] = "/esoui/art/icons/dyestamp_senchelionshades.dds",
-		[3] = "Shadows: Senche-Lion Shades",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[863] = 
-	{
-		[1] = 83968,
-		[2] = "/esoui/art/icons/dyestamp_hotbutteredcoffee.dds",
-		[3] = "Autumn: Hot Buttered Coffee",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[864] = 
-	{
-		[1] = 83689,
-		[2] = "/esoui/art/icons/dyestamp_marinelederhosen.dds",
-		[3] = "Harvest: Marine Lederhosen",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[865] = 
-	{
-		[1] = 84245,
-		[2] = "/esoui/art/icons/dyestamp_bloodandbrown.dds",
-		[3] = "Witches: Blood and Brown",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[866] = 
-	{
-		[1] = 83768,
-		[2] = "/esoui/art/icons/dyestamp_eggplantandcinnamon.dds",
-		[3] = "Hoarfrost: Eggplant and Cinnamon",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[867] = 
-	{
-		[1] = 84495,
-		[2] = "/esoui/art/icons/dyestamp_greenwinterwheat.dds",
-		[3] = "Alchemical: Green Winter Wheat",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[868] = 
-	{
-		[1] = 84213,
-		[2] = "/esoui/art/icons/dyestamp_battleaxebrown.dds",
-		[3] = "First Frost: Battleaxe Brown",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[869] = 
-	{
-		[1] = 84130,
-		[2] = "/esoui/art/icons/dyestamp_sootycanary.dds",
-		[3] = "Forest: Sooty Canary",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[870] = 
-	{
-		[1] = 83926,
-		[2] = "/esoui/art/icons/dyestamp_sulfuricsteel.dds",
-		[3] = "Necrotic: Sulfuric Steel",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[871] = 
-	{
-		[1] = 84317,
-		[2] = "/esoui/art/icons/dyestamp_forgewroughtbeige.dds",
-		[3] = "Shadows: Forge-Wrought Beige",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[872] = 
-	{
-		[1] = 84290,
-		[2] = "/esoui/art/icons/dyestamp_mustardandashes.dds",
-		[3] = "Autumn: Mustard and Ashes",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[873] = 
-	{
-		[1] = 84099,
-		[2] = "/esoui/art/icons/dyestamp_gatesofnight.dds",
-		[3] = "Harvest: Gates of Night",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[874] = 
-	{
-		[1] = 83904,
-		[2] = "/esoui/art/icons/dyestamp_rustychainmail.dds",
-		[3] = "Witches: Rusty Chain Mail",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[875] = 
-	{
-		[1] = 84113,
-		[2] = "/esoui/art/icons/dyestamp_violetandcharcoal.dds",
-		[3] = "Hoarfrost: Violet and Charcoal",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[876] = 
-	{
-		[1] = 84065,
-		[2] = "/esoui/art/icons/dyestamp_greenandgraphite.dds",
-		[3] = "Alchemical: Green and Graphite",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[877] = 
-	{
-		[1] = 84124,
-		[2] = "/esoui/art/icons/dyestamp_walnutandlead.dds",
-		[3] = "First Frost: Walnut and Lead",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[878] = 
-	{
-		[1] = 83575,
-		[2] = "/esoui/art/icons/dyestamp_burntgoldandgray.dds",
-		[3] = "Forest: Burnt Gold and Gray",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[879] = 
-	{
-		[1] = 83897,
-		[2] = "/esoui/art/icons/dyestamp_mudcrabinshadows.dds",
-		[3] = "Necrotic: Mudcrab in Shadows",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[880] = 
-	{
-		[1] = 83838,
-		[2] = "/esoui/art/icons/dyestamp_oysterandpewter.dds",
-		[3] = "Shadows: Oyster and Pewter",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[881] = 
-	{
-		[1] = 83603,
-		[2] = "/esoui/art/icons/dyestamp_jaundiceandsmoke.dds",
-		[3] = "Autumn: Jaundice and Smoke",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[882] = 
-	{
-		[1] = 84104,
-		[2] = "/esoui/art/icons/dyestamp_nightskyandironsea.dds",
-		[3] = "Harvest: Night Sky and Iron Sea",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[883] = 
-	{
-		[1] = 84223,
-		[2] = "/esoui/art/icons/dyestamp_bloodstainedsteel.dds",
-		[3] = "Witches: Bloodstained Steel",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[884] = 
-	{
-		[1] = 83579,
-		[2] = "/esoui/art/icons/dyestamp_purpleandslate.dds",
-		[3] = "Hoarfrost: Purple and Slate",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[885] = 
-	{
-		[1] = 83995,
-		[2] = "/esoui/art/icons/dyestamp_chlorophyllandcharcoal.dds",
-		[3] = "Alchemical: Chlorophyll and Charcoal",
-		[4] = 5,
+		[1] = 130322,
+		[2] = "/esoui/art/icons/housing_bre_exc_scythe001.dds",
+		[3] = "Tool, Harvest Scythe",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -12611,12 +14267,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[886] = 
+	[5339] = 
 	{
-		[1] = 84369,
-		[2] = "/esoui/art/icons/dyestamp_heartlandforest.dds",
-		[3] = "First Frost: Heartland Forest",
-		[4] = 5,
+		[1] = 130319,
+		[2] = "/esoui/art/icons/housing_veg_crp_wheatstalks007.dds",
+		[3] = "Crop, Wheat Stack",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -14231,1127 +15887,1127 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[887] = 
+	[5338] = 
 	{
-		[1] = 84422,
-		[2] = "/esoui/art/icons/dyestamp_slimemoldtrio.dds",
-		[3] = "Forest: Slime Mold Trio",
-		[4] = 5,
+		[1] = 130083,
+		[2] = "/esoui/art/icons/housing_cld_inc_stoneblock001.dds",
+		[3] = "Daedric Block, Seat",
+		[4] = 3,
 		[5] = 0,
-		[6] = 1,
+		[6] = 3,
 	},
-	[888] = 
+	[5337] = 
 	{
-		[1] = 84171,
-		[2] = "/esoui/art/icons/dyestamp_aquamarineandclay.dds",
-		[3] = "Necrotic: Aquamarine and Clay",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[889] = 
-	{
-		[1] = 83908,
-		[2] = "/esoui/art/icons/dyestamp_arenthianalfalfa.dds",
-		[3] = "Shadows: Arenthian Alfalfa",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[890] = 
-	{
-		[1] = 83817,
-		[2] = "/esoui/art/icons/dyestamp_garnetandwalnut.dds",
-		[3] = "Autumn: Garnet and Walnut",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[891] = 
-	{
-		[1] = 84042,
-		[2] = "/esoui/art/icons/dyestamp_jaqspurleathers.dds",
-		[3] = "Harvest: Jaqspur Leathers",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[892] = 
-	{
-		[1] = 83613,
-		[2] = "/esoui/art/icons/dyestamp_goldensweetroll.dds",
-		[3] = "Witches: Golden Sweetroll",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[893] = 
-	{
-		[1] = 84474,
-		[2] = "/esoui/art/icons/dyestamp_indigoconniption.dds",
-		[3] = "Hoarfrost: Indigo Conniption",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[894] = 
-	{
-		[1] = 84356,
-		[2] = "/esoui/art/icons/dyestamp_mushroomandcinnamon.dds",
-		[3] = "Alchemical: Mushroom and Cinnamon",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[895] = 
-	{
-		[1] = 83786,
-		[2] = "/esoui/art/icons/dyestamp_emeraldandleather.dds",
-		[3] = "First Frost: Emerald and Leather",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[896] = 
-	{
-		[1] = 83901,
-		[2] = "/esoui/art/icons/dyestamp_limeandcaramel.dds",
-		[3] = "Forest: Lime and Caramel",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[898] = 
-	{
-		[1] = 84303,
-		[2] = "/esoui/art/icons/dyestamp_cedarsofcyrodiil.dds",
-		[3] = "Shadows: Cedars of Cyrodiil",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[899] = 
-	{
-		[1] = 83610,
-		[2] = "/esoui/art/icons/dyestamp_darkazureandtan.dds",
-		[3] = "Autumn: Dark Azure and Tan",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[900] = 
-	{
-		[1] = 84002,
-		[2] = "/esoui/art/icons/dyestamp_helstromsummer.dds",
-		[3] = "Harvest: Helstrom Summer",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[901] = 
-	{
-		[1] = 83598,
-		[2] = "/esoui/art/icons/dyestamp_sloadhoneyandthrasmud.dds",
-		[3] = "Witches: Sload Honey and Thras Mud",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[902] = 
-	{
-		[1] = 83561,
-		[2] = "/esoui/art/icons/dyestamp_blueinkandrust.dds",
-		[3] = "Hoarfrost: Blue Ink and Rust",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[903] = 
-	{
-		[1] = 84058,
-		[2] = "/esoui/art/icons/dyestamp_oliveandmerlot.dds",
-		[3] = "Alchemical: Olive and Merlot",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[904] = 
-	{
-		[1] = 83527,
-		[2] = "/esoui/art/icons/dyestamp_firgreenandstonegray.dds",
-		[3] = "First Frost: Fir Green and Stone Gray",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[905] = 
-	{
-		[1] = 83916,
-		[2] = "/esoui/art/icons/dyestamp_figleafandashes.dds",
-		[3] = "Forest: Fig Leaf and Ashes",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[906] = 
-	{
-		[1] = 84014,
-		[2] = "/esoui/art/icons/dyestamp_seafoamandshadows.dds",
-		[3] = "Necrotic: Seafoam and Shadows",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[907] = 
-	{
-		[1] = 84238,
-		[2] = "/esoui/art/icons/dyestamp_crocodilesinfog.dds",
-		[3] = "Shadows: Crocodiles in Fog",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[908] = 
-	{
-		[1] = 84492,
-		[2] = "/esoui/art/icons/dyestamp_bluemorndas.dds",
-		[3] = "Autumn: Blue Morndas",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[909] = 
-	{
-		[1] = 84136,
-		[2] = "/esoui/art/icons/dyestamp_rainshandmist.dds",
-		[3] = "Harvest: Rain's Hand Mist",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[910] = 
-	{
-		[1] = 84242,
-		[2] = "/esoui/art/icons/dyestamp_ocelotandopossum.dds",
-		[3] = "Witches: Ocelot and Opossum",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[911] = 
-	{
-		[1] = 84176,
-		[2] = "/esoui/art/icons/dyestamp_darkbluemelancholy.dds",
-		[3] = "Hoarfrost: Dark Blue Melancholy",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[912] = 
-	{
-		[1] = 83680,
-		[2] = "/esoui/art/icons/dyestamp_kwamachitin.dds",
-		[3] = "Alchemical: Kwama Chitin",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[913] = 
-	{
-		[1] = 83697,
-		[2] = "/esoui/art/icons/dyestamp_kagoutihidegreen.dds",
-		[3] = "First Frost: Alit Hide Green",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[914] = 
-	{
-		[1] = 83877,
-		[2] = "/esoui/art/icons/dyestamp_limesandcarbonsteel.dds",
-		[3] = "Forest: Limes and Carbon Steel",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[921] = 
-	{
-		[1] = 83947,
-		[2] = "/esoui/art/icons/dyestamp_seaweedandanchorchains.dds",
-		[3] = "Alchemical: Seaweed and Anchor Chains",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[922] = 
-	{
-		[1] = 83930,
-		[2] = "/esoui/art/icons/dyestamp_harvestcemetery.dds",
-		[3] = "Graveyard: Harvest Cemetery",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[923] = 
-	{
-		[1] = 84470,
-		[2] = "/esoui/art/icons/dyestamp_pumpkinmidnight.dds",
-		[3] = "Holiday: Pumpkin Midnight",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[927] = 
-	{
-		[1] = 84346,
-		[2] = "/esoui/art/icons/dyestamp_darknesseverweaves.dds",
-		[3] = "Holiday: Darkness Ever Weaves",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[928] = 
-	{
-		[1] = 84043,
-		[2] = "/esoui/art/icons/dyestamp_hollowtwilight.dds",
-		[3] = "Graveyard: Hollow Twilight",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[929] = 
-	{
-		[1] = 83656,
-		[2] = "/esoui/art/icons/dyestamp_burningwitches.dds",
-		[3] = "Holiday: Burning Witches",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[941] = 
-	{
-		[1] = 82086,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 39: Minotaur Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[943] = 
-	{
-		[1] = 96954,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 46: Frostcaster Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[946] = 
-	{
-		[1] = 94440,
-		[2] = "/esoui/art/icons/crowncrate_experiencescroll_002.dds",
-		[3] = "Major Gold Coast Experience Scroll",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[947] = 
-	{
-		[1] = 94441,
-		[2] = "/esoui/art/icons/crowncrate_experiencescroll_003.dds",
-		[3] = "Grand Gold Coast Experience Scroll",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[948] = 
-	{
-		[1] = 94439,
-		[2] = "/esoui/art/icons/crowncrate_experiencescroll_001.dds",
-		[3] = "Gold Coast Experience Scroll",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[949] = 
-	{
-		[1] = 94437,
-		[2] = "/esoui/art/icons/store_tricolor_food_01.dds",
-		[3] = "Crown Crate Fortifying Meal",
-		[4] = 4,
-		[5] = 1,
-		[6] = 1,
-	},
-	[950] = 
-	{
-		[1] = 94438,
-		[2] = "/esoui/art/icons/crowncrate_tricolor_drink_01.dds",
-		[3] = "Crown Crate Refreshing Drink",
-		[4] = 4,
-		[5] = 1,
-		[6] = 1,
-	},
-	[951] = 
-	{
-		[1] = 82069,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 36: Dark Brotherhood Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[1144] = 
-	{
-		[1] = 64310,
-		[2] = "/esoui/art/icons/housing_gen_bucket_001.dds",
-		[3] = "Bucket^n",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[1145] = 
-	{
-		[1] = 64311,
-		[2] = "/esoui/art/icons/housing_gen_broom_001.dds",
-		[3] = "Broom^n",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[1146] = 
-	{
-		[1] = 112430,
-		[2] = "/esoui/art/icons/crownpotion_survivor.dds",
-		[3] = "Gold Coast Survivor Elixir",
+		[1] = 130090,
+		[2] = "/esoui/art/icons/housing_cld_lsb_wallsconce001.dds",
+		[3] = "Daedric Sconce, Molag Bal",
 		[4] = 4,
 		[5] = 0,
-		[6] = 5,
+		[6] = 3,
 	},
-	[1147] = 
+	[5336] = 
 	{
-		[1] = 112427,
-		[2] = "/esoui/art/icons/crownpotion_spellcaster.dds",
-		[3] = "Gold Coast Spellcaster Elixir",
+		[1] = 130192,
+		[2] = "/esoui/art/icons/housing_vrd_exc_statuesheogorath001.dds",
+		[3] = "Statue of Sheogorath, the Madgod",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5335] = 
+	{
+		[1] = 130188,
+		[2] = "/esoui/art/icons/housing_vrd_inc_housingstatuemolagbal001.dds",
+		[3] = "Statuette of Molag Bal, Lord of Brutality",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5322] = 
+	{
+		[1] = 130318,
+		[2] = "/esoui/art/icons/housing_veg_crp_wheatstalks006.dds",
+		[3] = "Crop, Wheat Pile",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5321] = 
+	{
+		[1] = 130317,
+		[2] = "/esoui/art/icons/housing_veg_crp_pumpkinlarge002.dds",
+		[3] = "Pumpkin, Sickly",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5320] = 
+	{
+		[1] = 130316,
+		[2] = "/esoui/art/icons/housing_veg_crp_pumpkinlarge001.dds",
+		[3] = "Pumpkin, Frail",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5319] = 
+	{
+		[1] = 130285,
+		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk003.dds",
+		[3] = "Coldharbour Glowstalk, Young",
 		[4] = 4,
 		[5] = 0,
-		[6] = 5,
+		[6] = 1,
 	},
-	[1148] = 
+	[5318] = 
 	{
-		[1] = 112428,
-		[2] = "/esoui/art/icons/crownpotion_warrior.dds",
-		[3] = "Gold Coast Warrior Elixir",
+		[1] = 130284,
+		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk007.dds",
+		[3] = "Coldharbour Glowstalk, Seedlings",
 		[4] = 4,
 		[5] = 0,
-		[6] = 5,
+		[6] = 1,
 	},
-	[1149] = 
+	[5317] = 
 	{
-		[1] = 112437,
-		[2] = "/esoui/art/icons/crowncrate_invisibility_potion_01.dds",
-		[3] = "Crown Invisibility Potion",
+		[1] = 130283,
+		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk004.dds",
+		[3] = "Coldharbour Glowstalk, Sprout",
 		[4] = 4,
 		[5] = 0,
-		[6] = 5,
+		[6] = 1,
 	},
-	[1151] = 
+	[5316] = 
 	{
-		[1] = 83642,
-		[2] = "/esoui/art/icons/dyestamp_dec11.dds",
-		[3] = "Frosted: Glacial Tinges",
-		[4] = 5,
+		[1] = 130282,
+		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk002.dds",
+		[3] = "Coldharbour Glowstalk, Strong",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1152] = 
+	[5315] = 
 	{
-		[1] = 83537,
-		[2] = "/esoui/art/icons/dyestamp_dec12.dds",
-		[3] = "Frosted: Iceberg Hues",
-		[4] = 5,
+		[1] = 130281,
+		[2] = "/esoui/art/icons/housing_veg_fug_chlightstalk001.dds",
+		[3] = "Coldharbour Glowstalk, Towering",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1153] = 
+	[5314] = 
 	{
-		[1] = 84081,
-		[2] = "/esoui/art/icons/dyestamp_dec13.dds",
-		[3] = "Frosted: Somber Stalhrim",
-		[4] = 5,
+		[1] = 130280,
+		[2] = "/esoui/art/icons/housing_tre_ded_coldharbor007.dds",
+		[3] = "Sapling, Petrified Ashen",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1155] = 
+	[5313] = 
 	{
-		[1] = 83614,
-		[2] = "/esoui/art/icons/dyestamp_dec15.dds",
-		[3] = "Frosted: Sea of Ghosts",
-		[4] = 5,
+		[1] = 130279,
+		[2] = "/esoui/art/icons/housing_tre_ded_coldharbor004.dds",
+		[3] = "Tree, Petrified Ashen",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1156] = 
+	[5312] = 
 	{
-		[1] = 84390,
-		[2] = "/esoui/art/icons/dyestamp_dec16.dds",
-		[3] = "Frosted: Frozen Phantom",
-		[4] = 5,
+		[1] = 130278,
+		[2] = "/esoui/art/icons/housing_tre_ded_coldharbormb002.dds",
+		[3] = "Tree, Strong Withered",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1157] = 
+	[5311] = 
 	{
-		[1] = 83966,
-		[2] = "/esoui/art/icons/dyestamp_dec17.dds",
-		[3] = "Frosted: Blue Nobility",
-		[4] = 5,
+		[1] = 130277,
+		[2] = "/esoui/art/icons/housing_tre_ded_coldharbormb004.dds",
+		[3] = "Tree, Towering Withered",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1158] = 
+	[5310] = 
 	{
-		[1] = 83965,
-		[2] = "/esoui/art/icons/dyestamp_dec18.dds",
-		[3] = "Frosted: Solstheim Sweetroll",
-		[4] = 5,
+		[1] = 130276,
+		[2] = "/esoui/art/icons/housing_rok_vol_coldharbor_grp003.dds",
+		[3] = "Rocks, Coldharbour Cluster",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1159] = 
+	[5309] = 
 	{
-		[1] = 83806,
-		[2] = "/esoui/art/icons/dyestamp_dec19.dds",
-		[3] = "Frosted: Arctic Phase",
-		[4] = 5,
+		[1] = 130275,
+		[2] = "/esoui/art/icons/housing_rok_vol_chsmallpointed001.dds",
+		[3] = "Boulder, Coldharbour Spikes",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1160] = 
+	[5308] = 
 	{
-		[1] = 83760,
-		[2] = "/esoui/art/icons/dyestamp_dec110.dds",
-		[3] = "Frosted: Spectrum of Sleet",
-		[4] = 5,
+		[1] = 130274,
+		[2] = "/esoui/art/icons/housing_rok_vol_coldharbor_med002.dds",
+		[3] = "Boulder, Coldharbour Shard",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1161] = 
+	[5307] = 
 	{
-		[1] = 83868,
-		[2] = "/esoui/art/icons/dyestamp_dec111.dds",
-		[3] = "Frosted: Icy Northern Coast",
-		[4] = 5,
+		[1] = 130273,
+		[2] = "/esoui/art/icons/housing_rok_vol_coldharbor001.dds",
+		[3] = "Boulder, Coldharbour Fan",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1162] = 
+	[5306] = 
 	{
-		[1] = 84281,
-		[2] = "/esoui/art/icons/dyestamp_dec112.dds",
-		[3] = "Frosted: Promises in Fog",
-		[4] = 5,
+		[1] = 130315,
+		[2] = "/esoui/art/icons/housing_tre_ded_marsh003.dds",
+		[3] = "Tree, Ancient Rotten",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1163] = 
+	[5305] = 
 	{
-		[1] = 84127,
-		[2] = "/esoui/art/icons/dyestamp_dec113.dds",
-		[3] = "Frosted: Frosty Patina",
-		[4] = 5,
+		[1] = 130314,
+		[2] = "/esoui/art/icons/housing_tre_ded_marsh007.dds",
+		[3] = "Tree, Withered Marsh",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1164] = 
+	[5304] = 
 	{
-		[1] = 83999,
-		[2] = "/esoui/art/icons/dyestamp_dec114.dds",
-		[3] = "Frosted: Ghostwalker",
-		[4] = 5,
+		[1] = 130313,
+		[2] = "/esoui/art/icons/housing_tre_ded_marsh008.dds",
+		[3] = "Tree, Gnarled Marsh",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1165] = 
+	[5303] = 
 	{
-		[1] = 84291,
-		[2] = "/esoui/art/icons/dyestamp_dec115.dds",
-		[3] = "Frosted: Alabaster and Grape",
-		[4] = 5,
+		[1] = 130312,
+		[2] = "/esoui/art/icons/housing_tre_eve_vrdlimberpine007.dds",
+		[3] = "Tree, Dead Pine",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1166] = 
+	[5302] = 
 	{
-		[1] = 84314,
-		[2] = "/esoui/art/icons/dyestamp_dec116.dds",
-		[3] = "Frosted: Gray Linens",
-		[4] = 5,
+		[1] = 130311,
+		[2] = "/esoui/art/icons/housing_tre_ded_marsh001.dds",
+		[3] = "Tree, Dead Swamp",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1167] = 
+	[5301] = 
 	{
-		[1] = 83712,
-		[2] = "/esoui/art/icons/dyestamp_dec117.dds",
-		[3] = "Frosted: Fabric of Steel",
-		[4] = 5,
+		[1] = 130310,
+		[2] = "/esoui/art/icons/housing_tre_ded_marsh002.dds",
+		[3] = "Tree, Dead Marsh",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1168] = 
+	[5300] = 
 	{
-		[1] = 84514,
-		[2] = "/esoui/art/icons/dyestamp_dec118.dds",
-		[3] = "Frosted: Cold Twilight",
-		[4] = 5,
+		[1] = 130309,
+		[2] = "/esoui/art/icons/housing_tre_ded_stuntedoakcluster003.dds",
+		[3] = "Boulder, Swampy Growth",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1174] = 
+	[5298] = 
 	{
-		[1] = 83724,
-		[2] = "/esoui/art/icons/dyestamp_dec86.dds",
-		[3] = "Misty: Markarth Pavement",
-		[4] = 5,
+		[1] = 130307,
+		[2] = "/esoui/art/icons/housing_rok_mos_tancluslgt005.dds",
+		[3] = "Rocks, Swampy Slab",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1175] = 
+	[5297] = 
 	{
-		[1] = 83651,
-		[2] = "/esoui/art/icons/dyestamp_dec87.dds",
-		[3] = "Misty: The Gray Cat's Fur",
-		[4] = 5,
+		[1] = 130306,
+		[2] = "/esoui/art/icons/housing_rok_mos_tansmall009.dds",
+		[3] = "Stones, Gray Swampy",
+		[4] = 1,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1176] = 
+	[5296] = 
 	{
-		[1] = 83675,
-		[2] = "/esoui/art/icons/dyestamp_dec88.dds",
-		[3] = "Misty: Falkreath Headstones",
-		[4] = 5,
+		[1] = 130305,
+		[2] = "/esoui/art/icons/housing_rok_mos_tanlgt005.dds",
+		[3] = "Stone, Mossy Swamp",
+		[4] = 1,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1177] = 
+	[5292] = 
 	{
-		[1] = 83648,
-		[2] = "/esoui/art/icons/dyestamp_dec89.dds",
-		[3] = "Misty: Lies Told in the Dark",
-		[4] = 5,
+		[1] = 130247,
+		[2] = "/esoui/art/icons/housing_tre_dec_sfcypress004.dds",
+		[3] = "Tree, Fetid Cypress",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1182] = 
+	[5291] = 
 	{
-		[1] = 84029,
-		[2] = "/esoui/art/icons/dyestamp_dec814.dds",
-		[3] = "Misty: Ashen Spectrum",
-		[4] = 5,
+		[1] = 130230,
+		[2] = "/esoui/art/icons/housing_tre_dec_sfcypressstump001.dds",
+		[3] = "Stump, Wretched Cypress",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1183] = 
+	[5290] = 
 	{
-		[1] = 83714,
-		[2] = "/esoui/art/icons/dyestamp_dec815.dds",
-		[3] = "Misty: Pearly Pear",
-		[4] = 5,
+		[1] = 130229,
+		[2] = "/esoui/art/icons/housing_tre_dec_sfcypressdead010.dds",
+		[3] = "Tree, Wretched Cypress",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1184] = 
+	[5289] = 
 	{
-		[1] = 84386,
-		[2] = "/esoui/art/icons/dyestamp_dec816.dds",
-		[3] = "Misty: Almost Pallid",
-		[4] = 5,
+		[1] = 130228,
+		[2] = "/esoui/art/icons/housing_bre_inc_book_closed002.dds",
+		[3] = "The Witches of Hag Fen",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1185] = 
+	[5288] = 
 	{
-		[1] = 84133,
-		[2] = "/esoui/art/icons/dyestamp_dec817.dds",
-		[3] = "Misty: Imperial Cadet",
-		[4] = 5,
+		[1] = 130227,
+		[2] = "/esoui/art/icons/housing_gen_cmp_primativeleantoo002.dds",
+		[3] = "Witches' Tent, Lean-To",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1186] = 
+	[5287] = 
 	{
-		[1] = 84430,
-		[2] = "/esoui/art/icons/dyestamp_dec818.dds",
-		[3] = "Misty: Thunderhead",
-		[4] = 5,
+		[1] = 130226,
+		[2] = "/esoui/art/icons/housing_orc_inc_deercarcass001.dds",
+		[3] = "Carcass, Hanging Deer",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1187] = 
+	[5286] = 
 	{
-		[1] = 84190,
-		[2] = "/esoui/art/icons/dyestamp_dec151.dds",
-		[3] = "Darkening: Night in Necrom",
-		[4] = 5,
+		[1] = 130225,
+		[2] = "/esoui/art/icons/housing_coh_inc_pileoskulls002.dds",
+		[3] = "Skulls, Heap",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1188] = 
+	[5285] = 
 	{
-		[1] = 83580,
-		[2] = "/esoui/art/icons/dyestamp_dec152.dds",
-		[3] = "Darkening: Narsis Navy",
-		[4] = 5,
+		[1] = 130224,
+		[2] = "/esoui/art/icons/housing_orc_inc_rugskin003.dds",
+		[3] = "Reachmen Rug, Smooth Skin",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1189] = 
+	[5284] = 
 	{
-		[1] = 83588,
-		[2] = "/esoui/art/icons/dyestamp_dec153.dds",
-		[3] = "Darkening: Dark of the Moons",
-		[4] = 5,
+		[1] = 130223,
+		[2] = "/esoui/art/icons/housing_orc_inc_rugskin001.dds",
+		[3] = "Reachmen Rug, Mottled Skin",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1190] = 
+	[5283] = 
 	{
-		[1] = 83943,
-		[2] = "/esoui/art/icons/dyestamp_dec154.dds",
-		[3] = "Darkening: Curse the Darkness",
-		[4] = 5,
+		[1] = 130222,
+		[2] = "/esoui/art/icons/housing_uni_exc_reachmantotem003.dds",
+		[3] = "Hagraven Totem, Skull",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1191] = 
+	[5282] = 
 	{
-		[1] = 83820,
-		[2] = "/esoui/art/icons/dyestamp_dec155.dds",
-		[3] = "Darkening: Naval Dress Uniform",
-		[4] = 5,
+		[1] = 130221,
+		[2] = "/esoui/art/icons/housing_uni_exc_reachcage001.dds",
+		[3] = "Reachmen Cage, Sturdy",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1192] = 
+	[5281] = 
 	{
-		[1] = 84353,
-		[2] = "/esoui/art/icons/dyestamp_dec156.dds",
-		[3] = "Darkening: Winterhold Slate",
+		[1] = 130220,
+		[2] = "/esoui/art/icons/housing_uni_exc_reachhealingtotem001.dds",
+		[3] = "Hagraven Altar, Alchemical",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1193] = 
+	[5280] = 
 	{
-		[1] = 83759,
-		[2] = "/esoui/art/icons/dyestamp_dec157.dds",
-		[3] = "Darkening: Grievous Twilight",
-		[4] = 5,
+		[1] = 130219,
+		[2] = "/esoui/art/icons/housing_gen_exc_skulllamp001.dds",
+		[3] = "Witches' Brazier, Beast Skull",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1194] = 
+	[5279] = 
 	{
-		[1] = 84481,
-		[2] = "/esoui/art/icons/dyestamp_dec158.dds",
-		[3] = "Darkening: Bluebottle Blush",
-		[4] = 5,
+		[1] = 130320,
+		[2] = "/esoui/art/icons/housing_bos_cmp_cauldron001.dds",
+		[3] = "Hagraven Cauldron, Rough Stone",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1195] = 
+	[5277] = 
 	{
-		[1] = 84021,
-		[2] = "/esoui/art/icons/dyestamp_dec159.dds",
-		[3] = "Darkening: Dress Blues",
-		[4] = 5,
+		[1] = 130216,
+		[2] = "/esoui/art/icons/housing_uni_exc_scryingpool002.dds",
+		[3] = "Witches' Basin, Scrying",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1196] = 
+	[5276] = 
 	{
-		[1] = 84428,
-		[2] = "/esoui/art/icons/dyestamp_dec1510.dds",
-		[3] = "Darkening: Cold Reception",
+		[1] = 130215,
+		[2] = "/esoui/art/icons/housing_uni_exc_harvestcauldronshort001.dds",
+		[3] = "Witches' Cauldron, Provisioning",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1197] = 
+	[5275] = 
 	{
-		[1] = 83956,
-		[2] = "/esoui/art/icons/dyestamp_dec1511.dds",
-		[3] = "Darkening: Widow's Weeds",
-		[4] = 5,
+		[1] = 130214,
+		[2] = "/esoui/art/icons/housing_ayl_duc_braziera001.dds",
+		[3] = "Ayleid Brazier, Fiery",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1198] = 
+	[5274] = 
 	{
-		[1] = 83834,
-		[2] = "/esoui/art/icons/dyestamp_dec1512.dds",
-		[3] = "Darkening: Dark Eclipse",
-		[4] = 5,
+		[1] = 130213,
+		[2] = "/esoui/art/icons/housing_ayl_duc_lanternhangingc001.dds",
+		[3] = "Ayleid Cage, Hanging",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1199] = 
+	[5273] = 
 	{
-		[1] = 84431,
-		[2] = "/esoui/art/icons/dyestamp_dec1513.dds",
-		[3] = "Darkening: Furtive Shadow",
-		[4] = 5,
+		[1] = 130212,
+		[2] = "/esoui/art/icons/housing_cra_inc_book001.dds",
+		[3] = "Daedra Worship: The Ayleids",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1200] = 
+	[5272] = 
 	{
-		[1] = 83892,
-		[2] = "/esoui/art/icons/dyestamp_dec1514.dds",
-		[3] = "Darkening: Black Mantra",
+		[1] = 130195,
+		[2] = "/esoui/art/icons/targetdummy_ironatronachboss_crown_01.dds",
+		[3] = "Target Iron Atronach^n",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1201] = 
+	[5271] = 
 	{
-		[1] = 84148,
-		[2] = "/esoui/art/icons/dyestamp_dec1515.dds",
-		[3] = "Darkening: Night's Depth",
+		[1] = 130194,
+		[2] = "/esoui/art/icons/targetdummy_stoneatronachminiboss_crown_01.dds",
+		[3] = "Target Stone Atronach^n",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1202] = 
+	[5270] = 
 	{
-		[1] = 84466,
-		[2] = "/esoui/art/icons/dyestamp_dec1516.dds",
-		[3] = "Darkening: Woolly Lichen",
+		[1] = 130193,
+		[2] = "/esoui/art/icons/targetdummy_robustminotaurhandler_crown_01.dds",
+		[3] = "Robust Target Minotaur Handler^m",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1203] = 
+	[5269] = 
 	{
-		[1] = 83830,
-		[2] = "/esoui/art/icons/dyestamp_dec1517.dds",
-		[3] = "Darkening: Gray Expectance",
-		[4] = 5,
+		[1] = 130211,
+		[2] = "/esoui/art/icons/housing_cra_inc_book002.dds",
+		[3] = "Books, Ordered Row",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1204] = 
+	[5268] = 
 	{
-		[1] = 84265,
-		[2] = "/esoui/art/icons/dyestamp_dec1518.dds",
-		[3] = "Darkening: Gray Winter's Day",
-		[4] = 5,
+		[1] = 130210,
+		[2] = "/esoui/art/icons/housing_cra_inc_book003.dds",
+		[3] = "Books, Scattered Row",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1205] = 
+	[5267] = 
 	{
-		[1] = 83987,
-		[2] = "/esoui/art/icons/dyestamp_dec221.dds",
-		[3] = "Elegiac: Night Hyacinth",
-		[4] = 5,
+		[1] = 130209,
+		[2] = "/esoui/art/icons/housing_ayl_duc_altar001.dds",
+		[3] = "Ayleid Table, Carved",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1206] = 
+	[5266] = 
 	{
-		[1] = 84490,
-		[2] = "/esoui/art/icons/dyestamp_dec222.dds",
-		[3] = "Elegiac: Footman's Livery",
-		[4] = 5,
+		[1] = 130208,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bencha001.dds",
+		[3] = "Ayleid Bench, Carved",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1207] = 
+	[5265] = 
 	{
-		[1] = 83624,
-		[2] = "/esoui/art/icons/dyestamp_dec223.dds",
-		[3] = "Elegiac: Tarbuckle",
-		[4] = 5,
+		[1] = 130207,
+		[2] = "/esoui/art/icons/housing_ayl_exc_base001.dds",
+		[3] = "Ayleid Plinth, Engraved",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1208] = 
+	[5264] = 
 	{
-		[1] = 83601,
-		[2] = "/esoui/art/icons/dyestamp_dec224.dds",
-		[3] = "Elegiac: Deep Night Sky",
-		[4] = 5,
+		[1] = 130206,
+		[2] = "/esoui/art/icons/housing_ayl_exc_smallstatue001.dds",
+		[3] = "Ayleid Apparatus, Welkynd",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1209] = 
+	[5263] = 
 	{
-		[1] = 83765,
-		[2] = "/esoui/art/icons/dyestamp_dec225.dds",
-		[3] = "Elegiac: Mortician's Morndas",
-		[4] = 5,
+		[1] = 130205,
+		[2] = "/esoui/art/icons/housing_ayl_exc_prieststatue001.dds",
+		[3] = "Ayleid Statue, Pious Priest",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1210] = 
+	[5262] = 
 	{
-		[1] = 84508,
-		[2] = "/esoui/art/icons/dyestamp_dec226.dds",
-		[3] = "Elegiac: Dusk in Dawnstar",
-		[4] = 5,
+		[1] = 130204,
+		[2] = "/esoui/art/icons/housing_ayl_duc_welkydcluster01.dds",
+		[3] = "Welkynd Stones, Glowing",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1211] = 
+	[5261] = 
 	{
-		[1] = 83570,
-		[2] = "/esoui/art/icons/dyestamp_dec227.dds",
-		[3] = "Elegiac: Dunmeri Eyeliner",
-		[4] = 5,
+		[1] = 130203,
+		[2] = "/esoui/art/icons/housing_ayl_duc_brazierb001.dds",
+		[3] = "Ayleid Brazier, Welkynd Holder",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1212] = 
+	[5260] = 
 	{
-		[1] = 83540,
-		[2] = "/esoui/art/icons/dyestamp_dec228.dds",
-		[3] = "Elegiac: Filled Soul Gem",
-		[4] = 5,
+		[1] = 130202,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasedoorlarge002.dds",
+		[3] = "Ayleid Grate, Tall",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1213] = 
+	[5259] = 
 	{
-		[1] = 83945,
-		[2] = "/esoui/art/icons/dyestamp_dec229.dds",
-		[3] = "Elegiac: Purple Toupee",
-		[4] = 5,
+		[1] = 130201,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasedoorsmall001.dds",
+		[3] = "Ayleid Grate, Small",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1214] = 
+	[5258] = 
 	{
-		[1] = 83572,
-		[2] = "/esoui/art/icons/dyestamp_dec2210.dds",
-		[3] = "Elegiac: Fruit of the Vine",
-		[4] = 5,
+		[1] = 130200,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasesmallstackable001.dds",
+		[3] = "Ayleid Bookshelf, Cluttered",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1215] = 
+	[5257] = 
 	{
-		[1] = 83720,
-		[2] = "/esoui/art/icons/dyestamp_dec2211.dds",
-		[3] = "Elegiac: Royal Ink Pigments",
-		[4] = 5,
+		[1] = 130199,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bookcasesmallstackable002.dds",
+		[3] = "Ayleid Bookshelf, Bare",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1216] = 
+	[5256] = 
 	{
-		[1] = 83749,
-		[2] = "/esoui/art/icons/dyestamp_dec2212.dds",
-		[3] = "Elegiac: Darkened Accents",
-		[4] = 5,
+		[1] = 130198,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bookcaselarge002.dds",
+		[3] = "Ayleid Bookcase, Cluttered",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1217] = 
+	[5255] = 
 	{
-		[1] = 83710,
-		[2] = "/esoui/art/icons/dyestamp_dec2213.dds",
-		[3] = "Elegiac: Pitch Purple",
-		[4] = 5,
+		[1] = 130197,
+		[2] = "/esoui/art/icons/housing_ayl_duc_bookcaselarge001.dds",
+		[3] = "Ayleid Bookcase, Filled",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5254] = 
+	{
+		[1] = 130286,
+		[2] = "/esoui/art/icons/housing_tre_ded_mrkrottenlog001.dds",
+		[3] = "Log, Rotten Bog",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1218] = 
+	[5253] = 
 	{
-		[1] = 84319,
-		[2] = "/esoui/art/icons/dyestamp_dec2214.dds",
-		[3] = "Elegiac: Ordinator's Opinion",
+		[1] = 130191,
+		[2] = "/esoui/art/icons/housing_gen_inc_cheesewheel001.dds",
+		[3] = "The Shivering Cheese",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1219] = 
+	[5252] = 
 	{
-		[1] = 83818,
-		[2] = "/esoui/art/icons/dyestamp_dec2215.dds",
-		[3] = "Elegiac: Woven Darkness",
+		[1] = 130190,
+		[2] = "/esoui/art/icons/housing_dae_lsb_bannersheogorathsmall001.dds",
+		[3] = "Banner of Sheogorath",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1220] = 
+	[5251] = 
 	{
-		[1] = 83640,
-		[2] = "/esoui/art/icons/dyestamp_dec2216.dds",
-		[3] = "Elegiac: Stone and Sand",
+		[1] = 130189,
+		[2] = "/esoui/art/icons/housing_dae_lsb_bannersheogorath001.dds",
+		[3] = "Tapestry of Sheogorath",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1221] = 
+	[5249] = 
 	{
-		[1] = 83691,
-		[2] = "/esoui/art/icons/dyestamp_dec2217.dds",
-		[3] = "Elegiac: Princely Gray",
+		[1] = 130187,
+		[2] = "/esoui/art/icons/housing_vrd_inc_housingstatuehircine001.dds",
+		[3] = "Statuette of Hircine, the Huntsman",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1222] = 
+	[5248] = 
 	{
-		[1] = 83667,
-		[2] = "/esoui/art/icons/dyestamp_dec2218.dds",
-		[3] = "Elegiac: Fancy Granite",
+		[1] = 130353,
+		[2] = "/esoui/art/icons/housing_vrd_inc_housingstatuesheogorath001.dds",
+		[3] = "Statuette of Sheogorath, the Mad Lord",
 		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5247] = 
+	{
+		[1] = 130095,
+		[2] = "/esoui/art/icons/housing_cld_duc_shackledprisoner001.dds",
+		[3] = "Daedric Torture Device, Chained",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5245] = 
+	{
+		[1] = 130093,
+		[2] = "/esoui/art/icons/housing_cld_inc_bookopen001.dds",
+		[3] = "Coldharbour Compact",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1223] = 
+	[5244] = 
 	{
-		[1] = 84096,
-		[2] = "/esoui/art/icons/dyestamp_dec291.dds",
-		[3] = "Magnanimous: Dancer in Webbing",
+		[1] = 130092,
+		[2] = "/esoui/art/icons/housing_cld_duc_floorseal001.dds",
+		[3] = "Seal of Molag Bal, Grand",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1224] = 
+	[5243] = 
 	{
-		[1] = 83607,
-		[2] = "/esoui/art/icons/dyestamp_dec292.dds",
-		[3] = "Magnanimous: Fuschia Cloud",
+		[1] = 130091,
+		[2] = "/esoui/art/icons/housing_vrd_exc_statuemolagbal001.dds",
+		[3] = "Statue of Molag Bal, God of Schemes",
 		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5242] = 
+	{
+		[1] = 130090,
+		[2] = "/esoui/art/icons/housing_cld_lsb_wallsconce001.dds",
+		[3] = "Daedric Sconce, Molag Bal",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5241] = 
+	{
+		[1] = 130089,
+		[2] = "/esoui/art/icons/housing_cld_lsb_rockbrazier001.dds",
+		[3] = "Daedric Brazier, Molag Bal",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1225] = 
+	[5240] = 
 	{
-		[1] = 83903,
-		[2] = "/esoui/art/icons/dyestamp_dec293.dds",
-		[3] = "Magnanimous: Evening Star Bride",
+		[1] = 130088,
+		[2] = "/esoui/art/icons/housing_cld_lsb_crystaltorch000.dds",
+		[3] = "Daedric Fragment, Coldharbour",
 		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5047] = 
+	{
+		[1] = 125610,
+		[2] = "/esoui/art/icons/housing_veg_fug_vrdhangingmushrooms005.dds",
+		[3] = "Mushrooms, Cave Bracket Cluster",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5046] = 
+	{
+		[1] = 125609,
+		[2] = "/esoui/art/icons/housing_veg_fug_pagoda004.dds",
+		[3] = "Mushrooms, Buttercake Stack",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5045] = 
+	{
+		[1] = 125608,
+		[2] = "/esoui/art/icons/housing_veg_fug_pagoda005.dds",
+		[3] = "Mushrooms, Buttercake Cluster",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5044] = 
+	{
+		[1] = 125607,
+		[2] = "/esoui/art/icons/housing_veg_fug_vrdmedmush004.dds",
+		[3] = "Mushroom, Young Netch Shield",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5043] = 
+	{
+		[1] = 125606,
+		[2] = "/esoui/art/icons/housing_veg_fug_vrdmedmush003.dds",
+		[3] = "Mushroom, Young Milkcap",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5042] = 
+	{
+		[1] = 125605,
+		[2] = "/esoui/art/icons/housing_veg_fug_vrdinkcap008.dds",
+		[3] = "Mushroom, Young Erupted Stinkcap",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5039] = 
+	{
+		[1] = 125602,
+		[2] = "/esoui/art/icons/housing_veg_fug_vrdinkcap007.dds",
+		[3] = "Mushroom, Stinkcap Button",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5037] = 
+	{
+		[1] = 125600,
+		[2] = "/esoui/art/icons/housing_veg_fug_vrdsmmushroom005.dds",
+		[3] = "Mushroom, Spongecap Patch",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5025] = 
+	{
+		[1] = 125588,
+		[2] = "/esoui/art/icons/housing_veg_fug_vrdinkcap011.dds",
+		[3] = "Mushroom, Lanky Erupted Stinkcap",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5024] = 
+	{
+		[1] = 125587,
+		[2] = "/esoui/art/icons/housing_veg_fug_vrdfunnelmushroom001.dds",
+		[3] = "Mushroom, Funnel Caps",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5023] = 
+	{
+		[1] = 125586,
+		[2] = "/esoui/art/icons/icon_missing.dds",
+		[3] = "",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5019] = 
+	{
+		[1] = 125582,
+		[2] = "/esoui/art/icons/icon_missing.dds",
+		[3] = "",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5018] = 
+	{
+		[1] = 125581,
+		[2] = "/esoui/art/icons/housing_veg_fug_pagoda002.dds",
+		[3] = "Mushroom, Buttercake",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5017] = 
+	{
+		[1] = 125562,
+		[2] = "/esoui/art/icons/housing_veg_bsh_vrdfoxtailgrass001.dds",
+		[3] = "Grass, Foxtail Cluster",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5010] = 
+	{
+		[1] = 125555,
+		[2] = "/esoui/art/icons/housing_veg_fan_mphclusterbatflower003.dds",
+		[3] = "Flowers, Sullen Purple Bat Blooms",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5009] = 
+	{
+		[1] = 125554,
+		[2] = "/esoui/art/icons/housing_veg_fan_vrdclusterbatflower001.dds",
+		[3] = "Flowers, Opposing Purple Bat Blooms",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5008] = 
+	{
+		[1] = 125553,
+		[2] = "/esoui/art/icons/housing_veg_flr_vrdsymplocarpus004.dds",
+		[3] = "Flowers, Netch Cabbage Stalks",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5007] = 
+	{
+		[1] = 125552,
+		[2] = "/esoui/art/icons/housing_veg_flr_vrdsymplocarpus001.dds",
+		[3] = "Flowers, Netch Cabbage Patch",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5006] = 
+	{
+		[1] = 125551,
+		[2] = "/esoui/art/icons/housing_veg_flr_vrdsymplocarpus002.dds",
+		[3] = "Flowers, Netch Cabbage",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5005] = 
+	{
+		[1] = 125550,
+		[2] = "/esoui/art/icons/housing_veg_flr_vrdspikeyred001.dds",
+		[3] = "Flowers, Lava Blooms",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5004] = 
+	{
+		[1] = 125549,
+		[2] = "/esoui/art/icons/housing_veg_fan_mphclusterbatflower001.dds",
+		[3] = "Flowers, Double Purple Bat Blooms",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5003] = 
+	{
+		[1] = 125548,
+		[2] = "/esoui/art/icons/housing_veg_fan_vrdbatflower004.dds",
+		[3] = "Flower, Towering Purple Bat Bloom",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5002] = 
+	{
+		[1] = 125547,
+		[2] = "/esoui/art/icons/housing_veg_fan_vrdbatflower001.dds",
+		[3] = "Flower, Healthy Purple Bat Bloom",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5001] = 
+	{
+		[1] = 125546,
+		[2] = "/esoui/art/icons/housing_veg_flr_vrdspikeyred002.dds",
+		[3] = "Flower Patch, Lava Blooms",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[5000] = 
+	{
+		[1] = 125545,
+		[2] = "/esoui/art/icons/housing_veg_bsh_vrdfern004.dds",
+		[3] = "Fern, Young Dusky",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4999] = 
+	{
+		[1] = 125544,
+		[2] = "/esoui/art/icons/housing_veg_bsh_vrdfern002.dds",
+		[3] = "Fern, Strong Dusky",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4998] = 
+	{
+		[1] = 125543,
+		[2] = "/esoui/art/icons/housing_veg_bsh_vrdyellowfern001.dds",
+		[3] = "Fern, Ashen",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4997] = 
+	{
+		[1] = 125484,
+		[2] = "/esoui/art/icons/housing_veg_bsh_vrdlaurelbush002.dds",
+		[3] = "Bush, Lush Laurel",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4996] = 
+	{
+		[1] = 125483,
+		[2] = "/esoui/art/icons/housing_rok_vol_vrdmed004.dds",
+		[3] = "Boulder, Volcanic Plug",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4995] = 
+	{
+		[1] = 125482,
+		[2] = "/esoui/art/icons/housing_rok_vol_vrdmed005.dds",
+		[3] = "Boulder, Volcanic Crag",
+		[4] = 2,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4994] = 
+	{
+		[1] = 125481,
+		[2] = "/esoui/art/icons/housing_rok_vol_vrdlavacolumn004.dds",
+		[3] = "Boulder, Volcanic Column",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1226] = 
+	[4992] = 
 	{
-		[1] = 83990,
-		[2] = "/esoui/art/icons/dyestamp_dec294.dds",
-		[3] = "Magnanimous: Livid Satin",
+		[1] = 126034,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonelord001.dds",
+		[3] = "The Lord",
 		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4991] = 
+	{
+		[1] = 126831,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage001.dds",
+		[3] = "Hlaalu Boxes, Compact",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1239] = 
+	[4990] = 
 	{
-		[1] = 84506,
-		[2] = "/esoui/art/icons/dyestamp_dec2917.dds",
-		[3] = "Magnanimous: Adept's Apprentice",
+		[1] = 125461,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonelover001.dds",
+		[3] = "The Lover",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1240] = 
+	[4989] = 
 	{
-		[1] = 83645,
-		[2] = "/esoui/art/icons/dyestamp_dec2918.dds",
-		[3] = "Magnanimous: Mousey Modesty",
+		[1] = 125460,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonemage001.dds",
+		[3] = "The Mage",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1241] = 
+	[4988] = 
 	{
-		[1] = 83617,
-		[2] = "/esoui/art/icons/dyestamp_jan51.dds",
-		[3] = "Golden: Golden Fiancee",
+		[1] = 125459,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneritual001.dds",
+		[3] = "The Ritual",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1242] = 
+	[4987] = 
 	{
-		[1] = 84013,
-		[2] = "/esoui/art/icons/dyestamp_jan52.dds",
-		[3] = "Golden: Chimer-That-Was",
+		[1] = 125458,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneserpent001.dds",
+		[3] = "The Serpent",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1243] = 
+	[4986] = 
 	{
-		[1] = 83869,
-		[2] = "/esoui/art/icons/dyestamp_jan53.dds",
-		[3] = "Golden: Pearls and Gold",
+		[1] = 125457,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneshadow001.dds",
+		[3] = "The Shadow",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1245] = 
+	[4985] = 
 	{
-		[1] = 83918,
-		[2] = "/esoui/art/icons/dyestamp_jan55.dds",
-		[3] = "Golden: Philosopher's Stone",
+		[1] = 125456,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonesteed001.dds",
+		[3] = "The Steed",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1246] = 
+	[4984] = 
 	{
-		[1] = 83619,
-		[2] = "/esoui/art/icons/dyestamp_jan56.dds",
-		[3] = "Golden: Alchemist's Attire",
+		[1] = 125455,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonethief001.dds",
+		[3] = "The Thief",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1247] = 
+	[4983] = 
 	{
-		[1] = 84134,
-		[2] = "/esoui/art/icons/dyestamp_jan57.dds",
-		[3] = "Golden: Wealth and Jaundice",
+		[1] = 125454,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonetower001.dds",
+		[3] = "The Tower",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1248] = 
+	[4982] = 
 	{
-		[1] = 84395,
-		[2] = "/esoui/art/icons/dyestamp_jan58.dds",
-		[3] = "Golden: Coffers of Gold",
+		[1] = 125453,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonewarrior001.dds",
+		[3] = "The Warrior",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1249] = 
+	[4981] = 
 	{
-		[1] = 83625,
-		[2] = "/esoui/art/icons/dyestamp_jan59.dds",
-		[3] = "Golden: The Walking Ingot",
+		[1] = 125452,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstonelady001.dds",
+		[3] = "The Lady",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1250] = 
+	[4980] = 
 	{
-		[1] = 83871,
-		[2] = "/esoui/art/icons/dyestamp_jan510.dds",
-		[3] = "Golden: Noble Metals",
+		[1] = 125451,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneapprentice001.dds",
+		[3] = "The Apprentice",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1251] = 
+	[4979] = 
 	{
-		[1] = 84320,
-		[2] = "/esoui/art/icons/dyestamp_jan511.dds",
-		[3] = "Golden: Snow on the Senche",
+		[1] = 119556,
+		[2] = "/esoui/art/icons/housing_gen_exc_mundusstoneatronach001.dds",
+		[3] = "The Atronach",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
@@ -15572,57 +17228,57 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1252] = 
+	[4978] = 
 	{
-		[1] = 84423,
-		[2] = "/esoui/art/icons/dyestamp_jan512.dds",
-		[3] = "Golden: Paper and Leather",
-		[4] = 5,
+		[1] = 130071,
+		[2] = "/esoui/art/icons/housing_cld_duc_torchrockpile001.dds",
+		[3] = "Daedric Torch, Coldharbour",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1253] = 
+	[4977] = 
 	{
-		[1] = 83713,
-		[2] = "/esoui/art/icons/dyestamp_jan513.dds",
-		[3] = "Golden: A Distinguished Pallor",
-		[4] = 5,
+		[1] = 130070,
+		[2] = "/esoui/art/icons/housing_cld_duc_spout002.dds",
+		[3] = "Daedric Spout, Arched",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1254] = 
+	[4976] = 
 	{
-		[1] = 83632,
-		[2] = "/esoui/art/icons/dyestamp_jan514.dds",
-		[3] = "Golden: Frosty Gravel",
-		[4] = 5,
+		[1] = 130069,
+		[2] = "/esoui/art/icons/housing_cld_duc_spout001.dds",
+		[3] = "Daedric Spout, Block",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1255] = 
+	[4975] = 
 	{
-		[1] = 84201,
-		[2] = "/esoui/art/icons/dyestamp_jan515.dds",
-		[3] = "Golden: Magnus' New Life",
-		[4] = 5,
+		[1] = 130068,
+		[2] = "/esoui/art/icons/housing_cld_duc_smallwall001.dds",
+		[3] = "Daedric Fence, Section",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1256] = 
+	[4974] = 
 	{
-		[1] = 84381,
-		[2] = "/esoui/art/icons/dyestamp_jan516.dds",
-		[3] = "Golden: Unexpectedly Somber",
-		[4] = 5,
+		[1] = 130067,
+		[2] = "/esoui/art/icons/housing_cld_duc_shacklechain001.dds",
+		[3] = "Daedric Chain, Segment",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1257] = 
+	[4973] = 
 	{
-		[1] = 84293,
-		[2] = "/esoui/art/icons/dyestamp_jan517.dds",
-		[3] = "Golden: Lead and Haze",
-		[4] = 5,
+		[1] = 130066,
+		[2] = "/esoui/art/icons/housing_cld_duc_gate001.dds",
+		[3] = "Daedric Doorway, Spiked",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -16058,21 +17714,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1258] = 
+	[4972] = 
 	{
-		[1] = 84187,
-		[2] = "/esoui/art/icons/dyestamp_jan518.dds",
-		[3] = "Golden: The Unnoticed Servant",
+		[1] = 130065,
+		[2] = "/esoui/art/icons/icon_missing.dds",
+		[3] = "",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1259] = 
+	[4971] = 
 	{
-		[1] = 83582,
-		[2] = "/esoui/art/icons/dyestamp_jan121.dds",
-		[3] = "Molten: Ochre Penumbra",
-		[4] = 5,
+		[1] = 126699,
+		[2] = "/esoui/art/icons/housing_dae_lsb_braziertabletop001.dds",
+		[3] = "Daedric Brazier, Table",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -17264,12 +18920,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1260] = 
+	[4970] = 
 	{
-		[1] = 83577,
-		[2] = "/esoui/art/icons/dyestamp_jan122.dds",
-		[3] = "Molten: Rusty Blade",
-		[4] = 5,
+		[1] = 126698,
+		[2] = "/esoui/art/icons/housing_dae_lsb_candelabrar002.dds",
+		[3] = "Daedric Brazier, Standing",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -17300,12 +18956,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1261] = 
+	[4969] = 
 	{
-		[1] = 83637,
-		[2] = "/esoui/art/icons/dyestamp_jan123.dds",
-		[3] = "Molten: Hobnailed Boot",
-		[4] = 5,
+		[1] = 126697,
+		[2] = "/esoui/art/icons/housing_dae_lsb_chandelier001.dds",
+		[3] = "Daedric Chandelier, Ritual",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -17372,12 +19028,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1262] = 
+	[4968] = 
 	{
-		[1] = 83827,
-		[2] = "/esoui/art/icons/dyestamp_jan124.dds",
-		[3] = "Molten: Gray as Stendarr's Sermon",
-		[4] = 5,
+		[1] = 126696,
+		[2] = "/esoui/art/icons/housing_dae_lsb_pedestal001.dds",
+		[3] = "Daedric Pedestal, Ritual",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -17390,12 +19046,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1293] = 
+	[4967] = 
 	{
-		[1] = 83980,
-		[2] = "/esoui/art/icons/dyestamp_jan1917.dds",
-		[3] = "Radiant: Last Melon in the Basket",
-		[4] = 5,
+		[1] = 126695,
+		[2] = "/esoui/art/icons/housing_dwe_lsb_lampa001.dds",
+		[3] = "Dwarven Lantern, Oil",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -17408,111 +19064,111 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1294] = 
+	[4966] = 
 	{
-		[1] = 84392,
-		[2] = "/esoui/art/icons/dyestamp_jan1918.dds",
-		[3] = "Radiant: Gray Tinged with Gold",
+		[1] = 126694,
+		[2] = "/esoui/art/icons/housing_dwe_inc_platforma001.dds",
+		[3] = "Dwarven Platform, Steps",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4965] = 
+	{
+		[1] = 126693,
+		[2] = "/esoui/art/icons/housing_dwe_fur_bookshelfa001.dds",
+		[3] = "Dwarven Bookcase, Full",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4964] = 
+	{
+		[1] = 126692,
+		[2] = "/esoui/art/icons/housing_dwe_duc_rkindeleftswitch001.dds",
+		[3] = "Dwarven Engine, Switch",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4963] = 
+	{
+		[1] = 126691,
+		[2] = "/esoui/art/icons/housing_dwe_duc_rkindeleftswitch003.dds",
+		[3] = "Dwarven Engine, Turbine",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4962] = 
+	{
+		[1] = 126690,
+		[2] = "/esoui/art/icons/housing_dwe_inc_valve001.dds",
+		[3] = "Dwarven Valve, Disconnected",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4961] = 
+	{
+		[1] = 126689,
+		[2] = "/esoui/art/icons/housing_dwe_duc_pipeboiler001.dds",
+		[3] = "Dwarven Engine, Boiler",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4960] = 
+	{
+		[1] = 126688,
+		[2] = "/esoui/art/icons/housing_dwe_fur_tablec001.dds",
+		[3] = "Dwarven Table, Assembly",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4959] = 
+	{
+		[1] = 126687,
+		[2] = "/esoui/art/icons/housing_dwe_duc_altera001.dds",
+		[3] = "Dwarven Altar, Stairs",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4958] = 
+	{
+		[1] = 126686,
+		[2] = "/esoui/art/icons/housing_dwe_inc_conjurationchest001.dds",
+		[3] = "Dwarven Chest, Relic",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1295] = 
+	[4957] = 
 	{
-		[1] = 83843,
-		[2] = "/esoui/art/icons/dyestamp_jan261.dds",
-		[3] = "Metallic: Iron Filings",
-		[4] = 5,
+		[1] = 126685,
+		[2] = "/esoui/art/icons/housing_dwe_duc_gearassembly001.dds",
+		[3] = "Dwarven Engine, Fan",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1296] = 
+	[4956] = 
 	{
-		[1] = 83862,
-		[2] = "/esoui/art/icons/dyestamp_jan262.dds",
-		[3] = "Metallic: Stone Watchtower",
-		[4] = 5,
+		[1] = 126684,
+		[2] = "/esoui/art/icons/housing_dwe_lsb_wallsconceroundb001.dds",
+		[3] = "Dwarven Sconce, Framework",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1297] = 
+	[4955] = 
 	{
-		[1] = 83833,
-		[2] = "/esoui/art/icons/dyestamp_jan263.dds",
-		[3] = "Metallic: Graveyard Grays",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1298] = 
-	{
-		[1] = 83562,
-		[2] = "/esoui/art/icons/dyestamp_jan264.dds",
-		[3] = "Metallic: Dependable Woollies",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1299] = 
-	{
-		[1] = 84001,
-		[2] = "/esoui/art/icons/dyestamp_jan265.dds",
-		[3] = "Metallic: Accountant's Heart Gray",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1300] = 
-	{
-		[1] = 84236,
-		[2] = "/esoui/art/icons/dyestamp_jan266.dds",
-		[3] = "Metallic: The Fog of Sleep",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1301] = 
-	{
-		[1] = 84076,
-		[2] = "/esoui/art/icons/dyestamp_jan267.dds",
-		[3] = "Metallic: Sword and Scabbard",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1302] = 
-	{
-		[1] = 84510,
-		[2] = "/esoui/art/icons/dyestamp_jan268.dds",
-		[3] = "Metallic: Mephala's Towels",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1303] = 
-	{
-		[1] = 83762,
-		[2] = "/esoui/art/icons/dyestamp_jan269.dds",
-		[3] = "Metallic: Forgemaster's Apron",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1304] = 
-	{
-		[1] = 84098,
-		[2] = "/esoui/art/icons/dyestamp_jan2610.dds",
-		[3] = "Metallic: Metallurgy",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1305] = 
-	{
-		[1] = 84468,
-		[2] = "/esoui/art/icons/dyestamp_jan2611.dds",
-		[3] = "Metallic: Ironbound Oak",
-		[4] = 5,
+		[1] = 126683,
+		[2] = "/esoui/art/icons/housing_dwe_lsb_wallsconcerounda001.dds",
+		[3] = "Dwarven Sconce, Barred",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -18263,12 +19919,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1306] = 
+	[4954] = 
 	{
-		[1] = 84485,
-		[2] = "/esoui/art/icons/dyestamp_jan2612.dds",
-		[3] = "Metallic: Muddy Puddle",
-		[4] = 5,
+		[1] = 126682,
+		[2] = "/esoui/art/icons/housing_dwe_lsb_chandeliera001.dds",
+		[3] = "Dwarven Chandelier, Caged",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -18389,21 +20045,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1307] = 
+	[4953] = 
 	{
-		[1] = 84020,
-		[2] = "/esoui/art/icons/dyestamp_jan2613.dds",
-		[3] = "Metallic: The Butcher's Cleaver",
-		[4] = 5,
+		[1] = 126681,
+		[2] = "/esoui/art/icons/housing_dwe_lsb_chandelierb001.dds",
+		[3] = "Dwarven Chandelier, Barred",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1308] = 
+	[4952] = 
 	{
-		[1] = 84235,
-		[2] = "/esoui/art/icons/dyestamp_jan2614.dds",
-		[3] = "Metallic: The Mysteries of Metal",
-		[4] = 5,
+		[1] = 126680,
+		[2] = "/esoui/art/icons/housing_dwe_lsb_chandelierd001.dds",
+		[3] = "Dwarven Chandelier, Braced",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -18515,21 +20171,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1309] = 
+	[4951] = 
 	{
-		[1] = 84354,
-		[2] = "/esoui/art/icons/dyestamp_jan2615.dds",
-		[3] = "Metallic: Slate Roof and Tiles",
-		[4] = 5,
+		[1] = 126679,
+		[2] = "/esoui/art/icons/housing_dwe_lsb_chandeliere001.dds",
+		[3] = "Dwarven Chandelier, Framework",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1315] = 
+	[4950] = 
 	{
-		[1] = 84010,
-		[2] = "/esoui/art/icons/dyestamp_feb23.dds",
-		[3] = "Sanguinary: Snowflowers",
-		[4] = 5,
+		[1] = 126678,
+		[2] = "/esoui/art/icons/housing_dwe_fur_tabled001.dds",
+		[3] = "Dwarven Table, Refined",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -18560,12 +20216,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1316] = 
+	[4949] = 
 	{
-		[1] = 83628,
-		[2] = "/esoui/art/icons/dyestamp_feb24.dds",
-		[3] = "Sanguinary: Kyne Priest's Cassock",
-		[4] = 5,
+		[1] = 126677,
+		[2] = "/esoui/art/icons/housing_dwe_fur_bencha001.dds",
+		[3] = "Dwarven Pew, Refined",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -18695,12 +20351,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1317] = 
+	[4948] = 
 	{
-		[1] = 83599,
-		[2] = "/esoui/art/icons/dyestamp_feb25.dds",
-		[3] = "Sanguinary: The Sun Sets Early",
-		[4] = 5,
+		[1] = 126676,
+		[2] = "/esoui/art/icons/housing_dwe_inc_candlestick001.dds",
+		[3] = "Dwarven Candlestick, Orrery",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -18893,165 +20549,165 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1318] = 
+	[4947] = 
 	{
-		[1] = 84338,
-		[2] = "/esoui/art/icons/dyestamp_feb26.dds",
-		[3] = "Sanguinary: The Death of Love",
-		[4] = 5,
+		[1] = 126675,
+		[2] = "/esoui/art/icons/housing_dwe_inc_candlestick002.dds",
+		[3] = "Dwarven Candlestick, Laboratory",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1319] = 
+	[4946] = 
 	{
-		[1] = 83939,
-		[2] = "/esoui/art/icons/dyestamp_feb27.dds",
-		[3] = "Sanguinary: Ruby and Rose",
-		[4] = 5,
+		[1] = 126674,
+		[2] = "/esoui/art/icons/housing_dwe_inc_candleplate001.dds",
+		[3] = "Dwarven Candles, Plate",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1320] = 
+	[4945] = 
 	{
-		[1] = 84483,
-		[2] = "/esoui/art/icons/dyestamp_feb28.dds",
-		[3] = "Sanguinary: Troll's Red Thoughts",
-		[4] = 5,
+		[1] = 126673,
+		[2] = "/esoui/art/icons/housing_dwe_inc_candleplate002.dds",
+		[3] = "Dwarven Candles, Cup",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1321] = 
+	[4944] = 
 	{
-		[1] = 84005,
-		[2] = "/esoui/art/icons/dyestamp_feb29.dds",
-		[3] = "Sanguinary: Hothouse Flowers",
-		[4] = 5,
+		[1] = 126672,
+		[2] = "/esoui/art/icons/housing_dwe_inc_plate001.dds",
+		[3] = "Dwarven Plate, Forged",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1322] = 
+	[4943] = 
 	{
-		[1] = 83539,
-		[2] = "/esoui/art/icons/dyestamp_feb210.dds",
-		[3] = "Sanguinary: Dried Bloodstains",
-		[4] = 5,
+		[1] = 126671,
+		[2] = "/esoui/art/icons/housing_dwe_inc_bowl001.dds",
+		[3] = "Dwarven Bowl, Forged",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1323] = 
+	[4942] = 
 	{
-		[1] = 84453,
-		[2] = "/esoui/art/icons/dyestamp_feb211.dds",
-		[3] = "Sanguinary: Wine on the Snow",
-		[4] = 5,
+		[1] = 126670,
+		[2] = "/esoui/art/icons/housing_dwe_inc_bowl002.dds",
+		[3] = "Dwarven Bowl, Forged Serving",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1324] = 
+	[4941] = 
 	{
-		[1] = 84348,
-		[2] = "/esoui/art/icons/dyestamp_feb212.dds",
-		[3] = "Sanguinary: Hoarfrost and Rose Hips",
-		[4] = 5,
+		[1] = 126669,
+		[2] = "/esoui/art/icons/housing_dwe_inc_goblet001.dds",
+		[3] = "Dwarven Goblet, Forged",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1325] = 
+	[4940] = 
 	{
-		[1] = 83921,
-		[2] = "/esoui/art/icons/dyestamp_feb213.dds",
-		[3] = "Sanguinary: Peppermint Stick",
-		[4] = 5,
+		[1] = 126668,
+		[2] = "/esoui/art/icons/housing_dwe_inc_jug001.dds",
+		[3] = "Dwarven Jug, Sealed",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1326] = 
+	[4939] = 
 	{
-		[1] = 84286,
-		[2] = "/esoui/art/icons/dyestamp_feb214.dds",
-		[3] = "Sanguinary: Sun's Dawn Glistening",
-		[4] = 5,
+		[1] = 126667,
+		[2] = "/esoui/art/icons/housing_dwe_inc_pot001.dds",
+		[3] = "Dwarven Vessel, Sealed",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1327] = 
+	[4938] = 
 	{
-		[1] = 84372,
-		[2] = "/esoui/art/icons/dyestamp_feb215.dds",
-		[3] = "Sanguinary: Surgeon's Gown",
-		[4] = 5,
+		[1] = 126666,
+		[2] = "/esoui/art/icons/housing_dwe_inc_largepot001.dds",
+		[3] = "Dwarven Jar, Sealed",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1328] = 
+	[4937] = 
 	{
-		[1] = 83863,
-		[2] = "/esoui/art/icons/dyestamp_feb216.dds",
-		[3] = "Sanguinary: Crypt Floor and Door",
-		[4] = 5,
+		[1] = 126665,
+		[2] = "/esoui/art/icons/housing_dwe_inc_juglarge001.dds",
+		[3] = "Dwarven Amphora, Sealed",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1329] = 
+	[4936] = 
 	{
-		[1] = 84049,
-		[2] = "/esoui/art/icons/dyestamp_feb217.dds",
-		[3] = "Sanguinary: Grim Festivity",
-		[4] = 5,
+		[1] = 126664,
+		[2] = "/esoui/art/icons/housing_dwe_inc_vase001.dds",
+		[3] = "Dwarven Vase, Forged",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1330] = 
+	[4935] = 
 	{
-		[1] = 83716,
-		[2] = "/esoui/art/icons/dyestamp_feb218.dds",
-		[3] = "Sanguinary: Next Door to Monochrome",
-		[4] = 5,
+		[1] = 126663,
+		[2] = "/esoui/art/icons/housing_dwe_inc_wayshrinebowl001.dds",
+		[3] = "Dwarven Basin, Forged",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1331] = 
+	[4934] = 
 	{
-		[1] = 84173,
-		[2] = "/esoui/art/icons/dyestamp_feb91.dds",
-		[3] = "Blushing: Blushing Darling",
-		[4] = 5,
+		[1] = 126662,
+		[2] = "/esoui/art/icons/housing_dwe_fur_benchb001.dds",
+		[3] = "Dwarven Bench, Forged",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1332] = 
+	[4933] = 
 	{
-		[1] = 83664,
-		[2] = "/esoui/art/icons/dyestamp_feb92.dds",
-		[3] = "Blushing: Piglet and Bristles",
-		[4] = 5,
+		[1] = 126661,
+		[2] = "/esoui/art/icons/housing_dwe_fur_tablea001.dds",
+		[3] = "Dwarven Table, Workbench",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1333] = 
+	[4932] = 
 	{
-		[1] = 84456,
-		[2] = "/esoui/art/icons/dyestamp_feb93.dds",
-		[3] = "Blushing: Purity Incarnate",
-		[4] = 5,
+		[1] = 126658,
+		[2] = "/esoui/art/icons/housing_dwe_duc_pipecap002.dds",
+		[3] = "Dwarven Pipeline Cap, Sealed",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1334] = 
+	[4931] = 
 	{
-		[1] = 84138,
-		[2] = "/esoui/art/icons/dyestamp_feb94.dds",
-		[3] = "Blushing: Snow and Ashes",
-		[4] = 5,
+		[1] = 126657,
+		[2] = "/esoui/art/icons/housing_dwe_inc_vase003.dds",
+		[3] = "Dwarven Urn, Sealed",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1335] = 
+	[4930] = 
 	{
-		[1] = 84147,
-		[2] = "/esoui/art/icons/dyestamp_feb95.dds",
-		[3] = "Blushing: Gray Remembrance",
-		[4] = 5,
+		[1] = 126656,
+		[2] = "/esoui/art/icons/housing_dwe_inc_vase002.dds",
+		[3] = "Dwarven Pot, Sealed",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -19851,7 +21507,7 @@ lib.MarkedIdToItemInfo = {
 	{
 		[1] = 115373,
 		[2] = "/esoui/art/icons/housing_nor_duc_pot002.dds",
-		[3] = "Nord Pot, Chunky Stew",
+		[3] = "Nord Pot, Empty",
 		[4] = 3,
 		[5] = 0,
 		[6] = 1,
@@ -20180,39 +21836,39 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1181] = 
+	[4929] = 
 	{
-		[1] = 83931,
-		[2] = "/esoui/art/icons/dyestamp_dec813.dds",
-		[3] = "Misty: High-Contrast Concept",
-		[4] = 5,
+		[1] = 126655,
+		[2] = "/esoui/art/icons/housing_dwe_inc_pot002.dds",
+		[3] = "Dwarven Cannister, Sealed",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1180] = 
+	[4928] = 
 	{
-		[1] = 83583,
-		[2] = "/esoui/art/icons/dyestamp_dec812.dds",
-		[3] = "Misty: Fustian Flax",
-		[4] = 5,
+		[1] = 126778,
+		[2] = "/esoui/art/icons/housing_dun_lsb_housebannertelvanni001.dds",
+		[3] = "Telvanni Tapestry, House",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1179] = 
+	[4927] = 
 	{
-		[1] = 84231,
-		[2] = "/esoui/art/icons/dyestamp_dec811.dds",
-		[3] = "Misty: Rime and Bark",
-		[4] = 5,
+		[1] = 126777,
+		[2] = "/esoui/art/icons/housing_dun_lsb_housebannerredoran001.dds",
+		[3] = "Redoran Tapestry, House",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1178] = 
+	[4926] = 
 	{
-		[1] = 84152,
-		[2] = "/esoui/art/icons/dyestamp_dec810.dds",
-		[3] = "Misty: Cryptic Grays",
-		[4] = 5,
+		[1] = 126776,
+		[2] = "/esoui/art/icons/housing_dun_lsb_housebannerindoril001.dds",
+		[3] = "Indoril Tapestry, House",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -20252,48 +21908,48 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[1173] = 
+	[4925] = 
 	{
-		[1] = 84018,
-		[2] = "/esoui/art/icons/dyestamp_dec85.dds",
-		[3] = "Misty: Winter in Windhelm",
+		[1] = 126775,
+		[2] = "/esoui/art/icons/housing_dun_lsb_housebannerhlaalu001.dds",
+		[3] = "Hlaalu Tapestry, House",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4924] = 
+	{
+		[1] = 126774,
+		[2] = "/esoui/art/icons/housing_dun_lsb_housebannerdres001.dds",
+		[3] = "Dres Tapestry, House",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4923] = 
+	{
+		[1] = 126771,
+		[2] = "/esoui/art/icons/housing_vrd_duc_podium001.dds",
+		[3] = "Velothi Podium of Illumination",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1172] = 
+	[4922] = 
 	{
-		[1] = 84445,
-		[2] = "/esoui/art/icons/dyestamp_dec84.dds",
-		[3] = "Misty: Wreathed in Smoke",
-		[4] = 5,
+		[1] = 126607,
+		[2] = "/esoui/art/icons/housing_vrd_inc_paintingclrg001.dds",
+		[3] = "Velothi Painting, Oversized Waterfall",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[1171] = 
+	[4921] = 
 	{
-		[1] = 84069,
-		[2] = "/esoui/art/icons/dyestamp_dec83.dds",
-		[3] = "Misty: Ominous Clouds",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1170] = 
-	{
-		[1] = 84141,
-		[2] = "/esoui/art/icons/dyestamp_dec82.dds",
-		[3] = "Misty: Gray Becomes You",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[1169] = 
-	{
-		[1] = 84285,
-		[2] = "/esoui/art/icons/dyestamp_dec81.dds",
-		[3] = "Misty: Shadows Dance",
-		[4] = 5,
+		[1] = 126604,
+		[2] = "/esoui/art/icons/housing_vrd_inc_paintingblrg002.dds",
+		[3] = "Velothi Panels, Geyser",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -21422,12 +23078,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[825] = 
+	[4920] = 
 	{
-		[1] = 83964,
-		[2] = "/esoui/art/icons/dyestamp_encumberedmagenta.dds",
-		[3] = "Necrotic: Encumbered Magenta",
-		[4] = 5,
+		[1] = 126601,
+		[2] = "/esoui/art/icons/housing_vrd_inc_paintingblrg001.dds",
+		[3] = "Velothi Painting, Oversized Geyser",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -21440,12 +23096,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[823] = 
+	[4919] = 
 	{
-		[1] = 84054,
-		[2] = "/esoui/art/icons/dyestamp_burntrosewood.dds",
-		[3] = "First Frost: Burnt Rosewood",
-		[4] = 5,
+		[1] = 126598,
+		[2] = "/esoui/art/icons/housing_vrd_inc_paintingclrg002.dds",
+		[3] = "Velothi Panels, Waterfall",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -21503,21 +23159,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[822] = 
+	[4918] = 
 	{
-		[1] = 84063,
-		[2] = "/esoui/art/icons/dyestamp_chocolateseaweed.dds",
-		[3] = "Alchemical: Chocolate Seaweed",
-		[4] = 5,
+		[1] = 126597,
+		[2] = "/esoui/art/icons/housing_vrd_inc_paintingalrg001.dds",
+		[3] = "Velothi Painting, Oversized Volcano",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[821] = 
+	[4917] = 
 	{
-		[1] = 83706,
-		[2] = "/esoui/art/icons/dyestamp_bruisedlemon.dds",
-		[3] = "Hoarfrost: Bruised Lemon",
-		[4] = 5,
+		[1] = 126592,
+		[2] = "/esoui/art/icons/housing_vrd_inc_paintingalrg002.dds",
+		[3] = "Velothi Panels, Volcano",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -22952,12 +24608,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[820] = 
+	[4916] = 
 	{
-		[1] = 83636,
-		[2] = "/esoui/art/icons/dyestamp_ogresdessert.dds",
-		[3] = "Witches: Ogre's Dessert",
-		[4] = 5,
+		[1] = 126558,
+		[2] = "/esoui/art/icons/housing_dun_lsb_postlight003.dds",
+		[3] = "Indoril Streetlight, Stone",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -23276,12 +24932,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[819] = 
+	[4915] = 
 	{
-		[1] = 83629,
-		[2] = "/esoui/art/icons/dyestamp_taffyandcoffee.dds",
-		[3] = "Harvest: Taffy and Coffee",
-		[4] = 5,
+		[1] = 126557,
+		[2] = "/esoui/art/icons/housing_dun_lsb_postlight004.dds",
+		[3] = "Indoril Streetlight, Full Stone",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -23465,12 +25121,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[818] = 
+	[4914] = 
 	{
-		[1] = 83773,
-		[2] = "/esoui/art/icons/dyestamp_hearthfirevixen.dds",
-		[3] = "Autumn: Hearthfire Vixen",
-		[4] = 5,
+		[1] = 126556,
+		[2] = "/esoui/art/icons/housing_dun_lsb_post001.dds",
+		[3] = "Indoril Lightpost, Stone",
+		[4] = 2,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -23789,12 +25445,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[817] = 
+	[4913] = 
 	{
-		[1] = 84159,
-		[2] = "/esoui/art/icons/dyestamp_warmcocoa.dds",
-		[3] = "Shadows: Warm Cocoa",
-		[4] = 5,
+		[1] = 126555,
+		[2] = "/esoui/art/icons/housing_vrd_lsb_hlabannervivec001.dds",
+		[3] = "Indoril Banner, Vivec",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -23924,12 +25580,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[816] = 
+	[4912] = 
 	{
-		[1] = 84237,
-		[2] = "/esoui/art/icons/dyestamp_royalvaletsupreme.dds",
-		[3] = "Necrotic: Royal Valet Supreme",
-		[4] = 5,
+		[1] = 126554,
+		[2] = "/esoui/art/icons/housing_vrd_lsb_hlabannersothasil001.dds",
+		[3] = "Indoril Banner, Sotha Sil",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -24581,84 +26237,84 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[815] = 
+	[4911] = 
 	{
-		[1] = 83719,
-		[2] = "/esoui/art/icons/dyestamp_grapesandcrackers.dds",
-		[3] = "Forest: Grapes and Crackers",
-		[4] = 5,
+		[1] = 126553,
+		[2] = "/esoui/art/icons/housing_vrd_lsb_hlabanneralmalexia001.dds",
+		[3] = "Indoril Banner, Almalexia",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[814] = 
+	[4910] = 
 	{
-		[1] = 83882,
-		[2] = "/esoui/art/icons/dyestamp_undertakerboysenberry.dds",
-		[3] = "First Frost: Undertaker Boysenberry",
-		[4] = 5,
+		[1] = 126552,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlatapestryvivec001.dds",
+		[3] = "Indoril Tapestry, Vivec",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[813] = 
+	[4909] = 
 	{
-		[1] = 84503,
-		[2] = "/esoui/art/icons/dyestamp_lichenandfern.dds",
-		[3] = "Alchemical: Lichen and Fern",
-		[4] = 5,
+		[1] = 126551,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlatapestrysothasil001.dds",
+		[3] = "Indoril Tapestry, Sotha Sil",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[812] = 
+	[4908] = 
 	{
-		[1] = 84214,
-		[2] = "/esoui/art/icons/dyestamp_bluedawnarray.dds",
-		[3] = "Hoarfrost: Blue Dawn Array",
-		[4] = 5,
+		[1] = 126550,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlatapestryalmalexia001.dds",
+		[3] = "Indoril Tapestry, Almalexia",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[811] = 
+	[4907] = 
 	{
-		[1] = 84426,
-		[2] = "/esoui/art/icons/dyestamp_pickleandcrimson.dds",
-		[3] = "Witches: Pickle and Crimson",
-		[4] = 5,
+		[1] = 126549,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugplain005.dds",
+		[3] = "Dres Rug, Chains",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[810] = 
+	[4906] = 
 	{
-		[1] = 83662,
-		[2] = "/esoui/art/icons/dyestamp_hircineshunter.dds",
-		[3] = "Harvest: Hircine's Hunter",
-		[4] = 5,
+		[1] = 126548,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugplain004.dds",
+		[3] = "Dres Runner, Chains",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[809] = 
+	[4905] = 
 	{
-		[1] = 84036,
-		[2] = "/esoui/art/icons/dyestamp_abeceanbleucheese.dds",
-		[3] = "Autumn: Abecean Bleu Cheese",
-		[4] = 5,
+		[1] = 126547,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugvivec001.dds",
+		[3] = "Indoril Runner, Vivec",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[808] = 
+	[4904] = 
 	{
-		[1] = 84007,
-		[2] = "/esoui/art/icons/dyestamp_alitsden.dds",
-		[3] = "Shadows: Alit's Den",
-		[4] = 5,
+		[1] = 126546,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugsothasil001.dds",
+		[3] = "Indoril Runner, Sotha Sil",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[807] = 
+	[4903] = 
 	{
-		[1] = 83880,
-		[2] = "/esoui/art/icons/dyestamp_galvanicaqua.dds",
-		[3] = "Necrotic: Galvanic Aqua",
-		[4] = 5,
+		[1] = 126545,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugalmalexia001.dds",
+		[3] = "Indoril Runner, Almalexia",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -25769,21 +27425,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[806] = 
+	[4902] = 
 	{
-		[1] = 84062,
-		[2] = "/esoui/art/icons/dyestamp_firstseedswamp.dds",
-		[3] = "Forest: First Seed Swamp",
-		[4] = 5,
+		[1] = 126544,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugvivec002.dds",
+		[3] = "Indoril Rug, Vivec",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[805] = 
+	[4901] = 
 	{
-		[1] = 83841,
-		[2] = "/esoui/art/icons/dyestamp_pinesandcocoa.dds",
-		[3] = "First Frost: Pines and Cocoa",
-		[4] = 5,
+		[1] = 126543,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugsothasil002.dds",
+		[3] = "Indoril Rug, Sotha Sil",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -25967,12 +27623,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[804] = 
+	[4900] = 
 	{
-		[1] = 83807,
-		[2] = "/esoui/art/icons/dyestamp_olivedragoon.dds",
-		[3] = "Alchemical: Olive Dragoon",
-		[4] = 5,
+		[1] = 126542,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugalmalexia002.dds",
+		[3] = "Indoril Rug, Almalexia",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -26057,21 +27713,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[803] = 
+	[4899] = 
 	{
-		[1] = 83725,
-		[2] = "/esoui/art/icons/dyestamp_navyandbutterscotch.dds",
-		[3] = "Hoarfrost: Navy and Butterscotch",
-		[4] = 5,
+		[1] = 126541,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugvivec003.dds",
+		[3] = "Indoril Carpet, Vivec",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[802] = 
+	[4898] = 
 	{
-		[1] = 84448,
-		[2] = "/esoui/art/icons/dyestamp_brushfiretints.dds",
-		[3] = "Witches: Brushfire Tints",
-		[4] = 5,
+		[1] = 126540,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugsothasil003.dds",
+		[3] = "Indoril Carpet, Sotha Sil",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -26102,12 +27758,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[801] = 
+	[4897] = 
 	{
-		[1] = 83563,
-		[2] = "/esoui/art/icons/dyestamp_greenrushesandgold.dds",
-		[3] = "Harvest: Greenrushes and Gold",
-		[4] = 5,
+		[1] = 126539,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugalmalexia003.dds",
+		[3] = "Indoril Carpet, Almalexia",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -26192,12 +27848,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[800] = 
+	[4896] = 
 	{
-		[1] = 84132,
-		[2] = "/esoui/art/icons/dyestamp_marinecommander.dds",
-		[3] = "Autumn: Marine Commander",
-		[4] = 5,
+		[1] = 126538,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugvivec004.dds",
+		[3] = "Indoril Carpet, Grand Vivec",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -26471,12 +28127,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[799] = 
+	[4895] = 
 	{
-		[1] = 83679,
-		[2] = "/esoui/art/icons/dyestamp_theroyalgardener.dds",
-		[3] = "Shadows: The Royal Gardener",
-		[4] = 5,
+		[1] = 126537,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugsothasil004.dds",
+		[3] = "Indoril Carpet, Grand Sotha Sil",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -26633,21 +28289,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[798] = 
+	[4894] = 
 	{
-		[1] = 84202,
-		[2] = "/esoui/art/icons/dyestamp_luridseafoamscheme.dds",
-		[3] = "Necrotic: Lurid Seafoam Scheme",
-		[4] = 5,
+		[1] = 126536,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlarugalmalexia004.dds",
+		[3] = "Indoril Carpet, Grand Almalexia",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[797] = 
+	[4893] = 
 	{
-		[1] = 84494,
-		[2] = "/esoui/art/icons/dyestamp_vineyardtintmixture.dds",
-		[3] = "Forest: Vineyard Tint Mixture",
-		[4] = 5,
+		[1] = 126535,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage003.dds",
+		[3] = "Hlaalu Box, Trinket",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -26660,12 +28316,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[796] = 
+	[4892] = 
 	{
-		[1] = 84329,
-		[2] = "/esoui/art/icons/dyestamp_falkreathfirforest.dds",
-		[3] = "First Frost: Falkreath Fir Forest",
-		[4] = 5,
+		[1] = 126534,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage002a.dds",
+		[3] = "Hlaalu Cannister, Trinket",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -26741,30 +28397,30 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[795] = 
+	[4891] = 
 	{
-		[1] = 84198,
-		[2] = "/esoui/art/icons/dyestamp_viridiansentinel.dds",
-		[3] = "Alchemical: Viridian Sentinel",
-		[4] = 5,
+		[1] = 126533,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage002.dds",
+		[3] = "Indoril Cannister, Trinket",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[794] = 
+	[4890] = 
 	{
-		[1] = 83639,
-		[2] = "/esoui/art/icons/dyestamp_purpleanddignity.dds",
-		[3] = "Hoarfrost: Purple and Dignity",
-		[4] = 5,
+		[1] = 126532,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlasmallstorage004.dds",
+		[3] = "Indoril Box, Trinket",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[793] = 
+	[4889] = 
 	{
-		[1] = 84264,
-		[2] = "/esoui/art/icons/dyestamp_redapplecobbler.dds",
-		[3] = "Witches: Red Apple Cobbler",
-		[4] = 5,
+		[1] = 126531,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hladinnerplatter001.dds",
+		[3] = "Indoril Platter, Floral",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -27173,21 +28829,21 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[792] = 
+	[4888] = 
 	{
-		[1] = 84064,
-		[2] = "/esoui/art/icons/dyestamp_navyblueandbeans.dds",
-		[3] = "Harvest: Navy Blue and Beans",
-		[4] = 5,
+		[1] = 126530,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlacup001b_full.dds",
+		[3] = "Dres Cup, Sujamma",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[791] = 
+	[4887] = 
 	{
-		[1] = 83832,
-		[2] = "/esoui/art/icons/dyestamp_autumnevening.dds",
-		[3] = "Autumn: Autumn Evening",
-		[4] = 5,
+		[1] = 126529,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlacup001b_empty.dds",
+		[3] = "Dres Cup, Empty Sujamma",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -27263,12 +28919,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[790] = 
+	[4886] = 
 	{
-		[1] = 84178,
-		[2] = "/esoui/art/icons/dyestamp_desertoasis.dds",
-		[3] = "Shadows: Desert Oasis",
-		[4] = 5,
+		[1] = 126528,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlacup001c_full.dds",
+		[3] = "Redoran Cup, Mazte",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -27380,93 +29036,93 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[789] = 
+	[4885] = 
 	{
-		[1] = 84027,
-		[2] = "/esoui/art/icons/dyestamp_flaxenbutgarish.dds",
-		[3] = "Necrotic: Flaxen but Garish",
-		[4] = 5,
+		[1] = 126527,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlacup001c_empty.dds",
+		[3] = "Redoran Cup, Empty",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[788] = 
+	[4884] = 
 	{
-		[1] = 84299,
-		[2] = "/esoui/art/icons/dyestamp_sandandmoss.dds",
-		[3] = "Forest: Sand and Moss",
-		[4] = 5,
+		[1] = 126526,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlaplate001_full.dds",
+		[3] = "Redoran Plate, Meal",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[787] = 
+	[4883] = 
 	{
-		[1] = 84026,
-		[2] = "/esoui/art/icons/dyestamp_dessertfordinner.dds",
-		[3] = "First Frost: Dessert for Dinner",
-		[4] = 5,
+		[1] = 126525,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlaplate001_empty.dds",
+		[3] = "Redoran Plate, Floral",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[786] = 
+	[4882] = 
 	{
-		[1] = 84393,
-		[2] = "/esoui/art/icons/dyestamp_forestoutlawopaques.dds",
-		[3] = "Alchemical: Forest Outlaw Opaques",
-		[4] = 5,
+		[1] = 126524,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlaplatter001.dds",
+		[3] = "Redoran Tray, Floral",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[785] = 
+	[4881] = 
 	{
-		[1] = 84051,
-		[2] = "/esoui/art/icons/dyestamp_violetofthevictor.dds",
-		[3] = "Hoarfrost: Violet of the Victor",
-		[4] = 5,
+		[1] = 126523,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlasteamer001.dds",
+		[3] = "Redoran Steamer, Iron",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[784] = 
+	[4880] = 
 	{
-		[1] = 84309,
-		[2] = "/esoui/art/icons/dyestamp_scarletmastery.dds",
-		[3] = "Witches: Scarlet Mastery",
-		[4] = 5,
+		[1] = 126522,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlateapot001.dds",
+		[3] = "Dres Teapot, Ceramic",
+		[4] = 3,
 		[5] = 0,
 		[6] = 1,
 	},
-	[783] = 
+	[4879] = 
 	{
-		[1] = 84180,
-		[2] = "/esoui/art/icons/dyestamp_westwealdmidnight.dds",
-		[3] = "Harvest: West Weald Midnight",
-		[4] = 5,
+		[1] = 126521,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlaincenseburner004.dds",
+		[3] = "Dres Incense Stand, Chains",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[782] = 
+	[4878] = 
 	{
-		[1] = 84071,
-		[2] = "/esoui/art/icons/dyestamp_mustardmudcrab.dds",
-		[3] = "Autumn: Mustard Mudcrab",
-		[4] = 5,
+		[1] = 126520,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlaincenseburner003.dds",
+		[3] = "Hlaalu Censer, Mesh",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[781] = 
+	[4877] = 
 	{
-		[1] = 83822,
-		[2] = "/esoui/art/icons/dyestamp_hummusandchips.dds",
-		[3] = "Shadows: Hummus and Chips",
-		[4] = 5,
+		[1] = 126519,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlaincenseburner002.dds",
+		[3] = "Redoran Incense Holder, Mesh",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
-	[780] = 
+	[4876] = 
 	{
-		[1] = 84227,
-		[2] = "/esoui/art/icons/dyestamp_mudcrabwithclashingaccents.dds",
-		[3] = "Necrotic: Mudcrab with Clashing Accents",
-		[4] = 5,
+		[1] = 126518,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlaurn003.dds",
+		[3] = "Hlaalu Vase, Gilded",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -27983,12 +29639,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[779] = 
+	[4875] = 
 	{
-		[1] = 83967,
-		[2] = "/esoui/art/icons/dyestamp_khakiandindigo.dds",
-		[3] = "Forest: Khaki and Indigo",
-		[4] = 5,
+		[1] = 126517,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlastrongbox003.dds",
+		[3] = "Indoril Vault, Sealed",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -28073,12 +29729,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[778] = 
+	[4874] = 
 	{
-		[1] = 84103,
-		[2] = "/esoui/art/icons/dyestamp_rustandmulberry.dds",
-		[3] = "First Frost: Rust and Mulberry",
-		[4] = 5,
+		[1] = 126516,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlastrongbox004.dds",
+		[3] = "Indoril Cassone, Sealed",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -28145,12 +29801,12 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[777] = 
+	[4873] = 
 	{
-		[1] = 83764,
-		[2] = "/esoui/art/icons/dyestamp_marshstalkertones.dds",
-		[3] = "Alchemical: Marsh Stalker Tones",
-		[4] = 5,
+		[1] = 126515,
+		[2] = "/esoui/art/icons/housing_vrd_duc_urn003.dds",
+		[3] = "Hlaalu Amphora, Sealed Orichalcum",
+		[4] = 4,
 		[5] = 0,
 		[6] = 1,
 	},
@@ -28271,355 +29927,355 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[776] = 
+	[4872] = 
 	{
-		[1] = 84149,
-		[2] = "/esoui/art/icons/dyestamp_dominiondressmustard.dds",
-		[3] = "Hoarfrost: Dominion Dress Mustard",
+		[1] = 126514,
+		[2] = "/esoui/art/icons/housing_vrd_duc_urn009.dds",
+		[3] = "Hlaalu Cannister, Sealed Azurite",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4871] = 
+	{
+		[1] = 126513,
+		[2] = "/esoui/art/icons/housing_vrd_duc_urn0010.dds",
+		[3] = "Hlaalu Jar, Sealed Malachite",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4870] = 
+	{
+		[1] = 126512,
+		[2] = "/esoui/art/icons/housing_vrd_inc_hlaincensepot001.dds",
+		[3] = "Redoran Incense Pot, Beastly",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4869] = 
+	{
+		[1] = 126511,
+		[2] = "/esoui/art/icons/housing_vrd_duc_urn006.dds",
+		[3] = "Redoran Urn, Dusky Marble",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4868] = 
+	{
+		[1] = 126510,
+		[2] = "/esoui/art/icons/housing_vrd_duc_urn005.dds",
+		[3] = "Redoran Urn, Pale Marble",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4867] = 
+	{
+		[1] = 126509,
+		[2] = "/esoui/art/icons/housing_vrd_duc_urn004.dds",
+		[3] = "Redoran Amphora, Sealed Marble",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4866] = 
+	{
+		[1] = 126508,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlaendtable004.dds",
+		[3] = "Hlaalu End Table, Formal Scales",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4865] = 
+	{
+		[1] = 126507,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlaendtable003.dds",
+		[3] = "Hlaalu End Table, Formal Turtle",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4864] = 
+	{
+		[1] = 126506,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlanightstand002.dds",
+		[3] = "Hlaalu Nightstand, Formal",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4863] = 
+	{
+		[1] = 126505,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hladesktop001.dds",
+		[3] = "Hlaalu Desk, Scholar's",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4862] = 
+	{
+		[1] = 126504,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hladrawer005.dds",
+		[3] = "Hlaalu Sideboard, Scribe's",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4861] = 
+	{
+		[1] = 126503,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hladrawer003.dds",
+		[3] = "Hlaalu Sideboard, Scholar's",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4860] = 
+	{
+		[1] = 126502,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hladrawer001.dds",
+		[3] = "Hlaalu Sideboard, Low Cabinet",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4859] = 
+	{
+		[1] = 126501,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlachinacabinet001.dds",
+		[3] = "Hlaalu Wardrobe, Formal",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4858] = 
+	{
+		[1] = 126500,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlachinacabinetdoor001.dds",
+		[3] = "Hlaalu Bookcase, Orderly",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4857] = 
+	{
+		[1] = 126499,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlabookcase001.dds",
+		[3] = "Hlaalu Bookcase, Empty",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4856] = 
+	{
+		[1] = 126498,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hlanightstand001.dds",
+		[3] = "Hlaalu Nightstand, Scholar's",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4853] = 
+	{
+		[1] = 126495,
+		[2] = "/esoui/art/icons/housing_vrd_fur_hladrawer004.dds",
+		[3] = "Hlaalu Dresser, Scroll Drawers",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4679] = 
+	{
+		[1] = 126149,
+		[2] = "/esoui/art/icons/housing_vrd_lsb_varhlavivecbanner001.dds",
+		[3] = "Tapestry, Vivec",
+		[4] = 4,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4609] = 
+	{
+		[1] = 126039,
+		[2] = "/esoui/art/icons/housing_uni_exc_clavicusvileshrine002.dds",
+		[3] = "Statue of Masked Clavicus Vile with Barbas",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[775] = 
-	{
-		[1] = 84280,
-		[2] = "/esoui/art/icons/dyestamp_gingertinge.dds",
-		[3] = "Witches: Ginger Tinge",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[774] = 
-	{
-		[1] = 84460,
-		[2] = "/esoui/art/icons/dyestamp_summerkhaki.dds",
-		[3] = "Harvest: Summer Khaki",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[773] = 
-	{
-		[1] = 83593,
-		[2] = "/esoui/art/icons/dyestamp_antiquespectrum.dds",
-		[3] = "Autumn: Antique Spectrum",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[772] = 
-	{
-		[1] = 84111,
-		[2] = "/esoui/art/icons/dyestamp_beigeandbasil.dds",
-		[3] = "Shadows: Beige and Basil",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[771] = 
-	{
-		[1] = 83622,
-		[2] = "/esoui/art/icons/dyestamp_lavenderandvines.dds",
-		[3] = "Necrotic: Lavender and Vines",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[770] = 
-	{
-		[1] = 83646,
-		[2] = "/esoui/art/icons/dyestamp_violetsandgreensward.dds",
-		[3] = "Forest: Violets and Greensward",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[769] = 
-	{
-		[1] = 83740,
-		[2] = "/esoui/art/icons/dyestamp_plumorchard.dds",
-		[3] = "First Frost: Plum Orchard",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[768] = 
-	{
-		[1] = 83915,
-		[2] = "/esoui/art/icons/dyestamp_juniperandwoodtones.dds",
-		[3] = "Alchemical: Juniper and Wood Tones",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[767] = 
-	{
-		[1] = 83529,
-		[2] = "/esoui/art/icons/dyestamp_honeyandwine.dds",
-		[3] = "Hoarfrost: Honey and Wine",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[766] = 
-	{
-		[1] = 84442,
-		[2] = "/esoui/art/icons/dyestamp_theangrytomato.dds",
-		[3] = "Witches: The Angry Tomato",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[765] = 
-	{
-		[1] = 84144,
-		[2] = "/esoui/art/icons/dyestamp_butternutandblue.dds",
-		[3] = "Harvest: Butternut and Blue",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[764] = 
-	{
-		[1] = 84040,
-		[2] = "/esoui/art/icons/dyestamp_deepharvesttime.dds",
-		[3] = "Autumn: Deep Harvest Time",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[763] = 
-	{
-		[1] = 83600,
-		[2] = "/esoui/art/icons/dyestamp_lastseedfields.dds",
-		[3] = "Shadows: Last Seed Fields",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[762] = 
-	{
-		[1] = 83621,
-		[2] = "/esoui/art/icons/dyestamp_vibrantmidyearhues.dds",
-		[3] = "Necrotic: Vibrant Mid Year Hues",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[761] = 
-	{
-		[1] = 83924,
-		[2] = "/esoui/art/icons/dyestamp_grapegarden.dds",
-		[3] = "Forest: Grape Garden",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[760] = 
-	{
-		[1] = 83531,
-		[2] = "/esoui/art/icons/dyestamp_fallforesttints.dds",
-		[3] = "First Frost: Fall Forest Tints",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[757] = 
-	{
-		[1] = 81189,
-		[2] = "/esoui/art/icons/witches_festival_icon_ravenwhistle.dds",
-		[3] = "Crow Caller",
-		[4] = 5,
-		[5] = 0,
-		[6] = 1,
-	},
-	[583] = 
-	{
-		[1] = 74570,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 33: Thieves Guild Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[513] = 
+	[4584] = 
 	{
 		[1] = 79690,
 		[2] = "/esoui/art/icons/crownpoison_lethal.dds",
 		[3] = "Crown Lethal Poison",
 		[4] = 5,
 		[5] = 1,
-		[6] = 80,
+		[6] = 255,
 	},
-	[488] = 
-	{
-		[1] = 64537,
-		[2] = "/esoui/art/icons/store_experiencescroll_001.dds",
-		[3] = "Crown Experience Scroll",
-		[4] = 5,
-		[5] = 0,
-		[6] = 5,
-	},
-	[484] = 
-	{
-		[1] = 71537,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 24: Outlaw Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[480] = 
-	{
-		[1] = 71581,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 23: Malacath Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[478] = 
-	{
-		[1] = 69542,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 21: Ancient Orc Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[471] = 
+	[4580] = 
 	{
 		[1] = 64710,
 		[2] = "/esoui/art/icons/crownpotion_trires.dds",
 		[3] = "Crown Tri-Restoration Potion",
 		[4] = 4,
 		[5] = 1,
-		[6] = 50,
+		[6] = 30,
 	},
-	[4154] = 
+	[4576] = 
 	{
-		[1] = 116420,
-		[2] = "/esoui/art/icons/housing_orc_duc_wtgthrone001.dds",
-		[3] = "Orcish Throne, Pedestal",
+		[1] = 124678,
+		[2] = "/esoui/art/icons/crowncrate_staminahealth_drink.dds",
+		[3] = "Crown Vigorous Tincture",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4574] = 
+	{
+		[1] = 124676,
+		[2] = "/esoui/art/icons/crowncrate_staminahealth_food.dds",
+		[3] = "Crown Vigorous Ragout",
+		[4] = 3,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4567] = 
+	{
+		[1] = 84377,
+		[2] = "/esoui/art/icons/dyestamp_checkerboard.dds",
+		[3] = "Monochrome: Checkerboard",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[470] = 
+	[4566] = 
 	{
-		[1] = 61080,
-		[2] = "/esoui/art/icons/store_soulgem_001.dds",
-		[3] = "Crown Soul Gem",
-		[4] = 3,
-		[5] = 0,
-		[6] = 10,
-	},
-	[469] = 
-	{
-		[1] = 64711,
-		[2] = "/esoui/art/icons/store_crownfood_01.dds",
-		[3] = "Crown Fortifying Meal",
-		[4] = 4,
-		[5] = 1,
-		[6] = 10,
-	},
-	[468] = 
-	{
-		[1] = 71540,
-		[2] = "/esoui/art/icons/store_bundle_ridinglessons_speed+capacity.dds",
-		[3] = "Crown Lessons Pack",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[467] = 
-	{
-		[1] = 64537,
-		[2] = "/esoui/art/icons/store_experiencescroll_001.dds",
-		[3] = "Crown Experience Scroll",
-		[4] = 5,
-		[5] = 0,
-		[6] = 10,
-	},
-	[458] = 
-	{
-		[1] = 74554,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 32: Abah's Watch Style",
+		[1] = 83521,
+		[2] = "/esoui/art/icons/dyestamp_whitewithblackoutlines.dds",
+		[3] = "Monochrome: White with Black Outlines",
 		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[449] = 
+	[4565] = 
 	{
-		[1] = 61079,
-		[2] = "/esoui/art/icons/store_repairkit_002.dds",
-		[3] = "Crown Repair Kit",
-		[4] = 3,
+		[1] = 83922,
+		[2] = "/esoui/art/icons/dyestamp_rubiesanddiamonds.dds",
+		[3] = "Peppermint: Rubies and Diamonds",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4170] = 
+	[4564] = 
 	{
-		[1] = 120963,
-		[2] = "/esoui/art/icons/housing_rok_gry_craglornsmall002.dds",
-		[3] = "Boulder, Jagged Crag",
-		[4] = 1,
+		[1] = 84274,
+		[2] = "/esoui/art/icons/dyestamp_whitediamond,reddiamond.dds",
+		[3] = "Peppermint: White Diamond, Red Diamond",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4171] = 
+	[4563] = 
 	{
-		[1] = 120967,
-		[2] = "/esoui/art/icons/housing_rok_gry_craglornsmall004.dds",
-		[3] = "Stone, Angled Grey",
-		[4] = 1,
+		[1] = 84179,
+		[2] = "/esoui/art/icons/dyestamp_bloodonthesnowdrift.dds",
+		[3] = "Peppermint: Blood on the Snowdrift",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[448] = 
+	[4554] = 
 	{
-		[1] = 61080,
-		[2] = "/esoui/art/icons/store_soulgem_001.dds",
-		[3] = "Crown Soul Gem",
-		[4] = 3,
+		[1] = 84358,
+		[2] = "/esoui/art/icons/dyestamp_mostlyblackwithred.dds",
+		[3] = "Darkheart: Mostly Black with Red",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4183] = 
+	[4545] = 
 	{
-		[1] = 120983,
-		[2] = "/esoui/art/icons/housing_veg_bsh_craglornscrubtree002.dds",
-		[3] = "Sapling, Mountain",
-		[4] = 1,
+		[1] = 83647,
+		[2] = "/esoui/art/icons/dyestamp_waterhyacinthandgray.dds",
+		[3] = "Vivid: Water Hyacinth and Gray",
+		[4] = 5,
 		[5] = 0,
 		[6] = 1,
 	},
-	[4184] = 
+	[4544] = 
 	{
-		[1] = 120998,
-		[2] = "/esoui/art/icons/housing_orc_exc_choppingblock002.dds",
-		[3] = "Block, Wood Cutting",
-		[4] = 1,
-		[5] = 1,
+		[1] = 84499,
+		[2] = "/esoui/art/icons/dyestamp_nightshadeandiron.dds",
+		[3] = "Vivid: Nightshade and Iron",
+		[4] = 5,
+		[5] = 0,
 		[6] = 1,
 	},
-	[4185] = 
+	[4542] = 
 	{
-		[1] = 121005,
-		[2] = "/esoui/art/icons/housing_veg_bsh_auridonhedge003.dds",
-		[3] = "Hedge, Wall Arc",
-		[4] = 3,
-		[5] = 1,
+		[1] = 84108,
+		[2] = "/esoui/art/icons/dyestamp_deepblessedthistle.dds",
+		[3] = "Vivid: Deep Blessed Thistle",
+		[4] = 5,
+		[5] = 0,
 		[6] = 1,
 	},
-	[4186] = 
+	[4541] = 
 	{
-		[1] = 121282,
-		[2] = "/esoui/art/icons/housing_tre_trp_rmplainstree002.dds",
-		[3] = "Tree, Ancient Jungle",
-		[4] = 3,
-		[5] = 1,
+		[1] = 84086,
+		[2] = "/esoui/art/icons/dyestamp_greensandseasoning.dds",
+		[3] = "Vivid: Greens and Seasoning",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4540] = 
+	{
+		[1] = 83998,
+		[2] = "/esoui/art/icons/dyestamp_greenladyssmockandroses.dds",
+		[3] = "Vivid: Green Lady's Smock & Roses",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4539] = 
+	{
+		[1] = 83906,
+		[2] = "/esoui/art/icons/dyestamp_mountainflowergarden.dds",
+		[3] = "Vivid: Mountain Flower Garden",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4518] = 
+	{
+		[1] = 84082,
+		[2] = "/esoui/art/icons/dyestamp_honeyandwatermelon.dds",
+		[3] = "Ripe: Honey and Watermelon",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4517] = 
+	{
+		[1] = 84204,
+		[2] = "/esoui/art/icons/dyestamp_pinkrotmethparfait.dds",
+		[3] = "Ripe: Pink Rotmeth Parfait",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4516] = 
+	{
+		[1] = 83753,
+		[2] = "/esoui/art/icons/dyestamp_westwealdwines.dds",
+		[3] = "Ripe: West Weald Wines",
+		[4] = 5,
+		[5] = 0,
 		[6] = 1,
 	},
 	[3797] = 
@@ -28874,13 +30530,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4187] = 
+	[4515] = 
 	{
-		[1] = 121283,
-		[2] = "/esoui/art/icons/housing_tre_trp_rmjungle002.dds",
-		[3] = "Tree, Healthy Jungle",
-		[4] = 2,
-		[5] = 1,
+		[1] = 84155,
+		[2] = "/esoui/art/icons/dyestamp_muddymorningsky.dds",
+		[3] = "Dawning: Muddy Morning Sky",
+		[4] = 5,
+		[5] = 0,
 		[6] = 1,
 	},
 	[3826] = 
@@ -29279,13 +30935,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4188] = 
+	[4507] = 
 	{
-		[1] = 121284,
-		[2] = "/esoui/art/icons/housing_dun_waf_wallsmediumcorner001.dds",
-		[3] = "Dark Elf Column Lantern",
-		[4] = 2,
-		[5] = 1,
+		[1] = 83626,
+		[2] = "/esoui/art/icons/dyestamp_sunriseinthealikr.dds",
+		[3] = "Dawning: Sunrise in the Alik'r",
+		[4] = 5,
+		[5] = 0,
 		[6] = 1,
 	},
 	[3871] = 
@@ -29873,13 +31529,13 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4189] = 
+	[4478] = 
 	{
-		[1] = 121285,
-		[2] = "/esoui/art/icons/housing_tre_trp_mrkbanyan003.dds",
-		[3] = "Tree, Ancient Banyan",
-		[4] = 4,
-		[5] = 1,
+		[1] = 83718,
+		[2] = "/esoui/art/icons/dyestamp_darkmetaldevice.dds",
+		[3] = "Dusky: Dark Metal Device",
+		[4] = 5,
+		[5] = 0,
 		[6] = 1,
 	},
 	[3937] = 
@@ -30269,22 +31925,22 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[4190] = 
+	[4465] = 
 	{
-		[1] = 121286,
-		[2] = "/esoui/art/icons/housing_tre_trp_mrkcypress001.dds",
-		[3] = "Tree, Giant Cypress",
-		[4] = 3,
-		[5] = 1,
+		[1] = 84289,
+		[2] = "/esoui/art/icons/dyestamp_ruddyalloyandoil.dds",
+		[3] = "Dusky: Ruddy Alloy and Oil",
+		[4] = 5,
+		[5] = 0,
 		[6] = 1,
 	},
-	[4191] = 
+	[4463] = 
 	{
-		[1] = 121287,
-		[2] = "/esoui/art/icons/housing_tre_trp_mrkcypress004.dds",
-		[3] = "Tree, Towering Cypress",
-		[4] = 3,
-		[5] = 1,
+		[1] = 84284,
+		[2] = "/esoui/art/icons/dyestamp_antiqueautomaton.dds",
+		[3] = "Dusky: Antique Automaton",
+		[4] = 5,
+		[5] = 0,
 		[6] = 1,
 	},
 	[3982] = 
@@ -30494,47 +32150,191 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 1,
 	},
-	[446] = 
+	[4462] = 
 	{
-		[1] = 64710,
-		[2] = "/esoui/art/icons/crownpotion_trires.dds",
-		[3] = "Crown Tri-Restoration Potion",
+		[1] = 84186,
+		[2] = "/esoui/art/icons/dyestamp_brassydarkred.dds",
+		[3] = "Dusky: Brassy Dark Red",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4461] = 
+	{
+		[1] = 83953,
+		[2] = "/esoui/art/icons/dyestamp_darklavenderwedlock.dds",
+		[3] = "Nuptial: Dark Lavender Wedlock",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4460] = 
+	{
+		[1] = 84389,
+		[2] = "/esoui/art/icons/dyestamp_magentamage.dds",
+		[3] = "Nuptial: Magenta Mage",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4459] = 
+	{
+		[1] = 84234,
+		[2] = "/esoui/art/icons/dyestamp_lilacandwhite.dds",
+		[3] = "Nuptial: Lilac and White",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4458] = 
+	{
+		[1] = 83940,
+		[2] = "/esoui/art/icons/dyestamp_somberblueespousal.dds",
+		[3] = "Nuptial: Somber Blue Espousal",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4448] = 
+	{
+		[1] = 84401,
+		[2] = "/esoui/art/icons/dyestamp_amethystadept.dds",
+		[3] = "Nuptial: Amethyst Adept",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4433] = 
+	{
+		[1] = 84045,
+		[2] = "/esoui/art/icons/dyestamp_beggarsguildbrown.dds",
+		[3] = "Rusty: Beggars' Guild Brown",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4432] = 
+	{
+		[1] = 84446,
+		[2] = "/esoui/art/icons/dyestamp_ochreandironoxide.dds",
+		[3] = "Rusty: Ochre and Iron Oxide",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4423] = 
+	{
+		[1] = 84217,
+		[2] = "/esoui/art/icons/dyestamp_greenatthegills.dds",
+		[3] = "Sunny: Green at the Gills",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4422] = 
+	{
+		[1] = 83814,
+		[2] = "/esoui/art/icons/dyestamp_gleamsofgoldandsteel.dds",
+		[3] = "Sunny: Gleams of Gold and Steel",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4421] = 
+	{
+		[1] = 83879,
+		[2] = "/esoui/art/icons/dyestamp_yellowpatternedviper.dds",
+		[3] = "Sunny: Yellow-Patterned Viper",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4420] = 
+	{
+		[1] = 83797,
+		[2] = "/esoui/art/icons/dyestamp_desertsandsandstone.dds",
+		[3] = "Sunny: Desert Sands and Stone",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4380] = 
+	{
+		[1] = 84215,
+		[2] = "/esoui/art/icons/dyestamp_tawnytangerine.dds",
+		[3] = "Torrid: Tawny Tangerine",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4379] = 
+	{
+		[1] = 83737,
+		[2] = "/esoui/art/icons/dyestamp_cinnamonandshadows.dds",
+		[3] = "Torrid: Cinnamon and Shadows",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4378] = 
+	{
+		[1] = 83708,
+		[2] = "/esoui/art/icons/dyestamp_burntoranges.dds",
+		[3] = "Torrid: Burnt Oranges",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4375] = 
+	{
+		[1] = 84068,
+		[2] = "/esoui/art/icons/dyestamp_hotterthanhelgathe.dds",
+		[3] = "Torrid: Hotter than Hegathe",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4374] = 
+	{
+		[1] = 83893,
+		[2] = "/esoui/art/icons/dyestamp_scorchingsand.dds",
+		[3] = "Torrid: Scorching Sand",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
+	},
+	[4316] = 
+	{
+		[1] = 120515,
+		[2] = "/esoui/art/icons/housing_veg_bsh_rmsaplingbush001.dds",
+		[3] = "Shrub, Lanky Highland",
+		[4] = 1,
+		[5] = 0,
+		[6] = 2,
+	},
+	[4310] = 
+	{
+		[1] = 117900,
+		[2] = "/esoui/art/icons/housing_red_inc_vargolddwemervase003.dds",
+		[3] = "Redguard Cannister, Gilded",
 		[4] = 4,
-		[5] = 1,
-		[6] = 20,
-	},
-	[4203] = 
-	{
-		[1] = 116512,
-		[2] = "/esoui/art/icons/housing_orc_inc_wtgrug001.dds",
-		[3] = "Orcish Carpet, Blood",
-		[4] = 3,
-		[5] = 1,
+		[5] = 0,
 		[6] = 1,
 	},
-	[4204] = 
+	[4309] = 
 	{
-		[1] = 118183,
-		[2] = "/esoui/art/icons/housing_bre_cmp_cauldronlarge002.dds",
-		[3] = "Noble Standing Cauldron",
-		[4] = 4,
-		[5] = 1,
-		[6] = 1,
+		[1] = 117693,
+		[2] = "/esoui/art/icons/housing_red_inc_tapestrysmall001.dds",
+		[3] = "Redguard Curtain, Smoky",
+		[4] = 2,
+		[5] = 0,
+		[6] = 2,
 	},
-	[4205] = 
+	[4208] = 
 	{
-		[1] = 118113,
-		[2] = "/esoui/art/icons/housing_bre_inc_turkeyleg001.dds",
-		[3] = "Drumstick",
-		[4] = 3,
-		[5] = 1,
-		[6] = 1,
-	},
-	[4206] = 
-	{
-		[1] = 117860,
-		[2] = "/esoui/art/icons/housing_red_lsb_varlanternsitting002.dds",
-		[3] = "Redguard Lantern, Caged Stand",
+		[1] = 117911,
+		[2] = "/esoui/art/icons/housing_red_lsb_varchadelier004.dds",
+		[3] = "Redguard Chandelier, Grated",
 		[4] = 4,
 		[5] = 1,
 		[6] = 1,
@@ -30548,283 +32348,139 @@ lib.MarkedIdToItemInfo = {
 		[5] = 1,
 		[6] = 1,
 	},
-	[4208] = 
+	[4206] = 
 	{
-		[1] = 117911,
-		[2] = "/esoui/art/icons/housing_red_lsb_varchadelier004.dds",
-		[3] = "Redguard Chandelier, Grated",
+		[1] = 117860,
+		[2] = "/esoui/art/icons/housing_red_lsb_varlanternsitting002.dds",
+		[3] = "Redguard Lantern, Caged Stand",
 		[4] = 4,
 		[5] = 1,
 		[6] = 1,
 	},
-	[445] = 
+	[4205] = 
 	{
-		[1] = 64711,
-		[2] = "/esoui/art/icons/store_crownfood_01.dds",
-		[3] = "Crown Fortifying Meal",
-		[4] = 4,
-		[5] = 1,
-		[6] = 5,
-	},
-	[444] = 
-	{
-		[1] = 61079,
-		[2] = "/esoui/art/icons/store_repairkit_002.dds",
-		[3] = "Crown Repair Kit",
+		[1] = 118113,
+		[2] = "/esoui/art/icons/housing_bre_inc_turkeyleg001.dds",
+		[3] = "Drumstick",
 		[4] = 3,
-		[5] = 0,
-		[6] = 5,
-	},
-	[443] = 
-	{
-		[1] = 61080,
-		[2] = "/esoui/art/icons/store_soulgem_001.dds",
-		[3] = "Crown Soul Gem",
-		[4] = 3,
-		[5] = 0,
-		[6] = 5,
-	},
-	[422] = 
-	{
-		[1] = 64710,
-		[2] = "/esoui/art/icons/crownpotion_trires.dds",
-		[3] = "Crown Tri-Restoration Potion",
-		[4] = 4,
 		[5] = 1,
-		[6] = 10,
+		[6] = 1,
 	},
-	[421] = 
+	[4204] = 
 	{
-		[1] = 64711,
-		[2] = "/esoui/art/icons/store_crownfood_01.dds",
-		[3] = "Crown Fortifying Meal",
+		[1] = 118183,
+		[2] = "/esoui/art/icons/housing_bre_cmp_cauldronlarge002.dds",
+		[3] = "Noble Standing Cauldron",
 		[4] = 4,
 		[5] = 1,
 		[6] = 1,
 	},
-	[420] = 
+	[4203] = 
 	{
-		[1] = 61079,
-		[2] = "/esoui/art/icons/store_repairkit_002.dds",
-		[3] = "Crown Repair Kit",
+		[1] = 116512,
+		[2] = "/esoui/art/icons/housing_orc_inc_wtgrug001.dds",
+		[3] = "Orcish Carpet, Blood",
 		[4] = 3,
-		[5] = 0,
-		[6] = 2,
+		[5] = 1,
+		[6] = 1,
 	},
-	[419] = 
+	[4191] = 
 	{
-		[1] = 61080,
-		[2] = "/esoui/art/icons/store_soulgem_001.dds",
-		[3] = "Crown Soul Gem",
+		[1] = 121287,
+		[2] = "/esoui/art/icons/housing_tre_trp_mrkcypress004.dds",
+		[3] = "Tree, Towering Cypress",
 		[4] = 3,
-		[5] = 0,
-		[6] = 2,
-	},
-	[411] = 
-	{
-		[1] = 64556,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 17: Xivkyn Style",
-		[4] = 5,
 		[5] = 1,
 		[6] = 1,
 	},
-	[382] = 
+	[4190] = 
 	{
-		[1] = 64555,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 20: Yokudan Style",
-		[4] = 5,
+		[1] = 121286,
+		[2] = "/esoui/art/icons/housing_tre_trp_mrkcypress001.dds",
+		[3] = "Tree, Giant Cypress",
+		[4] = 3,
 		[5] = 1,
 		[6] = 1,
 	},
-	[369] = 
+	[4189] = 
 	{
-		[1] = 64559,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 10: Imperial Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[367] = 
-	{
-		[1] = 64553,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 15: Dwemer Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[366] = 
-	{
-		[1] = 71668,
-		[2] = "/esoui/art/icons/crafing_universal_item.dds",
-		[3] = "Crown Mimic Stone",
-		[4] = 5,
-		[5] = 1,
-		[6] = 5,
-	},
-	[365] = 
-	{
-		[1] = 64549,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 13: Primal Style",
+		[1] = 121285,
+		[2] = "/esoui/art/icons/housing_tre_trp_mrkbanyan003.dds",
+		[3] = "Tree, Ancient Banyan",
 		[4] = 4,
 		[5] = 1,
 		[6] = 1,
 	},
-	[364] = 
+	[4188] = 
 	{
-		[1] = 64550,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 12: Barbaric Style",
-		[4] = 4,
+		[1] = 121284,
+		[2] = "/esoui/art/icons/housing_dun_waf_wallsmediumcorner001.dds",
+		[3] = "Dark Elf Column Lantern",
+		[4] = 2,
 		[5] = 1,
 		[6] = 1,
 	},
-	[363] = 
+	[4187] = 
 	{
-		[1] = 64551,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 11: Ancient Elf Style",
-		[4] = 4,
+		[1] = 121283,
+		[2] = "/esoui/art/icons/housing_tre_trp_rmjungle002.dds",
+		[3] = "Tree, Healthy Jungle",
+		[4] = 2,
 		[5] = 1,
 		[6] = 1,
 	},
-	[362] = 
+	[4186] = 
 	{
-		[1] = 64552,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 14: Daedric Style",
-		[4] = 4,
-		[5] = 1,
-		[6] = 1,
-	},
-	[337] = 
-	{
-		[1] = 61080,
-		[2] = "/esoui/art/icons/store_soulgem_001.dds",
-		[3] = "Crown Soul Gem",
-		[4] = 3,
-		[5] = 1,
-		[6] = 20,
-	},
-	[336] = 
-	{
-		[1] = 61079,
-		[2] = "/esoui/art/icons/store_repairkit_002.dds",
-		[3] = "Crown Repair Kit",
-		[4] = 3,
-		[5] = 1,
-		[6] = 20,
-	},
-	[327] = 
-	{
-		[1] = 45882,
-		[2] = "/esoui/art/icons/quest_container_001.dds",
-		[3] = "Coldharbour Treasure Map",
+		[1] = 121282,
+		[2] = "/esoui/art/icons/housing_tre_trp_rmplainstree002.dds",
+		[3] = "Tree, Ancient Jungle",
 		[4] = 3,
 		[5] = 1,
 		[6] = 1,
 	},
-	[326] = 
+	[4185] = 
 	{
-		[1] = 45881,
-		[2] = "/esoui/art/icons/quest_container_001.dds",
-		[3] = "Pact Treasure Maps",
+		[1] = 121005,
+		[2] = "/esoui/art/icons/housing_veg_bsh_auridonhedge003.dds",
+		[3] = "Hedge, Wall Arc",
 		[4] = 3,
 		[5] = 1,
 		[6] = 1,
 	},
-	[325] = 
+	[4184] = 
 	{
-		[1] = 45880,
-		[2] = "/esoui/art/icons/quest_container_001.dds",
-		[3] = "Dominion Treasure Maps",
-		[4] = 3,
+		[1] = 120998,
+		[2] = "/esoui/art/icons/housing_orc_exc_choppingblock002.dds",
+		[3] = "Block, Wood Cutting",
+		[4] = 1,
 		[5] = 1,
 		[6] = 1,
 	},
-	[324] = 
+	[4183] = 
 	{
-		[1] = 45879,
-		[2] = "/esoui/art/icons/quest_container_001.dds",
-		[3] = "Covenant Treasure Maps",
-		[4] = 3,
-		[5] = 1,
-		[6] = 1,
-	},
-	[284] = 
-	{
-		[1] = 73871,
-		[2] = "/esoui/art/icons/justice_stolen_unique_crimson_ticket.dds",
-		[3] = "Jubilee Cake Voucher",
-		[4] = 5,
+		[1] = 120983,
+		[2] = "/esoui/art/icons/housing_veg_bsh_craglornscrubtree002.dds",
+		[3] = "Sapling, Mountain",
+		[4] = 1,
 		[5] = 0,
 		[6] = 1,
 	},
-	[283] = 
+	[4171] = 
 	{
-		[1] = 71668,
-		[2] = "/esoui/art/icons/crafing_universal_item.dds",
-		[3] = "Crown Mimic Stone",
-		[4] = 5,
-		[5] = 1,
-		[6] = 54,
-	},
-	[282] = 
-	{
-		[1] = 71668,
-		[2] = "/esoui/art/icons/crafing_universal_item.dds",
-		[3] = "Crown Mimic Stone",
-		[4] = 5,
-		[5] = 1,
-		[6] = 26,
-	},
-	[279] = 
-	{
-		[1] = 82102,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 40: Order Hour Style",
-		[4] = 5,
+		[1] = 120967,
+		[2] = "/esoui/art/icons/housing_rok_gry_craglornsmall004.dds",
+		[3] = "Stone, Angled Grey",
+		[4] = 1,
 		[5] = 0,
 		[6] = 1,
 	},
-	[278] = 
+	[4170] = 
 	{
-		[1] = 74667,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 35: Dro-m'Athra Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[220] = 
-	{
-		[1] = 71668,
-		[2] = "/esoui/art/icons/crafing_universal_item.dds",
-		[3] = "Crown Mimic Stone",
-		[4] = 5,
-		[5] = 1,
-		[6] = 12,
-	},
-	[214] = 
-	{
-		[1] = 64730,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 19: Mercenary Style",
-		[4] = 5,
-		[5] = 1,
-		[6] = 1,
-	},
-	[213] = 
-	{
-		[1] = 64554,
-		[2] = "/esoui/art/icons/store_racialtrait_001.dds",
-		[3] = "Crown Crafting Motif 18: Akaviri Style",
-		[4] = 5,
-		[5] = 1,
+		[1] = 120963,
+		[2] = "/esoui/art/icons/housing_rok_gry_craglornsmall002.dds",
+		[3] = "Boulder, Jagged Crag",
+		[4] = 1,
+		[5] = 0,
 		[6] = 1,
 	},
 	[4042] = 
@@ -30907,6 +32563,15 @@ lib.MarkedIdToItemInfo = {
 		[4] = 5,
 		[5] = 1,
 		[6] = 3,
+	},
+	[4154] = 
+	{
+		[1] = 116420,
+		[2] = "/esoui/art/icons/housing_orc_duc_wtgthrone001.dds",
+		[3] = "Orcish Throne, Pedestal",
+		[4] = 5,
+		[5] = 0,
+		[6] = 1,
 	},
 	[4052] = 
 	{
@@ -31304,4 +32969,4 @@ lib.MarkedIdToItemInfo = {
 		[5] = 0,
 		[6] = 2,
 	},
-}
+}    
