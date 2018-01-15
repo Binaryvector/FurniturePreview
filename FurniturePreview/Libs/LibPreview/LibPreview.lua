@@ -4,13 +4,19 @@
 -- This library is still in developement. You can use it, but beware of bugs
 
 local LIB_NAME = "LibPreview"
-local VERSION = 8
+local VERSION = 9
 local lib = LibStub:NewLibrary(LIB_NAME, VERSION)
 if not lib then return end
 
 lib.dataLoaded = false
 
 if lib.Unload then lib:Unload() end
+
+function lib:Debug(...)
+	if lib.debugOutput then
+		d(...)
+	end
+end
 
 function lib:Initialize()
 	self.initialized = true
@@ -31,6 +37,14 @@ function lib:Initialize()
 			end
 		end
 	end
+	
+	ZO_PreHook("PreviewInventoryItemAsFurniture", function()
+		self:Debug("preview inventory furniture")
+	end)
+	
+	ZO_PreHook("PreviewInventoryItem", function()
+		self:Debug("preview inventory item/armor")
+	end)
 	
 	-- add store preview API to the item preview manager
 	local STORE_PREVIEW = #ITEM_PREVIEW_KEYBOARD.previewTypeObjects + 1
@@ -241,12 +255,13 @@ end)
 
 function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 	if not self.validHook then
-		d("FurniturePreview no valid hook created yet")
+		d("preview error no valid hook created yet")
 		return
 	end
 	
 	if self.previewStartedByLibrary then
 		if self.keybindFragment:IsHidden() then
+			self:Debug("add keybind")
 			SCENE_MANAGER:AddFragment(self.keybindFragment)
 		end
 	end
@@ -255,6 +270,7 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 	local previewSystem = SYSTEMS:GetObject("itemPreview")
 	
 	if (not previewOptionsFragment.options.previewInEmptyWorld) ~= (not previewSystem.previewInEmptyWorld) then
+		self:Debug("change preview world")
 		previewSystem:SetPreviewInEmptyWorld(not not previewOptionsFragment.options.previewInEmptyWorld)
 	end
 	
@@ -264,29 +280,41 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 	
 	if not frameFragment then
 		if SYSTEMS:IsShowing(ZO_TRADING_HOUSE_SYSTEM_NAME) or SYSTEMS:IsShowing("trade") then
+			self:Debug("select trading fragment")
 			-- for the trade scene and the guild store, we want the preview to be on the far left side
 			frameFragment = FRAME_TARGET_STANDARD_RIGHT_PANEL_FRAGMENT
 		elseif lib.isFraming then
+			self:Debug("select framing fragment")
 			-- if there is already a frame fragment active, use the dummy one
 			frameFragment = NO_TARGET_CHANGE_FRAME
 		elseif HUD_SCENE:IsShowing() or HUD_UI_SCENE:IsShowing() then
+			self:Debug("select HUD fragment")
 			-- in the hud scene, the center is empty
 			frameFragment = FRAME_TARGET_CENTERED_FRAGMENT
 		else
+			self:Debug("select default fragment")
 			-- otherwise use the lisghtly shifted to the left preview (most UI is on the right, so the preview should not be occluded)
 			frameFragment = FRAME_TARGET_CRAFTING_FRAGMENT
 		end
 	end
 	
-	if HUD_SCENE:IsShowing() or HUD_SCENE:IsShowing() then
+	if HUD_SCENE:IsShowing() or HUD_UI_SCENE:IsShowing() then
+		self:Debug("enable preview scene")
 		SCENE_MANAGER:Toggle(LIB_NAME)
 	end
 	
 	if self.keybindFragment:IsHidden() then
+		self:Debug("add keybind again")
 		SCENE_MANAGER:AddFragment(self.keybindFragment)
 	end
 	
-	if previewSystem:IsInteractionCameraPreviewEnabled() then return false end
+	if previewSystem:IsInteractionCameraPreviewEnabled() then
+		self:Debug("preview mode is already enabled")
+		if not lib.isFraming then
+			d("preview error: some preview is active but the player is not framed!")
+		end
+		return false
+	end
 	self.PreviewStartedByLibrary = true
 	
 	self.frameFragment = frameFragment
@@ -297,6 +325,7 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 		FRAME_PLAYER_FRAGMENT,
 		self.previewOptionsFragment)
 	
+	self:Debug("enable preview mode")
 end
 
 function lib:DisablePreviewMode()
@@ -322,7 +351,7 @@ end
 
 function lib:PreviewItemLink(itemLink)
 	if not self.validHook then
-		d("FurniturePreview no valid hook created yet")
+		d("preview error: no valid hook created yet")
 		return
 	end
 	lib:EnablePreviewMode()
