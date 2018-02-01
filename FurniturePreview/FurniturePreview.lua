@@ -197,9 +197,10 @@ end
 
 function FurPreview:IsItemLinkPreviewableArmor(itemLink)
 	if self.settings.disablePreviewArmor then return false end
-	local itemType, specializedItemType = GetItemLinkItemType(itemLink)
-	local equipType = GetItemLinkEquipType(itemLink)
-	return itemType == ITEMTYPE_ARMOR and equipType ~= EQUIP_TYPE_RING and equipType ~= EQUIP_TYPE_NECK
+	--local itemType, specializedItemType = GetItemLinkItemType(itemLink)
+	--local equipType = GetItemLinkEquipType(itemLink)
+	--return itemType == ITEMTYPE_ARMOR and equipType ~= EQUIP_TYPE_RING and equipType ~= EQUIP_TYPE_NECK
+	return (PREVIEW:GetOutfitCollectibleFromItemLink(itemLink) ~= nil)
 end
 
 function FurPreview:SetPreviewOnClick(disablePreviewOnClick)
@@ -232,6 +233,8 @@ end
 local slotTypeToItemLink = {
 	--[SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT] = function(inventorySlot) return GetTradingHouseSearchResultItemLink(ZO_Inventory_GetSlotIndex(inventorySlot)) end,
 	[SLOT_TYPE_TRADING_HOUSE_ITEM_LISTING] = function(inventorySlot) return GetTradingHouseListingItemLink(ZO_Inventory_GetSlotIndex(inventorySlot)) end,
+	
+	[SLOT_TYPE_CRAFTING_COMPONENT] = function(inventorySlot) return GetItemLink(ZO_Inventory_GetBagAndIndex(inventorySlot)) end,
 	
 	--[SLOT_TYPE_STORE_BUY] = function(inventorySlot) return GetStoreItemLink(inventorySlot.index) end,
 	[SLOT_TYPE_STORE_BUYBACK] = function(inventorySlot) return GetBuybackItemLink(inventorySlot.index) end,
@@ -275,31 +278,20 @@ function FurPreview:Preview(inventorySlot, itemLink)
 	if inventorySlot then
 		itemLink, slotType = FurPreview:GetInventorySlotItemData(inventorySlot)
 	end
-	-- clicking twice on the same item deactivates the preview
-	if IsCurrentlyPreviewing() and inventorySlot and inventorySlot == self.inventorySlot and itemLink == self.itemLink then
-		self:EndPreview()
-		return
-	end
+	
+	-- clicking on the same item again deactivates the preview
+	--if IsCurrentlyPreviewing() and inventorySlot and inventorySlot == self.inventorySlot and itemLink == self.itemLink then
+	--	self:EndPreview()
+	--	return
+	--end
 	
 	self.inventorySlot = inventorySlot
 	self.itemLink = itemLink
 	
 	if inventorySlot ~= nil then
 		if slotType == SLOT_TYPE_ITEM or slotType == SLOT_TYPE_BANK_ITEM or slotType == SLOT_TYPE_GUILD_BANK_ITEM then
-			if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
-				PREVIEW:EnablePreviewMode(nil, REAL_WORLD_PREVIEW_OPTIONS_FRAGMENT)
-				SYSTEMS:GetObject("itemPreview"):PreviewInventoryItem(ZO_Inventory_GetBagAndIndex(inventorySlot))
-			else
-				PREVIEW:EnablePreviewMode()
-				SYSTEMS:GetObject("itemPreview"):PreviewInventoryItemAsFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot))
-			end
+			PREVIEW:PreviewInventoryItemAsFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot))
 			return
-		--elseif slotType == SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT then
-		--	PREVIEW:EnablePreviewMode()
-		--	SYSTEMS:GetObject("itemPreview"):PreviewTradingHouseSearchResultItemAsFurniture(ZO_Inventory_GetSlotIndex(inventorySlot))
-		--elseif slotType == SLOT_TYPE_STORE_BUY then
-		--	PREVIEW:EnablePreviewMode()
-		--	SYSTEMS:GetObject("itemPreview"):PreviewStoreEntryAsFurniture(inventorySlot.index)
 		end
 	end
 	if PREVIEW:CanPreviewItemLink(itemLink) then
