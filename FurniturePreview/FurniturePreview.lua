@@ -2,15 +2,6 @@
 FurPreview = {}
 local PREVIEW = LibStub("LibPreview")
 
-local REAL_WORLD_PREVIEW_OPTIONS_FRAGMENT = ZO_ItemPreviewOptionsFragment:New({
-    paddingLeft = 245,
-    paddingRight = 605,
-    dynamicFramingConsumedWidth = 1050,
-    dynamicFramingConsumedHeight = 300,
-	--forcePreparePreview = true,
-    --previewInEmptyWorld = true,
-})
-
 -- copied from esoui code:
 local function GetInventorySlotComponents(inventorySlot)
 	-- Figure out what got passed in...inventorySlot could be a list or button type...
@@ -189,17 +180,10 @@ function FurPreview:OnAddonLoaded(_, addon)
 		KEYBIND_STRIP:UpdateKeybindButtonGroup(self.keybindStripDescriptor)
 	end
 	
-	-- store armor
-	--function ZO_ItemPreview_Shared:PreviewStoreEntry(storeEntryIndex)
-	--	self:SharedPreviewSetup(ZO_ITEM_PREVIEW_STORE_ENTRY_AS_FURNITURE, storeEntryIndex)
-	--end
 end
 
 function FurPreview:IsItemLinkPreviewableArmor(itemLink)
 	if self.settings.disablePreviewArmor then return false end
-	--local itemType, specializedItemType = GetItemLinkItemType(itemLink)
-	--local equipType = GetItemLinkEquipType(itemLink)
-	--return itemType == ITEMTYPE_ARMOR and equipType ~= EQUIP_TYPE_RING and equipType ~= EQUIP_TYPE_NECK
 	return (PREVIEW:GetOutfitCollectibleFromItemLink(itemLink) ~= nil)
 end
 
@@ -279,19 +263,15 @@ function FurPreview:Preview(inventorySlot, itemLink)
 		itemLink, slotType = FurPreview:GetInventorySlotItemData(inventorySlot)
 	end
 	
-	-- clicking on the same item again deactivates the preview
-	--if IsCurrentlyPreviewing() and inventorySlot and inventorySlot == self.inventorySlot and itemLink == self.itemLink then
-	--	self:EndPreview()
-	--	return
-	--end
-	
 	self.inventorySlot = inventorySlot
 	self.itemLink = itemLink
 	
 	if inventorySlot ~= nil then
 		if slotType == SLOT_TYPE_ITEM or slotType == SLOT_TYPE_BANK_ITEM or slotType == SLOT_TYPE_GUILD_BANK_ITEM then
-			PREVIEW:PreviewInventoryItemAsFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot))
-			return
+			if not FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+				PREVIEW:PreviewInventoryItemAsFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot))
+				return
+			end
 		end
 	end
 	if PREVIEW:CanPreviewItemLink(itemLink) then
@@ -314,10 +294,7 @@ function FurPreview:CanPreviewItem(inventorySlot, itemLink)
 	if PREVIEW:CanPreviewItemLink(itemLink) then return true end
 	
 	if slotType == SLOT_TYPE_ITEM or slotType == SLOT_TYPE_BANK_ITEM or slotType == SLOT_TYPE_GUILD_BANK_ITEM then
-		if FurPreview:IsItemLinkPreviewableArmor(itemLink) then return true end
 		return IsItemPlaceableFurniture(ZO_Inventory_GetBagAndIndex(inventorySlot)) or IsItemLinkPlaceableFurniture(GetItemLinkRecipeResultItemLink(itemLink))
-	--elseif slotType == SLOT_TYPE_STORE_BUY then -- slotType == SLOT_TYPE_TRADING_HOUSE_ITEM_RESULT or
-	--	return IsItemLinkPlaceableFurniture(itemLink) or IsItemLinkPlaceableFurniture(GetItemLinkRecipeResultItemLink(itemLink))
 	end
 	
 end
