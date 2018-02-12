@@ -147,7 +147,7 @@ function FurPreview:OnAddonLoaded(_, addon)
 
 		WINDOW_MANAGER:SetMouseCursor(cursor)
 	end
-	
+	--[[
 	function TRADING_HOUSE:TogglePreviewMode(shouldBeRealWorld)
 		if shouldBeRealWorld then
 			ITEM_PREVIEW_KEYBOARD:ToggleInteractionCameraPreview(FRAME_TARGET_STANDARD_RIGHT_PANEL_FRAGMENT, FRAME_PLAYER_ON_SCENE_HIDDEN_FRAGMENT, RIGHT_BG_ITEM_PREVIEW_OPTIONS_FRAGMENT)
@@ -160,6 +160,10 @@ function FurPreview:OnAddonLoaded(_, addon)
 	function TRADING_HOUSE:PreviewSearchResult(tradingHouseIndex)
 		
 		local itemLink = GetTradingHouseSearchResultItemLink(tradingHouseIndex)
+		if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+			PREVIEW:PreviewItemLink(itemLink)
+			return true
+		end
 		local itemType, specializedItemType = GetItemLinkItemType(itemLink)
 		local shouldBeEmptyWorld = not (itemType == ITEMTYPE_ARMOR)
 		
@@ -175,11 +179,21 @@ function FurPreview:OnAddonLoaded(_, addon)
 		if shouldBeEmptyWorld then
 			ITEM_PREVIEW_KEYBOARD:PreviewTradingHouseSearchResultAsFurniture(tradingHouseIndex)
 		else
-			ITEM_PREVIEW_KEYBOARD:PreviewTradingHouseSearchResult(tradingHouseIndex)
+			if PREVIEW:CanPreviewItemLink(itemLink) then
+				PREVIEW:PreviewItemLink(itemLink)
+			end
 		end
 		KEYBIND_STRIP:UpdateKeybindButtonGroup(self.keybindStripDescriptor)
 	end
+	--]]
 	
+	ZO_PreHook(TRADING_HOUSE, "PreviewSearchResult", function(self, tradingHouseIndex)
+		local itemLink = GetTradingHouseSearchResultItemLink(tradingHouseIndex)
+		if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+			PREVIEW:PreviewItemLink(itemLink)
+			return true
+		end
+	end)
 end
 
 function FurPreview:IsItemLinkPreviewableArmor(itemLink)
@@ -257,7 +271,6 @@ function FurPreview:GetInventorySlotItemData(inventorySlot)
 end
 
 function FurPreview:Preview(inventorySlot, itemLink)
-	
 	local slotType
 	if inventorySlot then
 		itemLink, slotType = FurPreview:GetInventorySlotItemData(inventorySlot)

@@ -15,7 +15,7 @@ PREVIEW:DisablePreviewMode()
 --]]
 
 local LIB_NAME = "LibPreview"
-local VERSION = 10
+local VERSION = 11
 local lib = LibStub:NewLibrary(LIB_NAME, VERSION)
 if not lib then return end
 
@@ -42,6 +42,14 @@ function lib:Initialize()
 		paddingLeft = 0,
 		paddingRight = 0,
 		dynamicFramingConsumedWidth = 1050,
+		dynamicFramingConsumedHeight = 300,
+		maintainsPreviewCollection = true,
+	})
+	
+	self.defaultLeftOptionsFragment = ZO_ItemPreviewOptionsFragment:New({
+		paddingLeft = 0,
+		paddingRight = 950,
+		dynamicFramingConsumedWidth = 1150,
 		dynamicFramingConsumedHeight = 300,
 		maintainsPreviewCollection = true,
 	})
@@ -334,7 +342,8 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 	-- select the correct frame position
 	if not frameFragment then
 		if SYSTEMS:IsShowing(ZO_TRADING_HOUSE_SYSTEM_NAME) or SYSTEMS:IsShowing("trade") then
-			frameFragment = FRAME_TARGET_TRADING_HOUSE_GAMEPAD_FRAGMENT
+			frameFragment = FRAME_TARGET_STANDARD_RIGHT_PANEL_FRAGMENT
+			previewOptionsFragment = previewOptionsFragment or self.defaultLeftOptionsFragment
 		elseif lib.isFraming then
 			-- if the player is already framed (eg inventory) then don't change anything
 			frameFragment = NO_TARGET_CHANGE_FRAME
@@ -346,6 +355,7 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 		else
 			-- otherwise use the slightly shifted to the left preview (most UI is on the right, so the preview should not be occluded)
 			frameFragment = FRAME_TARGET_STANDARD_RIGHT_PANEL_FRAGMENT--FRAME_TARGET_CRAFTING_FRAGMENT
+			previewOptionsFragment = previewOptionsFragment or self.defaultLeftOptionsFragment
 		end
 	end
 	
