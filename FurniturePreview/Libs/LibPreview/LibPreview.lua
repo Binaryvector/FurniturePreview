@@ -15,7 +15,7 @@ PREVIEW:DisablePreviewMode()
 --]]
 
 local LIB_NAME = "LibPreview"
-local VERSION = 11
+local VERSION = 12
 local lib = LibStub:NewLibrary(LIB_NAME, VERSION)
 if not lib then return end
 
@@ -394,7 +394,7 @@ function lib:EnablePreviewMode(frameFragment, previewOptionsFragment)
 		self.frameFragment = frameFragment
 		self.previewOptionsFragment = previewOptionsFragment or self.defaultOptionsFragment
 		self.usedInteractionPreview = true
-		ITEM_PREVIEW_KEYBOARD:SetInteractionCameraPreviewEnabled(
+		SYSTEMS:GetObject("itemPreview"):SetInteractionCameraPreviewEnabled(
 			true,
 			self.frameFragment,
 			self.framePlayerFragment,
@@ -427,7 +427,7 @@ function lib:DisablePreviewMode()
 	
 	-- if preview using ZOS' interaction preview
 	if self.usedInteractionPreview then
-		ITEM_PREVIEW_KEYBOARD:SetInteractionCameraPreviewEnabled(
+		SYSTEMS:GetObject("itemPreview"):SetInteractionCameraPreviewEnabled(
 			false,
 			self.frameFragment,
 			self.framePlayerFragment,
@@ -455,7 +455,7 @@ function lib:PreviewItemLink(itemLink, frameFragment, optionsFragment)
 		return
 	end
 	self:EnablePreviewMode(frameFragment, optionsFragment)
-	ITEM_PREVIEW_KEYBOARD:PreviewItemLink(itemLink)
+	SYSTEMS:GetObject("itemPreview"):PreviewItemLink(itemLink)
 end
 
 function lib:PreviewInventoryItemAsFurniture(bagId, slotIndex)
