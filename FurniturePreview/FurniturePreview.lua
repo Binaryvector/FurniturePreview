@@ -104,6 +104,9 @@ function FurPreview:OnAddonLoaded(_, addon)
 	
 	-- add trading house armor preview
 	ZO_PreHook("ZO_TradingHouse_OnSearchResultClicked", function(searchResultSlot, button)
+		if FurPreview.settings.disablePreviewArmor then
+			return
+		end
 		if button == MOUSE_BUTTON_INDEX_LEFT then
 			local inventorySlot, listPart, multiIconPart = ZO_InventorySlot_GetInventorySlotComponents(searchResultSlot)
 			local tradingHouseIndex = ZO_Inventory_GetSlotIndex(inventorySlot)
@@ -127,8 +130,10 @@ function FurPreview:OnAddonLoaded(_, addon)
 			if ZO_ItemPreview_Shared.CanItemLinkBePreviewedAsFurniture(itemLink) then
 				return tradingHouseIndex
 			end
-			if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
-				return tradingHouseIndex
+			if not FurPreview.settings.disablePreviewArmor then
+				if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+					return tradingHouseIndex
+				end
 			end
 		end
 
@@ -189,15 +194,16 @@ function FurPreview:OnAddonLoaded(_, addon)
 	
 	ZO_PreHook(TRADING_HOUSE, "PreviewSearchResult", function(self, tradingHouseIndex)
 		local itemLink = GetTradingHouseSearchResultItemLink(tradingHouseIndex)
-		if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
-			PREVIEW:PreviewItemLink(itemLink)
-			return true
+		if not FurPreview.settings.disablePreviewArmor then
+			if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+				PREVIEW:PreviewItemLink(itemLink)
+				return true
+			end
 		end
 	end)
 end
 
 function FurPreview:IsItemLinkPreviewableArmor(itemLink)
-	if self.settings.disablePreviewArmor then return false end
 	return (PREVIEW:GetOutfitCollectibleFromItemLink(itemLink) ~= nil)
 end
 
@@ -302,6 +308,10 @@ function FurPreview:CanPreviewItem(inventorySlot, itemLink)
 	local slotType
 	if inventorySlot then
 		itemLink, slotType = FurPreview:GetInventorySlotItemData(inventorySlot)
+	end
+	
+	if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
+		return not FurPreview.settings.disablePreviewArmor
 	end
 	
 	if PREVIEW:CanPreviewItemLink(itemLink) then return true end

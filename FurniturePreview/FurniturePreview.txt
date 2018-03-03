@@ -1,6 +1,6 @@
 ## Title: ItemPreview (Furniture+Armor)
 ## Author: Shinni
-## Version: 1.11
+## Version: 1.12
 ## APIVersion: 100022 100021
 ## OptionalDependsOn: AwesomeGuildStore
 ## SavedVariables: FurniturePreview_SavedVars
