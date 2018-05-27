@@ -15,7 +15,7 @@ PREVIEW:DisablePreviewMode()
 --]]
 
 local LIB_NAME = "LibPreview"
-local VERSION = 12
+local VERSION = 13
 local lib = LibStub:NewLibrary(LIB_NAME, VERSION)
 if not lib then return end
 
@@ -61,6 +61,78 @@ function lib:Initialize()
 		end
 	end)
 	
+	local OUTFIT_COLLECTION = #ITEM_PREVIEW_KEYBOARD.previewTypeObjects + 1
+	lib.hookedTypes[OUTFIT_COLLECTION] = true
+	local ZO_ItemPreviewType_OutfitCollection = ZO_ItemPreviewType:Subclass()
+	ZO_ItemPreviewType_OutfitCollection.queuedSlots = {}
+	ZO_ItemPreviewType_OutfitCollection.pendingItemMaterialIndex = ZO_OUTFIT_STYLE_DEFAULT_ITEM_MATERIAL_INDEX
+	function ZO_ItemPreviewType_OutfitCollection:SetStaticParameters(list)
+		zo_mixin(self.queuedSlots, list)
+	end
+
+	function ZO_ItemPreviewType_OutfitCollection:ResetStaticParameters()
+		self.queuedSlots = {}
+	end
+
+	function ZO_ItemPreviewType_OutfitCollection:HasStaticParameters()
+		return false
+	end
+	
+	function ZO_ItemPreviewType_OutfitCollection:GetPendingDyeData()
+		self.queuedSlots[self.outfitSlotIndex] = nil
+		return GetSavedDyeSetDyes(self.previewVariationIndex-1)
+	end
+	
+	function ZO_ItemPreviewType_OutfitCollection:GetNumVariations()
+		--if self.showDyeStampSets then return NUM_SAVED_SETS end
+		--return 0
+		return NUM_SAVED_SETS
+	end
+
+	function ZO_ItemPreviewType_OutfitCollection:GetVariationName(variationIndex)
+		if variationIndex == 1 then return "No Dye Set" end
+		return "Saved Dye Set " .. tostring(variationIndex-1)
+	end
+	
+	
+	function ZO_ItemPreviewType_OutfitCollection:Apply(variationIndex)
+		if self.previewVariationIndex ~= variationIndex then
+			self.previewVariationIndex = variationIndex
+			list = {}
+			local result
+			local previewCollectionId = SYSTEMS:GetObject("itemPreview"):GetPreviewCollectionId()
+			for outfitSlot = OUTFIT_SLOT_MIN_VALUE, OUTFIT_SLOT_MAX_VALUE do
+				result = GetOutfitSlotInfoForOutfitSlotInPreviewCollection(previewCollectionId, outfitSlot)
+				if result ~= 0 then
+					list[outfitSlot] = result
+				end
+			end
+			zo_mixin(list, self.queuedSlots)
+			self.queuedSlots = list
+		end
+		self.outfitSlotIndex, self.pendingCollectibleId = next(self.queuedSlots)
+		local shouldRefresh = true
+		if next(self.queuedSlots, self.outfitSlotIndex) then
+			-- set this value, so in the next frame we will preview the next outfit slot
+			SYSTEMS:GetObject("itemPreview").previewAtMS = GetFrameTimeMilliseconds()
+			shouldRefresh = false
+		end
+		-- preview one entry
+		return ZO_OutfitSlotManipulator.UpdatePreview(self, shouldRefresh)
+	end
+	--]]
+	
+	function ZO_ItemPreviewType_OutfitCollection:IsAnyChangePending()
+		return next(self.queuedSlots) ~= nil
+	end
+	
+	ITEM_PREVIEW_KEYBOARD.previewTypeObjects[OUTFIT_COLLECTION] = ZO_ItemPreviewType_OutfitCollection:New()
+	ITEM_PREVIEW_GAMEPAD.previewTypeObjects[OUTFIT_COLLECTION] = ZO_ItemPreviewType_OutfitCollection:New()
+	
+	function ZO_ItemPreview_Shared:PreviewOutfitCollection(list)
+		self:SharedPreviewSetup(OUTFIT_COLLECTION, list)
+	end
+	
 	local weaponSlots = {
 		[OUTFIT_SLOT_WEAPON_BOW] = true,
 		[OUTFIT_SLOT_WEAPON_BOW_BACKUP] = true,
@@ -88,92 +160,26 @@ function lib:Initialize()
 			return
 		end
 		
-		if self.currentPreviewType ~= ZO_ITEM_PREVIEW_OUTFIT then
+		if self.currentPreviewType ~= OUTFIT_COLLECTION then-- ZO_ITEM_PREVIEW_OUTFIT then
 			self:RefreshState()
 			--self:PreviewUnequipOutfit()
-			local showDyeStampSets = true
-			self:SharedPreviewSetup(ZO_ITEM_PREVIEW_OUTFIT, self.previewCollectionId, UNEQUIPPED_OUTFIT_INDEX, showDyeStampSets)
+			--local showDyeStampSets = true
+			self:SharedPreviewSetup(ZO_ITEM_PREVIEW_OUTFIT, self.previewCollectionId, UNEQUIPPED_OUTFIT_INDEX)
 		end
 		
 		local collectibleData = lib:GetOutfitCollectibleFromItemLink(itemLink)
-		if collectibleData then
+		if not collectibleData then return end
 			
-			local previewCollectionId = self:GetPreviewCollectionId()
-			local itemMaterialIndex = ZO_OUTFIT_STYLE_DEFAULT_ITEM_MATERIAL_INDEX
-			local preferredOutfitSlot = ZO_OUTFIT_MANAGER:GetPreferredOutfitSlotForStyle(collectibleData)
-			
-			if weaponSlots[preferredOutfitSlot] then
-				for slot in pairs(weaponSlots) do
-					ClearOutfitSlotPreviewElementFromPreviewCollection(previewCollectionId, slot)
-				end
-			end
-			
-			local primaryDyeId, secondaryDyeId, accentDyeId = GetSavedDyeSetDyes(self.previewVariationIndex-1)
-			--d(primaryDye, secondaryDye, accentDye)
-			local REFRESH_IMMEDIATELY = true
-			
-			AddOutfitSlotPreviewElementToPreviewCollection( previewCollectionId, preferredOutfitSlot, collectibleData:GetId(), itemMaterialIndex, primaryDyeId, secondaryDyeId, accentDyeId, REFRESH_IMMEDIATELY)
-			
-		end
-	end
-	
-	-- hook to ZO_ItemPreviewType_Outfit to add dye sets as preview variation
-	
-	function ZO_ItemPreviewType_Outfit:SetStaticParameters(previewCollectionId, outfitIndex, showDyeStampSets)
-		self.previewCollectionId, self.outfitIndex, self.showDyeStampSets = previewCollectionId, outfitIndex, showDyeStampSets
-	end
-	
-	function ZO_ItemPreviewType_Outfit:ResetStaticParameters()
-		self.previewCollectionId = 0
-		self.outfitIndex = 0
-		self.showDyeStampSets = nil
-	end
-	
-	function ZO_ItemPreviewType_Outfit:HasStaticParameters(previewCollectionId, outfitIndex, showDyeStampSets)
-		return self.previewCollectionId == previewCollectionId and self.outfitIndex == outfitIndex and (not self.showDyeStampSets) == (not showDyeStampSets)
-	end
-	
-	function ZO_ItemPreviewType_Outfit:GetNumVariations()
-		if self.showDyeStampSets then return NUM_SAVED_SETS end
-		return 0
-	end
-
-	function ZO_ItemPreviewType_Outfit:GetVariationName(variationIndex)
-		if variationIndex == 1 then return "No Dye Set" end
-		return "Saved Dye Set " .. tostring(variationIndex-1)
-	end
-	
-	function ZO_ItemPreviewType_Outfit:Apply(variationIndex)
-		-- remember current preview elements
-		local list
-		if self.showDyeStampSets then
-			list = {}
-			local result
-			for outfitSlot = OUTFIT_SLOT_MIN_VALUE, OUTFIT_SLOT_MAX_VALUE do
-				result = { GetOutfitSlotInfoForOutfitSlotInPreviewCollection(self.previewCollectionId, outfitSlot) }
-				if result[1] ~= 0 then
-					list[outfitSlot] = result
-				end
-				
-			end
-		end
-			
-		if self.outfitIndex then
-			SetPreviewingOutfitIndexInPreviewCollection(self.previewCollectionId, self.outfitIndex)
-		else
-			
-			SetPreviewingUnequippedOutfitInPreviewCollection(self.previewCollectionId)
-		end
+		local previewCollectionId = self:GetPreviewCollectionId()
+		local preferredOutfitSlot = ZO_OUTFIT_MANAGER:GetPreferredOutfitSlotForStyle(collectibleData)
 		
-		-- add preview elements with the new dye set again
-		if self.showDyeStampSets then
-			local a,b,c = GetSavedDyeSetDyes(variationIndex-1)
-			for outfitSlot, values in pairs(list) do
-				AddOutfitSlotPreviewElementToPreviewCollection(self.previewCollectionId, outfitSlot, values[1], values[2], a,b,c, false)
+		if weaponSlots[preferredOutfitSlot] then
+			for slot in pairs(weaponSlots) do
+				ClearOutfitSlotPreviewElementFromPreviewCollection(previewCollectionId, slot)
 			end
 		end
 		
-		RefreshPreviewCollectionShown()
+		self:PreviewOutfitCollection({[preferredOutfitSlot] = collectibleData:GetId()})
 	end
 	
 	ZO_PreHook("PreviewInventoryItemAsFurniture", function()
@@ -547,14 +553,14 @@ function lib:Load()
 		end, 0)
 	end)
 	
-	local hookedTypes = {
+	lib.hookedTypes = {
 		[ZO_ITEM_PREVIEW_FURNITURE_MARKET_PRODUCT] = true,
 		[ZO_ITEM_PREVIEW_MARKET_PRODUCT] = true,
 	}
 	
 	lib.origSharedPreviewSetup = ZO_ItemPreview_Shared.SharedPreviewSetup
 	ZO_PreHook(ZO_ItemPreview_Shared, "SharedPreviewSetup", function(self, previewType, ...)
-		if hookedTypes[previewType] then
+		if lib.hookedTypes[previewType] then
 			previewStarted = true
 			fastOnUpdate = true
 		end

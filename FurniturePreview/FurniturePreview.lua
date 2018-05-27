@@ -1,5 +1,5 @@
 
-FurPreview = {}
+FurPreview = FurPreview or {}
 local PREVIEW = LibStub("LibPreview")
 
 -- copied from esoui code:
@@ -26,7 +26,18 @@ EVENT_MANAGER:RegisterForEvent("FurniturePreview", EVENT_ADD_ON_LOADED, function
 function FurPreview:OnAddonLoaded(_, addon)
 	if addon ~= "FurniturePreview" then return end
 	
-	self.settings = ZO_SavedVars:NewAccountWide("FurniturePreview_SavedVars", 1, "settings", {disablePreviewOnClick = false} )
+	self.settings = ZO_SavedVars:NewAccountWide("FurniturePreview_SavedVars", 1, "settings", {
+		disablePreviewOnClick = false,
+		disablePreviewArmor = false,
+		smithing = true,
+		inventory = true,
+		bank = true,
+		guildBank = true,
+		mailInbox = true,
+		mailSend = true,
+		tradinghouse = true,
+		trade = true,
+	})
 	
 	self.ZO_InventorySlot_OnSlotClicked = ZO_InventorySlot_OnSlotClicked
 	
@@ -104,7 +115,7 @@ function FurPreview:OnAddonLoaded(_, addon)
 	
 	-- add trading house armor preview
 	ZO_PreHook("ZO_TradingHouse_OnSearchResultClicked", function(searchResultSlot, button)
-		if FurPreview.settings.disablePreviewArmor then
+		if FurPreview.settings.disablePreviewArmor or not self:IsValidScene() then
 			return
 		end
 		if button == MOUSE_BUTTON_INDEX_LEFT then
@@ -146,7 +157,7 @@ function FurPreview:OnAddonLoaded(_, addon)
 		local tradingHouseIndex = GetTradingHouseIndexForPreviewFromSlot(searchResultSlot)
 
 		local cursor = MOUSE_CURSOR_DO_NOT_CARE
-		if tradingHouseIndex ~= nil then
+		if self:IsValidScene() and tradingHouseIndex ~= nil then
 			cursor = MOUSE_CURSOR_PREVIEW
 		end
 
@@ -201,6 +212,8 @@ function FurPreview:OnAddonLoaded(_, addon)
 			end
 		end
 	end)
+	
+	FurPreview:SetupOptions()
 end
 
 function FurPreview:IsItemLinkPreviewableArmor(itemLink)
@@ -307,7 +320,10 @@ end
 function FurPreview:CanPreviewItem(inventorySlot, itemLink)
 	local slotType
 	if inventorySlot then
-		itemLink, slotType = FurPreview:GetInventorySlotItemData(inventorySlot)
+		if not self:IsValidScene() then
+			return false
+		end
+		itemLink, slotType = FurPreview:GetInventorySlotItemData(inventorySlot)	
 	end
 	
 	if FurPreview:IsItemLinkPreviewableArmor(itemLink) then
@@ -322,5 +338,7 @@ function FurPreview:CanPreviewItem(inventorySlot, itemLink)
 	
 end
 
-
+function FurPreview:IsValidScene()
+	return self.settings[SCENE_MANAGER:GetCurrentScene():GetName()]
+end
 

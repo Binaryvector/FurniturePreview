@@ -1,8 +1,8 @@
 ## Title: ItemPreview (Furniture+Armor)
 ## Author: Shinni
-## Version: 1.12
-## APIVersion: 100022 100021
-## OptionalDependsOn: AwesomeGuildStore
+## Version: 1.13
+## APIVersion: 100023
+## OptionalDependsOn: AwesomeGuildStore LibAddonMenu-2.0 LibCustomMenu LibPreview
 ## SavedVariables: FurniturePreview_SavedVars
 
 Libs/LibStub/LibStub.lua
@@ -10,7 +10,25 @@ Libs/LibCustomMenu/LibCustomMenu.lua
 Libs/LibPreview/LibPreview.lua
 Libs/LibPreview/PreviewData.lua
 
-FurniturePreview.lua
+libs\LibAddonMenu-2.0\LibAddonMenu-2.0.lua
+libs\LibAddonMenu-2.0\controls\panel.lua
+libs\LibAddonMenu-2.0\controls\submenu.lua
+libs\LibAddonMenu-2.0\controls\button.lua
+libs\LibAddonMenu-2.0\controls\checkbox.lua
+libs\LibAddonMenu-2.0\controls\colorpicker.lua
+libs\LibAddonMenu-2.0\controls\custom.lua
+libs\LibAddonMenu-2.0\controls\description.lua
+libs\LibAddonMenu-2.0\controls\dropdown.lua
+libs\LibAddonMenu-2.0\controls\editbox.lua
+libs\LibAddonMenu-2.0\controls\header.lua
+libs\LibAddonMenu-2.0\controls\slider.lua
+libs\LibAddonMenu-2.0\controls\texture.lua
+libs\LibAddonMenu-2.0\controls\iconpicker.lua
+libs\LibAddonMenu-2.0\controls\divider.lua
 
+language\en.lua
+language\$(language).lua
+FurniturePreview.lua
+Options.lua
 
 
