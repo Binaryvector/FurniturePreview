@@ -3,7 +3,7 @@ function FurPreview:SetupOptions()
 		type = "panel",
 		name = "ItemPreview",
 		author = "Shinni",
-		version = "1.13",
+		version = "1.14",
 		registerForDefaults = true,
 	}
 	

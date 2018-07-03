@@ -41,7 +41,7 @@ function FurPreview:OnAddonLoaded(_, addon)
 	
 	self.ZO_InventorySlot_OnSlotClicked = ZO_InventorySlot_OnSlotClicked
 	
-	self:SetPreviewOnClick(self.settings.disablePreviewOnClick)
+	self:SetPreviewOnClick(not self.settings.disablePreviewOnClick)
 	
 	SLASH_COMMANDS["/previewonclick"] = function()
 		if self.settings.disablePreviewOnClick then
@@ -49,16 +49,17 @@ function FurPreview:OnAddonLoaded(_, addon)
 		else
 			d("disabled preview on click")
 		end
-		self:SetPreviewOnClick(not self.settings.disablePreviewOnClick)
+		self:SetPreviewOnClick(self.settings.disablePreviewOnClick)
 	end
 	
 	SLASH_COMMANDS["/previewarmor"] = function()
-		if self.settings.disablePreviewArmor then
+		local shouldPreview = self.settings.disablePreviewArmor
+		if shouldPreview then
 			d("activated armor preview")
 		else
 			d("disabled armor preview")
 		end
-		self:SetPreviewArmor(not self.settings.disablePreviewArmor)
+		self:SetPreviewArmor(shouldPreview)
 	end
 	
 	-- Update the mouse over cursor icon. display a preview cursor when previewing is possible
@@ -220,7 +221,8 @@ function FurPreview:IsItemLinkPreviewableArmor(itemLink)
 	return (PREVIEW:GetOutfitCollectibleFromItemLink(itemLink) ~= nil)
 end
 
-function FurPreview:SetPreviewOnClick(disablePreviewOnClick)
+function FurPreview:SetPreviewOnClick(previewOnClick)
+	local disablePreviewOnClick = not previewOnClick
 	self.settings.disablePreviewOnClick = disablePreviewOnClick
 	-- Add preview when adding on an item slot (inventory, guild store, trade, mail etc. )
 	local BUTTON_LEFT = 1
@@ -242,8 +244,8 @@ function FurPreview:SetPreviewOnClick(disablePreviewOnClick)
 	end
 end
 
-function FurPreview:SetPreviewArmor(disablePreviewArmor)
-	self.settings.disablePreviewArmor = disablePreviewArmor
+function FurPreview:SetPreviewArmor(shouldPreview)
+	self.settings.disablePreviewArmor = not shouldPreview
 end
 
 -- how to get the item link for the specific item slot types

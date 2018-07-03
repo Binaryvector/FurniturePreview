@@ -1,12 +1,12 @@
 ## Title: ItemPreview (Furniture+Armor)
 ## Author: Shinni
-## Version: 1.13
+## Version: 1.14
 ## APIVersion: 100023
 ## OptionalDependsOn: AwesomeGuildStore LibAddonMenu-2.0 LibCustomMenu LibPreview
 ## SavedVariables: FurniturePreview_SavedVars
 
 Libs/LibStub/LibStub.lua
-Libs/LibCustomMenu/LibCustomMenu.lua
+Libs/LibCustomMenu-lib/LibCustomMenu.lua
 Libs/LibPreview/LibPreview.lua
 Libs/LibPreview/PreviewData.lua
 
